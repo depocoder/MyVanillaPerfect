@@ -26,6 +26,15 @@ function Write-MrToml($path,$fn,$nm,$side,$v){
   [System.IO.File]::WriteAllText($path,$t,$enc)
 }
 
+Write-Host "== 0/5 Проверка связи с GitHub ==" -ForegroundColor Cyan
+& git -C "$pack" ls-remote origin -h 2>$null | Out-Null
+if($LASTEXITCODE -ne 0){
+  Write-Host "  GitHub недоступен. Скорее всего выключен VPN/прокси (127.0.0.1:20808)." -ForegroundColor Red
+  Write-Host "  Включи VPN и запусти скрипт заново." -ForegroundColor Yellow
+  exit 1
+}
+Write-Host "  OK - GitHub доступен." -ForegroundColor Green
+
 Write-Host "== 1/5 Моды ==" -ForegroundColor Cyan
 $pm = Join-Path $pack 'mods'
 if(Test-Path $pm){ Remove-Item "$pm\*.pw.toml" -Force -ErrorAction SilentlyContinue } else { New-Item -ItemType Directory $pm | Out-Null }
