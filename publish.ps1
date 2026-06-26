@@ -62,6 +62,13 @@ foreach($f in (Get-ChildItem $pm -Filter *.pw.toml)){
   try{ $v=Invoke-RestMethod "https://api.modrinth.com/v2/version_file/$sha1" -Headers $ua; Write-MrToml $f.FullName $fn $nm $side $v }catch{}
 }
 
+# нормализуем side: пустое/некорректное -> 'both' (packwiz-installer принимает только client/server/both)
+foreach($f in (Get-ChildItem $pm -Filter *.pw.toml)){
+  $lines=Get-Content -LiteralPath $f.FullName; $changed=$false
+  $o=foreach($l in $lines){ if($l -match "^\s*side\s*=\s*'([^']*)'"){ if($Matches[1] -ne 'client' -and $Matches[1] -ne 'both'){ $changed=$true; "side = 'both'" } else { $l } } else { $l } }
+  if($changed){ [System.IO.File]::WriteAllText($f.FullName, (($o -join "`n")+"`n"), (New-Object System.Text.UTF8Encoding($false))) }
+}
+
 Write-Host "== 2/5 Overrides (config/resourcepacks/shaderpacks) ==" -ForegroundColor Cyan
 foreach($d in @('config','resourcepacks','shaderpacks')){
   $src=Join-Path $inst $d; $dst=Join-Path $pack $d
