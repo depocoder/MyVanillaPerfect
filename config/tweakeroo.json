@@ -221,7 +221,7 @@
         "keys": ""
       }
     },
-    "translationLanguage": "en_us",
+    "translationLanguage": "ru_ru",
     "translationMode": "vanilla",
     "weaponSwapBetterEnchants": {
       "enabled": true,
@@ -989,7 +989,7 @@
     "tweakLavaVisibility": false,
     "tweakMapPreview": false,
     "tweakMovementKeysLast": false,
-    "tweakPeriodicAttack": true,
+    "tweakPeriodicAttack": false,
     "tweakPeriodicUse": false,
     "tweakPeriodicHoldAttack": false,
     "tweakPeriodicHoldUse": false,

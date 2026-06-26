@@ -44,6 +44,6 @@
     "isBlacklist": false
   },
   "fun": {
-    "pvpMode": "empty_hand"
+    "pvpMode": "disabled"
   }
 }
