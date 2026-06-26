@@ -1,8 +1,17 @@
 {
+    "Features": {
+        "enable_profiles": {
+            "value": false
+        }
+    },
     "ModSettings": {
-        "first_run": false
+        "first_run": false,
+        "enable_profiles": {
+            "value": false
+        }
     },
     "GuiSettings": {
+        "continuous_crafting_saved_value": false,
         "change_sort_order_with_scroll_wheel": {
             "value": false
         }
@@ -12,6 +21,11 @@
             "value": false
         },
         "auto_refill_enable_horbar_indicator_icons": {
+            "value": false
+        }
+    },
+    "EditProfiles": {
+        "enable_profiles": {
             "value": false
         }
     },

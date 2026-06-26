@@ -1,22 +1,31 @@
 {
   "totalPatsCounter": {
-    "pats": 493
+    "pats": 606
   },
   "entities": {
-    "minecraft:creeper": {
-      "pats": 4
+    "minecraft:pillager": {
+      "pats": 3
     },
     "minecraft:cat": {
-      "pats": 29
+      "pats": 45
+    },
+    "minecraft:player": {
+      "pats": 528
+    },
+    "minecraft:zombified_piglin": {
+      "pats": 10
+    },
+    "minecraft:vindicator": {
+      "pats": 0
+    },
+    "minecraft:creeper": {
+      "pats": 4
     },
     "minecraft:zombie_villager": {
       "pats": 1
     },
-    "minecraft:player": {
-      "pats": 444
-    },
-    "minecraft:zombified_piglin": {
-      "pats": 10
+    "minecraft:sheep": {
+      "pats": 7
     }
   }
 }

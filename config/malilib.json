@@ -23,7 +23,7 @@
       "keys": "A,C"
     },
     "realmsCommonConfig": true,
-    "translationLanguage": "en_us",
+    "translationLanguage": "ru_ru",
     "translationMode": "vanilla",
     "translationOverrides": {
       "enabled": false,
