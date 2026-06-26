@@ -1,0 +1,29 @@
+filename = 'MyTotemDoll-2.4.0+26.1+fabric.jar'
+name = 'My Totem Doll'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.4.0+26.1+fabric'
+
+[download]
+hash = '83e548b32da7d7b2c7c0749498d06e333d2745b73d9ea7f25a5a3a926244e4d2230daa4a7a2e881cd0ba42bd1850a260f0340827236e3a57ffa3083512862670'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ygYU16dG/versions/SkqKD3QB/MyTotemDoll-2.4.0%2B26.1%2Bfabric.jar'
+
+[update.modrinth]
+mod-id = 'ygYU16dG'
+version = 'SkqKD3QB'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

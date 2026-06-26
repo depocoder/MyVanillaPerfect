@@ -1,0 +1,13 @@
+filename = 'language-reload-1.7.7+26.1.2.jar'
+name = 'Language Reload'
+side = 'both'
+
+[download]
+hash-format = 'sha512'
+hash = '2b235d21866bc92fc16481969ac52e88915dc8a8d6fb267238dc0ae28130e1b4ab8d4de88090e36a459fea894e22b6facea7add7c0f9d064ffa77503eff315c8'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uLbm7CG6/versions/G7cLFIIG/language-reload-1.7.7%2B26.1.2.jar'
+
+[update.modrinth]
+mod-id = 'uLbm7CG6'
+version = 'G7cLFIIG'

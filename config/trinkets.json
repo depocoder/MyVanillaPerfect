@@ -1,0 +1,8 @@
+{
+  "render_trinkers_in_first_person": false,
+  "sidebar_trinkets_slots": false,
+  "sidebar_height": 4,
+  "show_slot_indicator": false,
+  "show_slot_name_tooltip": false,
+  "show_item_tooltip": true
+}

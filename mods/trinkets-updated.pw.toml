@@ -1,0 +1,18 @@
+filename = 'trinkets-4.0.0-beta.3+26.1.jar'
+name = 'Trinkets Updated'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '4.0.0-beta.3+26.1'
+
+[download]
+hash = 'daa8a1167194a191aded0882de8fc31529bd9bd2889a967f4f3fc726c3958928f0a34bb9cb56f3c64cf11217d68d027f99becaf3ca7419a41f235934a314f76a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XaT8sLP6/versions/9wSHV6li/trinkets-4.0.0-beta.3%2B26.1.jar'
+
+[update.modrinth]
+mod-id = 'XaT8sLP6'
+version = '9wSHV6li'

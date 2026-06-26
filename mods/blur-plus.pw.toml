@@ -1,0 +1,21 @@
+filename = 'blur-fabric-6.3.0+26.1.jar'
+name = 'Blur+'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.3.0+26.1-fabric'
+
+[download]
+hash = '9334163dc3c5c90c889d5b372bd4b2246379ab28986d4ead23e5253653ade512d050c1b5e60edc5665d89c496511b42e2a90bd2a279e9b0e77f28e77fde372c9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NK39zBp2/versions/xAtVI5Sc/blur-fabric-6.3.0%2B26.1.jar'
+
+[update.modrinth]
+mod-id = 'NK39zBp2'
+version = 'xAtVI5Sc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
