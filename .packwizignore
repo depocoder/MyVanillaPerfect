@@ -11,3 +11,10 @@ config/sodium-options.json
 config/iris.properties
 usercache.json
 usernamecache.json
+README.md
+LICENSE
+publish.ps1
+*.ps1
+.gitignore
+.packwizignore
+.github/
