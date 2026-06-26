@@ -45,6 +45,10 @@ file = "config/animatica.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/autoreconnectrf.json"
+hash = "4db0a56e688f6ee526279f03abd8b931765a43bf310475be454ca6e77bbb341e"
+
+[[files]]
 file = "config/better_screenshots.json"
 hash = "60c788b0068c7d3ac5d8b69201f861eb289682ad4311123a37ea6cf5ea230e5b"
 
@@ -262,7 +266,7 @@ hash = "839482f45a8c5563f356655dadc8cbba4386decfc68f02faf901626aa0af054c"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4916560d3a6e13738da6ef61131f990a5e4bcb017107059ee0d5550a3166e363"
+hash = "e9b55c7ed33bf9bee862528c585c8984e7384a5072b772700defb5cb153af55f"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -870,6 +874,11 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "52c2fef5c32fed2ba09294d5ad3c5c6d053255f3e062db9fb2b7b32e37c699c2"
+metafile = true
+
+[[files]]
+file = "mods/autoreconnectrf.pw.toml"
+hash = "d349519dcc78cb0790956eec3e8bb0d2cea38ccdb67ded468948bb83dc328913"
 metafile = true
 
 [[files]]
