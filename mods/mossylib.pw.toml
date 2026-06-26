@@ -1,0 +1,29 @@
+filename = 'MossyLib-1.5.0+26.1+fabric.jar'
+name = 'MossyLib'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.0+26.1+fabric'
+
+[download]
+hash = 'a8f129390237d13aa82af72c4fb32a79227d649a439f53981b7c56e14061a1df1250d7b75d7dad67658a03b1f5274b65fa0494f0689354b677c59476aa9eaddb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ffLDUGbm/versions/O2Pxh9e1/MossyLib-1.5.0%2B26.1%2Bfabric.jar'
+
+[update.modrinth]
+mod-id = 'ffLDUGbm'
+version = 'O2Pxh9e1'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

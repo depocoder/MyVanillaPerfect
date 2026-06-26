@@ -1,0 +1,21 @@
+filename = 'EclipseUI-fabric-1.0.4+mc26.1.jar'
+name = 'EclipseUI'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.4+mc26.1'
+
+[download]
+hash = '9c7b3c6dde8006a7bb247fd90727b4cc0b98dac66298eeca27162d90420ef0ece3497397b354af64281a9330cab7244b68a60bad27337aac3650386af1865ad8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/99cGtHRy/versions/gh05XE4Y/EclipseUI-fabric-1.0.4%2Bmc26.1.jar'
+
+[update.modrinth]
+mod-id = '99cGtHRy'
+version = 'gh05XE4Y'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

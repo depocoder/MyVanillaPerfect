@@ -1,0 +1,29 @@
+filename = 'freecam-fabric-1.4.1-alpha.1+mc26.1.2.jar'
+name = 'Freecam'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'alpha'
+x-prismlauncher-version-number = '1.4.1-alpha.1'
+
+[download]
+hash = 'c52d979e847ac8a866cfd8ab4e6b2f2f84ef2814caa3197847a5b59b3c91f46d919c17ba74d83c4a4723d3e1538961bd2d79244b932dd1d88392011513f2c82d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XeEZ3fK2/versions/DQdAmYcA/freecam-fabric-1.4.1-alpha.1%2Bmc26.1.2.jar'
+
+[update.modrinth]
+mod-id = 'XeEZ3fK2'
+version = 'DQdAmYcA'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'EMBEDDED'

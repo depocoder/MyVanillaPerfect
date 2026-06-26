@@ -1,0 +1,33 @@
+filename = 'InventoryProfilesNext-fabric-26.1.2-2.3.4.jar'
+name = 'Inventory Profiles Next'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-26.1-2.3.4'
+
+[download]
+hash = 'e61eb88ed8c628ad82e291b9efeadb0c3cc41849917a4780c9382ccbd8ecaefe58b1a07bad4446850bc3bf924e7571a50bb2b41d4dcf3dce3e2a8940e24b51db'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/O7RBXm3n/versions/y5w1RYgs/InventoryProfilesNext-fabric-26.1.2-2.3.4.jar'
+
+[update.modrinth]
+mod-id = 'O7RBXm3n'
+version = 'y5w1RYgs'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'onSQdWhM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Ha28R6CL'
+type = 'REQUIRED'

@@ -1,0 +1,13 @@
+options.txt
+optionsof.txt
+servers.dat
+servers.dat_old
+saves/
+screenshots/
+logs/
+crash-reports/
+.bobby/
+config/sodium-options.json
+config/iris.properties
+usercache.json
+usernamecache.json

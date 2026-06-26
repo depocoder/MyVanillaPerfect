@@ -1,0 +1,18 @@
+filename = 'DayCount-1.4.0-Fabric-mc26.1.jar'
+name = 'Day Count - a day counter HUD (Forge/NeoForge/Fabric)'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.0-Fabric-mc26.1'
+
+[download]
+hash = 'a2df6b8dd3b6d8ce170942c550d9efb44ebb651efb6d39d9ebb7d182729ae6761bffec9d0ed587993b0cf8fee95ce848f296e48d12fabc93acbc6c48c609a0ea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kexckXV1/versions/tdMOtB60/DayCount-1.4.0-Fabric-mc26.1.jar'
+
+[update.modrinth]
+mod-id = 'kexckXV1'
+version = 'tdMOtB60'

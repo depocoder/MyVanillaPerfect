@@ -1,0 +1,21 @@
+filename = 'fastback-fabric-0.33.0+26.1.2.jar'
+name = 'Fast Backups'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.33.0+26.1.2'
+
+[download]
+hash = '715bafbfbbb782deb4719480c76b1895164764d0d7739913a62ce8017720d3574d69b9bd0ef51f387117a39ea813175a07c44f5295b7073dd07437e13eb9e767'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZHKrK8Rp/versions/QIxDzHv6/fastback-fabric-0.33.0%2B26.1.2.jar'
+
+[update.modrinth]
+mod-id = 'ZHKrK8Rp'
+version = 'QIxDzHv6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

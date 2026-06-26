@@ -1,0 +1,20 @@
+{
+	// If true, the Day Count will be displayed | default: true
+	"dayCountEnabled": true,
+	// If true, the Day Count will be displayed even when the debug info (F3) is shown | default: false
+	"displayDayCountWhileShowingF3Info": false,
+	// Offset to add to the Day Count | default: 1
+	"dayOffset": 1,
+	// Horizontal size of the Day Counter | default: 2.0
+	"sizeX": 2.0,
+	// Vertical size of the Day Counter | default: 2.0
+	"sizeY": 2.0,
+	// Horizontal position of the Day Counter | default: 2.0
+	"locationX": 2.0,
+	// Vertical position of the Day Counter | default: 2.0
+	"locationY": 2.0,
+	// Color of the Day Counter (with transparency) | default: FFFFFFFF (the first FFs are the transparency value)
+	"textColorWithTransparency": "FFFFFFFF",
+	// DayCounter String | default: 'Day: '
+	"dayCounterString": "Day: "
+}

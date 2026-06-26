@@ -1,0 +1,18 @@
+filename = 'malilib-fabric-26.1.2-0.28.7.jar'
+name = 'MaLiLib'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.28.7'
+
+[download]
+hash = '1c44ef2ed8ee42b1d956864a2ef13512c145cfafa61e13e20824c2923ecacfc6f7fa18bdeceaeebaadc2debd7130b1dfbcea8085e04d4a705b05632302f30ac3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GcWjdA9I/versions/a5Ad9ulA/malilib-fabric-26.1.2-0.28.7.jar'
+
+[update.modrinth]
+mod-id = 'GcWjdA9I'
+version = 'a5Ad9ulA'

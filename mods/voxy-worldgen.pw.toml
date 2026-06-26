@@ -1,0 +1,25 @@
+filename = 'Voxy World Gen V2-26.1.2-2.2.4.jar'
+name = 'Voxy WorldGen'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.2.4-26.1.2'
+
+[download]
+hash = 'f8d3e96c5bda4f04faa79c1731379b8217dc7a392cc208dc3d25a8dbeab790430e869705bdb4d154a359b0e1e415b12442b4e6757b002193ebb4cfbed1f2639a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xT0lnNE9/versions/tRiQxKkc/Voxy World Gen V2-26.1.2-2.2.4.jar'
+
+[update.modrinth]
+mod-id = 'xT0lnNE9'
+version = 'tRiQxKkc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fxxUqruK'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
