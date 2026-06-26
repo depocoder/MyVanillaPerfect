@@ -849,7 +849,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "7dd87af220caa4e425a2c1c0fa9f702cca1f12d413c67ba66aec1e808ce4f900"
+hash = "52c2fef5c32fed2ba09294d5ad3c5c6d053255f3e062db9fb2b7b32e37c699c2"
 metafile = true
 
 [[files]]
@@ -884,7 +884,7 @@ metafile = true
 
 [[files]]
 file = "mods/blur-plus.pw.toml"
-hash = "5637611995c038adfcdbb104290956db34398c4ffa0918b96454169eb8545667"
+hash = "849de0cde0e576126c73ce2c1443f51eae9baa67fa9d2f1406c59e97520ad702"
 metafile = true
 
 [[files]]
@@ -914,7 +914,7 @@ metafile = true
 
 [[files]]
 file = "mods/classic-farlands.pw.toml"
-hash = "6ae1b71a7f7a197e230d898cbeb602135cd799f67e6957b9bf0cb19b610d6c8e"
+hash = "35184f899373008192351faf1aa1f6c4451b63fb5c37096f34a8ee0d79feba11"
 metafile = true
 
 [[files]]
@@ -969,7 +969,7 @@ metafile = true
 
 [[files]]
 file = "mods/detail-armor-bar-reconstructed.pw.toml"
-hash = "a020e4925a1127a8ee98b740dcefd2ab9678d5e41436ecdff97c8241a40d384a"
+hash = "a67a0ef312d0128120565e8ed7d8c4d16bbf5ebd3f6783f5b971de636b23f81a"
 metafile = true
 
 [[files]]
@@ -1039,7 +1039,7 @@ metafile = true
 
 [[files]]
 file = "mods/easy-shulker-boxes.pw.toml"
-hash = "b94f8f66ca212ac144811e76a870f5363d6d75b00f88fbc377e271d087e65326"
+hash = "13111abbcf0954e514e3f43e1b6bd10a4e6ae5870969737089e87d088128f68c"
 metafile = true
 
 [[files]]
@@ -1049,7 +1049,7 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-trims.pw.toml"
-hash = "06aa4ab61e250918fdd3480083ad8f1ef8c91852cd1585bb6b97ec62819e0f2c"
+hash = "4c496bf8c712806e16fe7db052aa5f0ceed44587a52ce42d75b35c01b7992f20"
 metafile = true
 
 [[files]]
@@ -1094,7 +1094,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastback.pw.toml"
-hash = "d393644ce15689bc187e42a8a90c7ab07ae17b276af2d1665e6d1b087ada8e0c"
+hash = "efe662848a33716d32d91e86f06fc46c409f3f5df52a9164611dfa74c59ee0b4"
 metafile = true
 
 [[files]]
@@ -1114,7 +1114,7 @@ metafile = true
 
 [[files]]
 file = "mods/freecam.pw.toml"
-hash = "5f297c0887037f9ebdfffaa521019558c5542bddb91762e70c86efd31aab4694"
+hash = "9bf45089c4149c10511e37ce94cd2878791b6bb7dd0717340b285c4b8721817c"
 metafile = true
 
 [[files]]
@@ -1224,7 +1224,7 @@ metafile = true
 
 [[files]]
 file = "mods/mossylib.pw.toml"
-hash = "f9f66f4542a0e668ab2198534d5e02490e1c8d1b5f4c7c2a8dc11e8dd8f4acfe"
+hash = "365ae908e3b500001de99c76fe77cefa8d9652157907f0e3a1fd1f94df0fb60f"
 metafile = true
 
 [[files]]
@@ -1264,7 +1264,7 @@ metafile = true
 
 [[files]]
 file = "mods/patpat.pw.toml"
-hash = "18db725c9ecd46df8982dfce7bb8e42c5ab9aedaadc671f799ad8fccc361d156"
+hash = "1b471a6329b685f1a9030f1442572143ecb2b4251b4fb53c01657d793ce0efcb"
 metafile = true
 
 [[files]]
@@ -1284,7 +1284,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy-fpa.pw.toml"
-hash = "95cd568c72d23841498bd060c69d1fe2c676ba264d54808293c5a82a2d43b9eb"
+hash = "018c4c5c3841a7df813feb48ab09a65f0461c693cf06bed24dfc1bf37ad61565"
 metafile = true
 
 [[files]]
@@ -1314,7 +1314,7 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "ea40f98b6019b3f8d768bd7dfdd728d43e5662268af7c776a3362785029b2e75"
+hash = "f5d4acb8a85cb0409e261bc74fc22c3afdcb37c9da87f44640db52bf69c87036"
 metafile = true
 
 [[files]]

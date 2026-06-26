@@ -1,6 +1,6 @@
 filename = 'EasyShulkerBoxes-v26.1.2-mc26.1.x-Fabric.jar'
 name = 'Easy Shulker Boxes'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

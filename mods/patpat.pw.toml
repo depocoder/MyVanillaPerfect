@@ -1,6 +1,6 @@
 filename = 'PatPat-1.2.6+26.1+fabric.jar'
 name = 'PatPat [Mod & Plugin]'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'
