@@ -266,7 +266,7 @@ hash = "839482f45a8c5563f356655dadc8cbba4386decfc68f02faf901626aa0af054c"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e9b55c7ed33bf9bee862528c585c8984e7384a5072b772700defb5cb153af55f"
+hash = "87ee5174c6792a0b625d6a2fd73f1eb23f320e614c394132c24790a3f67b9715"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -362,7 +362,7 @@ hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "9939e8f786917a0f99591ab7f578d265381f1244219d602ea50a1e87fad4ee1c"
+hash = "aa5b831904bd18d5a355aa6353d24476c093ab63a082a1da6923bacf0facc842"
 
 [[files]]
 file = "config/inventoryprofilesnext/Новый мир/villager-trading-config-v2.json"
@@ -674,7 +674,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "eb8f057c3e52b2921fc7948756c577c3e313a06559cf3a9caeb84421294d6f41"
+hash = "0639244f90b2901b40190b7309bb2b604953e9c4cf9d5d32003b21eb11495aff"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
