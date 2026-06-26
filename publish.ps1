@@ -16,6 +16,12 @@ $pack = $PSScriptRoot                       # папка этого скрипт
 $pw   = "C:\Users\depo_pc\go\bin\packwiz.exe"
 $ua   = @{ 'User-Agent' = 'fo-pack/1.0 (publish.ps1)' }
 $excludeConfig = @('sodium-options.json','iris.properties')  # личная графика/шейдер — не раздаём
+$proxy = 'http://127.0.0.1:20808'  # локальный прокси/VPN для доступа к GitHub (поменяй порт, если у тебя другой)
+
+# Прокси задаём ТОЛЬКО для этой сессии скрипта; систему не трогаем, после выхода сбросится сам.
+# (Само приложение-VPN при этом должно быть запущено — скрипт задаёт лишь адрес.)
+$env:HTTP_PROXY  = $proxy
+$env:HTTPS_PROXY = $proxy
 
 function Write-MrToml($path,$fn,$nm,$side,$v){
   $file = $v.files | Where-Object { $_.filename -eq $fn } | Select-Object -First 1
