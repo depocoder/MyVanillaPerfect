@@ -70,7 +70,7 @@ foreach($f in (Get-ChildItem $pm -Filter *.pw.toml)){
 }
 
 Write-Host "== 2/5 Overrides (config/resourcepacks/shaderpacks) ==" -ForegroundColor Cyan
-foreach($d in @('config','resourcepacks','shaderpacks')){
+foreach($d in @('config','resourcepacks')){   # shaderpacks НЕ раздаём — у каждого свои (разное железо)
   $src=Join-Path $inst $d; $dst=Join-Path $pack $d
   if($d -eq 'config'){ robocopy $src $dst /MIR /XF $excludeConfig /NFL /NDL /NJH /NJS /NP | Out-Null }
   else { robocopy $src $dst /MIR /NFL /NDL /NJH /NJS /NP | Out-Null }
