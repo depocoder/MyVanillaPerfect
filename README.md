@@ -14,7 +14,7 @@
 3. ПКМ по инстансу → **Edit** → вкладка **Settings** → **Custom commands** → поставь галку **Custom commands** и в поле **Pre-launch command** вставь:
 
    ```
-   "$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" "https://raw.githubusercontent.com/depocoder/MyVanillaPerfect/main/pack.toml"
+   "$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" -s both "https://raw.githubusercontent.com/depocoder/MyVanillaPerfect/main/pack.toml"
    ```
 
 4. Нажми **Play**. При **каждом** запуске моды и конфиги сами обновятся до последней версии. Готово ✅
