@@ -1,4 +1,4 @@
-# publish.ps1 — обновить пак из инстанса и залить друзьям одной командой.
+﻿# publish.ps1 — обновить пак из инстанса и залить друзьям одной командой.
 # Запуск: ПКМ по файлу -> "Run with PowerShell"
 #   или в терминале:  powershell -ExecutionPolicy Bypass -File publish.ps1
 #
