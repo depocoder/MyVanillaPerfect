@@ -18,4 +18,4 @@ publish.ps1
 .gitignore
 .packwizignore
 .github/
-shaderpacks/
+shaderpacks/*.txt
