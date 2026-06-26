@@ -1,6 +1,6 @@
 filename = 'architectury-fabric-20.0.7.jar'
 name = 'Architectury'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1.2' ]
 x-prismlauncher-release-type = 'release'

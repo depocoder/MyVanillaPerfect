@@ -1,6 +1,6 @@
 filename = 'blur-fabric-6.3.0+26.1.jar'
 name = 'Blur+'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

@@ -1,6 +1,6 @@
 filename = 'fastback-fabric-0.33.0+26.1.2.jar'
 name = 'Fast Backups'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1.2' ]
 x-prismlauncher-release-type = 'release'

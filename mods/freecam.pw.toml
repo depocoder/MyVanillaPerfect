@@ -1,6 +1,6 @@
 filename = 'freecam-fabric-1.4.1-alpha.1+mc26.1.2.jar'
 name = 'Freecam'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'alpha'

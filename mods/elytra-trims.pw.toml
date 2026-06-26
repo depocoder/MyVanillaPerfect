@@ -1,6 +1,6 @@
 filename = 'elytratrims-fabric-4.8.2+26.1.2.jar'
 name = 'Elytra Trims'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

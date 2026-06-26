@@ -1,6 +1,6 @@
 filename = 'MossyLib-1.5.0+26.1+fabric.jar'
 name = 'MossyLib'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

@@ -1,6 +1,6 @@
 filename = 'punchy-2.5.7-fabric-26.1-26.1.1-26.1.2.jar'
 name = 'Punchy'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
