@@ -266,7 +266,7 @@ hash = "839482f45a8c5563f356655dadc8cbba4386decfc68f02faf901626aa0af054c"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b9e7acd15bf2e603faa6e9ef66ba308167a5dbff9d77ac47d828ec7b51a2c5ef"
+hash = "ad9d29b7a6167650a5d3bad0cd79f1c6271ce2951ee657615af98266198dfcf9"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -834,7 +834,7 @@ hash = "b2f22ee0f7b73a382f38eac364379c6c2e1ff0a913f0c65050878aff20a6d7eb"
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "fa250f096c54b209467c05cb876b6b1088e548addbbf68fa65a79c7932e0244c"
+hash = "7640a5e75a5b37f852c861dc50c6b1622d2cbbeba8615cefb80d02d5e7aa8997"
 
 [[files]]
 file = "config/ukulib.toml"
