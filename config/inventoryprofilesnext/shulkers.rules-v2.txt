@@ -1,0 +1,6 @@
+@custom
+    @all_shulker_boxes
+    @creative_menu_order
+
+@all_shulker_boxes
+    *shulker_box
