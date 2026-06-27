@@ -1,0 +1,6 @@
+@custom
+    @all_boxes
+    @default
+
+@all_boxes
+    *shulker_box

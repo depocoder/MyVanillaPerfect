@@ -8,12 +8,16 @@
         "first_run": false,
         "enable_profiles": {
             "value": false
-        }
+        },
+        "sort_order": "CUSTOM"
     },
     "GuiSettings": {
         "change_sort_order_with_scroll_wheel": {
             "value": false
         }
+    },
+    "SortSettings": {
+        "sort_order": "CUSTOM"
     },
     "AutoRefillSettings": {
         "auto_refill_enable_indicator_icons": {

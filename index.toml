@@ -266,7 +266,7 @@ hash = "839482f45a8c5563f356655dadc8cbba4386decfc68f02faf901626aa0af054c"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "87ee5174c6792a0b625d6a2fd73f1eb23f320e614c394132c24790a3f67b9715"
+hash = "b9e7acd15bf2e603faa6e9ef66ba308167a5dbff9d77ac47d828ec7b51a2c5ef"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -349,8 +349,16 @@ file = "config/inventory_particles.json5"
 hash = "0e3c2aacddecceb61237c792e13b05df497686f86107d100bf63aadcd32a0b38"
 
 [[files]]
+file = "config/inventoryessentials-common.toml"
+hash = "1fdc3e43ad6d8c7a03834fce548e5557151f5f16128bb59ac21cf69fe7cbeec8"
+
+[[files]]
 file = "config/inventoryprofilesnext/New jorney/prev-villager-trading-config-v2.json"
 hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
+
+[[files]]
+file = "config/inventoryprofilesnext/New jorney/rules-v2.txt"
+hash = "662e08bdd2f8c22d29a3ed878b8a7d07452f8404fc413856ccaab2ed80fd9291"
 
 [[files]]
 file = "config/inventoryprofilesnext/New jorney/villager-trading-config-v2.json"
@@ -361,12 +369,28 @@ file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.js
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
+hash = "29c42cb38df1ef82117caa483a9e932146a3602603f947777301a836aec46461"
+
+[[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "aa5b831904bd18d5a355aa6353d24476c093ab63a082a1da6923bacf0facc842"
+hash = "e14a6551042334a23673cd5b3fca09b850ce931d70871de778139f3168445cf0"
+
+[[files]]
+file = "config/inventoryprofilesnext/mech/villager-trading-config-v2.json"
+hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
+
+[[files]]
+file = "config/inventoryprofilesnext/shulkers.rules-v2.txt"
+hash = "b8e347687158f854c933e72491d2f93368aa665b0d4dc5b03be44fadd8ed5209"
 
 [[files]]
 file = "config/inventoryprofilesnext/Новый мир/villager-trading-config-v2.json"
 hash = "d8159a94fc4562651a5c47dc83e46a7fd71dd70e143fca53d7b288393a87b4ef"
+
+[[files]]
+file = "config/inventorysorter.json"
+hash = "e6a897a95f4e2dbe959a99afe9b8973f9b10350b86a330807b368db1f74bdcfe"
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -398,7 +422,7 @@ hash = "de1a1328c8fc39a220ece42a06cb354e7858d61d404ea5dcbbb2d8bdbe28fea9"
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "326ec0c840e65aedf5c6048ea6016d551be38cf23f692949e105a4a388ad8be7"
+hash = "dd094df159e711a2af8508750e51ee88036434fca867369b5aac261dcb1668e7"
 
 [[files]]
 file = "config/languagereload.json"
@@ -430,6 +454,14 @@ hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
 
 [[files]]
 file = "config/litematica/litematica_New jorney_dim_minecraft_the_nether.json"
+hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
+
+[[files]]
+file = "config/litematica/litematica_mech.json"
+hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
+
+[[files]]
+file = "config/litematica/litematica_mech_dim_minecraft_overworld.json"
 hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
 
 [[files]]
@@ -674,7 +706,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "0639244f90b2901b40190b7309bb2b604953e9c4cf9d5d32003b21eb11495aff"
+hash = "c0974d46e3d021f8b0f2c65f4023e077ef28de527fcc125079518dfb9b927b00"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -802,7 +834,7 @@ hash = "b2f22ee0f7b73a382f38eac364379c6c2e1ff0a913f0c65050878aff20a6d7eb"
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "365761583f4f72451ca00021b07710c7bf57cf3e7ef3818004bb8531d1ad8c39"
+hash = "fa250f096c54b209467c05cb876b6b1088e548addbbf68fa65a79c7932e0244c"
 
 [[files]]
 file = "config/ukulib.toml"
@@ -1167,8 +1199,8 @@ hash = "0eb472c24223a0ce572a14c46283f95e7203e19abb24b8777773f9cf89cf9e5e"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "7a3a6d7a10e08f72dba583732fdbf72c189298c0c8701d4861232880e3164ef0"
+file = "mods/inventory-sorting.pw.toml"
+hash = "61f7daf7a382b9cfc753df779f211453b5c341b89c94fdfd961f474a09b592f6"
 metafile = true
 
 [[files]]
@@ -1194,11 +1226,6 @@ metafile = true
 [[files]]
 file = "mods/language-reload.pw.toml"
 hash = "fa853e6dec39b8fbd85c7523712b00f72129ae652df9876d01752723ce5baa62"
-metafile = true
-
-[[files]]
-file = "mods/libipn.pw.toml"
-hash = "bf45903d120666aada381e8c67750fcda8fc6573c45e0fcf80b1cc070a87adb9"
 metafile = true
 
 [[files]]
@@ -1491,6 +1518,10 @@ hash = "22b3317308891aadb5200ef56ce29be2a05c5678c717388c1eda7d14b862f242"
 [[files]]
 file = "resourcepacks/Theone's Eating Animation Pack v1.0.zip"
 hash = "2377a8d4b487e5460e857bcb5b84addefe3b42f4860b8203ea1881aa6363aff7"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_r102516_MC26.2.x.zip"
+hash = "3f12707d046dd63a0ce019ea8024c8437c0abefd4f0348017970b453ce99701c"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_r780021_MC26.1.x.zip"
