@@ -109,6 +109,10 @@ file = "config/classicfarlands.toml"
 hash = "6eddaf3b7833b3a4b5f1d464097263a59c57e1e6ebc02de4624bc464fb51374d"
 
 [[files]]
+file = "config/clickthrough.toml"
+hash = "fdaa85d4e9b4e7e8caa0ad3fa97c726aa794516e6d7a8a7baa18b761652d66f4"
+
+[[files]]
 file = "config/collective.json5"
 hash = "92809d098b5efeca95c37ec4fef9184bd169160d18efecf81f395c4030c0f83f"
 
@@ -282,7 +286,7 @@ hash = "839482f45a8c5563f356655dadc8cbba4386decfc68f02faf901626aa0af054c"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "180bac3ec63dc251023a982500be9bc0436b84ff0d351e025a9a3baca2463c46"
+hash = "41d27fd3981b77068c90bd23a02146de186b8d45852060c126423f242a9f5bec"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -1241,6 +1245,11 @@ hash = "9e38b2599e5a71da3381fd0aaad009f2f12abf44dacbd86d45a07d9de2b53ee3"
 metafile = true
 
 [[files]]
+file = "mods/extreme_sound_muffler.pw.toml"
+hash = "e73923fd0835b76a1956632e36e138eb561116f44e410d7388f90698937891d2"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "acfc2dda96b548e1172e4a692d30910ea8c589e4582e6f1a434b5151f4bc8756"
 metafile = true
@@ -1727,12 +1736,16 @@ file = "resourcepacks/Theone's Eating Animation Pack v1.0.zip"
 hash = "5d1f2ea9b8af9cd931796c09f2159e119b25db909b0a84269b42fb3c9f55893d"
 
 [[files]]
-file = "resourcepacks/VanillaTweaks_r102516_MC26.2.x.zip"
+file = "resourcepacks/VanillaTweaks_r102516_MC26.2.x.zip.disable"
 hash = "3f12707d046dd63a0ce019ea8024c8437c0abefd4f0348017970b453ce99701c"
 
 [[files]]
 file = "resourcepacks/VanillaTweaks_r780021_MC26.1.x.zip.disabled"
 hash = "d012ea2af18dfd5886cf1d819cf6c17b1f9e626954a038b0db180f0ec006f89b"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_r897971_MC26.2.x.zip"
+hash = "85ba392f32b386dd6b7251679d9d25640f6850b681a541e7deeffa82df45949d"
 
 [[files]]
 file = "resourcepacks/macebut3d-1.0.1.zip"
