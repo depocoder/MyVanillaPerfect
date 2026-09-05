@@ -996,7 +996,7 @@
     "tweakLavaVisibility": false,
     "tweakMapPreview": false,
     "tweakMovementKeysLast": false,
-    "tweakPeriodicAttack": false,
+    "tweakPeriodicAttack": true,
     "tweakPeriodicUse": false,
     "tweakPeriodicHoldAttack": false,
     "tweakPeriodicHoldUse": false,

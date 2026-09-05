@@ -282,7 +282,7 @@ hash = "839482f45a8c5563f356655dadc8cbba4386decfc68f02faf901626aa0af054c"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "883c0a0f38f4d0d4ce9a5ccc8f30cbae394fa30ef0685a23d647a8fa5fe50ede"
+hash = "180bac3ec63dc251023a982500be9bc0436b84ff0d351e025a9a3baca2463c46"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -486,7 +486,7 @@ hash = "0ae69570a717e5370caba43f5bbf549730d7a690c8f35db5048d8ddb47de3b81"
 
 [[files]]
 file = "config/litematica/litematica_New jorney_dim_minecraft_the_end.json"
-hash = "adcadb841e38244e0121845e5c11366cb7fca48d1e6518db75eb8369eb9cc582"
+hash = "f680022595142dd6919c9dab6beb1a5cfc47bf356d42be54ba3e49abe01265f5"
 
 [[files]]
 file = "config/litematica/litematica_New jorney_dim_minecraft_the_nether.json"
@@ -766,7 +766,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "86dcd9d04bb0627f1a52fa08b6aa15c9a2bc5a23a2ae70c4e5d7c7e484740eee"
+hash = "5fb08e4bab0bd1728e2fdeda3d8a3e6ebcb7f7fb2d568954ff7507ad0f9e88ce"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -854,7 +854,7 @@ hash = "1f1549e3ea9e5b722d3e836529f9f715d18cfb731756a397a62227a94a0e7ca4"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "1fd6f4178dd1a1658ba523bba2d3c8ae3c48580db3d57f4d0b2e0855b12d0425"
+hash = "af2416ffbe2799b1fd167de24d0d268148186208f4f1db1f75cd85e9fbfc51b3"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -918,7 +918,7 @@ hash = "b2f22ee0f7b73a382f38eac364379c6c2e1ff0a913f0c65050878aff20a6d7eb"
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "9524431f360bd6a33d2cd3487babf0d0c0789398766d1d0bfa768c6c90d70d67"
+hash = "cf645ff997869e4b3edab608be0d22d74c1fb1206f1e17aa3feb70074b210901"
 
 [[files]]
 file = "config/ukulib.toml"
@@ -1078,6 +1078,11 @@ metafile = true
 [[files]]
 file = "mods/classic-farlands.pw.toml"
 hash = "df8a432f38fd2792a25d1e2ac952f2851f10226c39e81849b51cc50770f10fc5"
+metafile = true
+
+[[files]]
+file = "mods/clickthrough+.pw.toml"
+hash = "e480a34e75f00cae544df4cfda302b4d70e30980fa89db9d95d98f23b2b72a5a"
 metafile = true
 
 [[files]]

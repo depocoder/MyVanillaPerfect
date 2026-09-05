@@ -169,8 +169,8 @@
   },
   "render_settings": {
     "fog_settings": {
-      "advanced": false,
-      "multi_dimension_fog_control": false,
+      "advanced": true,
+      "multi_dimension_fog_control": true,
       "atmospheric": {
         "distance_chunks": 0,
         "start_percent": 100,
@@ -178,10 +178,32 @@
         "affect_sky_fog": true,
         "affect_cloud_fog": true
       },
-      "dimension_overrides": {},
+      "dimension_overrides": {
+        "minecraft:overworld": {
+          "distance_chunks": -1,
+          "start_percent": 100,
+          "shape_mode": "VANILLA",
+          "affect_sky_fog": true,
+          "affect_cloud_fog": true
+        },
+        "minecraft:the_end": {
+          "distance_chunks": 32,
+          "start_percent": 100,
+          "shape_mode": "VANILLA",
+          "affect_sky_fog": true,
+          "affect_cloud_fog": true
+        },
+        "minecraft:the_nether": {
+          "distance_chunks": 0,
+          "start_percent": 100,
+          "shape_mode": "VANILLA",
+          "affect_sky_fog": true,
+          "affect_cloud_fog": true
+        }
+      },
       "protected_gameplay": {
         "enabled_when_allowed": false,
-        "blindness_distance_blocks": 0,
+        "blindness_distance_blocks": 256,
         "darkness_distance_blocks": 0,
         "lava_distance_blocks": 0,
         "powder_snow_distance_blocks": 0,
