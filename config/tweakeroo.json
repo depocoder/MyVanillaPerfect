@@ -70,7 +70,12 @@
     "rememberFlexibleFromClick": true,
     "serverNbtRequestRate": 2,
     "shulkerDisplayBgColor": true,
-    "shulkerDisplayEnderChest": false,
+    "shulkerDisplayEnderChest": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "shulkerDisplayRequireShift": true,
     "slotSyncWorkaround": true,
     "slotSyncWorkaroundAlways": false,
@@ -232,7 +237,9 @@
     "zoomFov": 30.0,
     "zoomFovDifference": 1.0,
     "zoomFovDifferenceCtrl": 5.0,
-    "zoomResetFovOnActivate": true
+    "zoomResetFovOnActivate": true,
+    "zoomMinimumFov": 0.0,
+    "zoomMaximumFov": 360.0
   },
   "GenericHotkeys": {
     "accurateBlockPlacementInto": {
@@ -989,12 +996,13 @@
     "tweakLavaVisibility": false,
     "tweakMapPreview": false,
     "tweakMovementKeysLast": false,
-    "tweakPeriodicAttack": true,
+    "tweakPeriodicAttack": false,
     "tweakPeriodicUse": false,
     "tweakPeriodicHoldAttack": false,
     "tweakPeriodicHoldUse": false,
     "tweakPermanentSneak": false,
     "tweakPermanentSprint": false,
+    "tweakPermanentSwim": false,
     "tweakPlacementGrid": false,
     "tweakPlacementLimit": false,
     "tweakPlacementRestriction": false,
@@ -1115,7 +1123,7 @@
       "keys": ""
     },
     "tweakFastBlockPlacement": {
-      "keys": ""
+      "keys": "RIGHT_BRACKET"
     },
     "tweakFastLeftClick": {
       "keys": ""
@@ -1193,6 +1201,9 @@
       "keys": ""
     },
     "tweakPermanentSprint": {
+      "keys": ""
+    },
+    "tweakPermanentSwim": {
       "keys": ""
     },
     "tweakPlacementGrid": {

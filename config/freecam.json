@@ -12,7 +12,7 @@
       "ids": [],
       "patterns": []
     },
-    "ignoreAll": false,
+    "ignoreAll": true,
     "alwaysCheck": false
   },
   "visual": {

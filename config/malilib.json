@@ -8,8 +8,20 @@
         "keys": ""
       }
     },
+    "enableChestDataTracker": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "enableConfigSwitcher": {
       "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableLargeBarrelPreview": {
+      "enabled": false,
       "hotkey": {
         "keys": ""
       }

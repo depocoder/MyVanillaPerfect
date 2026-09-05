@@ -1,0 +1,21 @@
+filename = 'fwa+26.1.2-1.2.37.jar'
+name = 'Fancy World Animations'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.37'
+
+[download]
+hash = '02203454aa8ed1e41819b71a5eacfa7b182745a13a9e61d5698fae9588dddfbc3f8203a089d48a6ac0d273f0be4a9c874b536f7c4500493965519b478359288f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IAzUFvS6/versions/8VpXx1Mx/fwa%2B26.1.2-1.2.37.jar'
+
+[update.modrinth]
+mod-id = 'IAzUFvS6'
+version = '8VpXx1Mx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

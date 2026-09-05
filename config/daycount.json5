@@ -16,5 +16,11 @@
 	// Color of the Day Counter (with transparency) | default: FFFFFFFF (the first FFs are the transparency value)
 	"textColorWithTransparency": "FFFFFFFF",
 	// DayCounter String | default: 'Day: '
-	"dayCounterString": "Day: "
+	"dayCounterString": "Day: ",
+	// If true, the Day Count number will be formatted with locale-specific separators (e.g. 1,000) | default: false
+	"useLocaleFormatting": false,
+	// Enable background box | default: false
+	"boxEnabled": false,
+	// Color of the Box (with transparency) | default: 80000000
+	"boxColorWithTransparency": "80000000"
 }

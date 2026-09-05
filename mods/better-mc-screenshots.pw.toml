@@ -1,20 +1,20 @@
-filename = 'BetterScreenShots-1.5+26.1-26.1.2.jar'
-name = 'Better MC Screenshots'
-side = 'client'
+filename = 'BetterScreenShots-1.10+26.1-26.1.2.jar'
+name = 'Better ScreenShots'
+side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.5+26.1-26.1.2'
+x-prismlauncher-version-number = '1.10+26.1-26.1.2'
 
 [download]
-hash = 'c8996a266eb85c3e8c3bbae01322694403abd0d9308aebe1773a287692d71c4b78b7f96eb5a2f017a4a6494b57f9a1a4464d24f1a4433526ed33db3132e0102b'
+hash = '750144d3e29def8583ea249a54768c33932450996a14ad1c65400f3bb6643ce8c4365313192ca983cd600eaa2da3ad0e71e2eb3864be79ec90dd92adf9e1e683'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/oRvsIBeW/versions/IJogdyk4/BetterScreenShots-1.5%2B26.1-26.1.2.jar'
+url = 'https://cdn.modrinth.com/data/oRvsIBeW/versions/3ferzX7e/BetterScreenShots-1.10%2B26.1-26.1.2.jar'
 
 [update.modrinth]
 mod-id = 'oRvsIBeW'
-version = 'IJogdyk4'
+version = '3ferzX7e'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'P7dR8mSH'

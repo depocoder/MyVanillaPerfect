@@ -1,6 +1,6 @@
 {
   "totalPatsCounter": {
-    "pats": 699
+    "pats": 1027
   },
   "entities": {
     "minecraft:pillager": {
@@ -9,8 +9,11 @@
     "minecraft:cat": {
       "pats": 45
     },
+    "minecraft:happy_ghast": {
+      "pats": 1
+    },
     "minecraft:player": {
-      "pats": 616
+      "pats": 941
     },
     "minecraft:zombified_piglin": {
       "pats": 10
@@ -26,6 +29,9 @@
     },
     "minecraft:zombie_villager": {
       "pats": 1
+    },
+    "minecraft:horse": {
+      "pats": 0
     },
     "minecraft:sheep": {
       "pats": 7

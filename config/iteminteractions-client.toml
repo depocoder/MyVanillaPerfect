@@ -33,3 +33,12 @@ vertical_tooltip_scrolling = "SHIFT"
 #Invert scroll wheel direction for moving items with a container item for single item movement.
 #Default Value: false
 reverse_single_item_scrolling = false
+#Control the mouse button mappings when moving item contents.
+#The split scheme mirrors vanilla's bundle mechanics, while the single scheme maps everything to the right mouse button; providing more overall flexibility.
+#Default Value: SINGLE_INPUT
+#Allowed Values: SPLIT_INPUT, SINGLE_INPUT
+control_scheme = "SINGLE_INPUT"
+#Allow navigating nested storage item contents by pressing any selection key while the respective item is highlighted on the current tooltip. Use backspace to go back to the previous storage item contents.
+#Contents are only shown visually; they cannot be interacted with.
+#Default Value: true
+nested_item_tooltips = true

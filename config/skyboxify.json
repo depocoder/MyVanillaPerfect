@@ -1,8 +1,8 @@
 {
-  "enabled": true,
-  "renderSunMoon": true,
-  "renderStars": true,
-  "showOverworldForUnknownDimension": true,
-  "debug": false,
-  "legacyRotationLogic": false
+	"enabled": true,
+	"renderSky": true,
+	"renderSunMoon": true,
+	"renderStars": true,
+	"showOverworldForUnknownDimension": true,
+	"debug": false
 }

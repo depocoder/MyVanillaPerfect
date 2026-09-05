@@ -1,20 +1,24 @@
-filename = 'EasyShulkerBoxes-v26.1.2-mc26.1.x-Fabric.jar'
+filename = 'EasyShulkerBoxes-v26.1.4-mc26.1.x-Fabric.jar'
 name = 'Easy Shulker Boxes'
 side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '26.1.2'
+x-prismlauncher-version-number = '26.1.4'
 
 [download]
-hash = 'bf3fa81e0cb36448f946266c80452ef02cc6a7776a904e46ec2ac71738009aa427bbd07f4c63285efcb051e197061467a0db8c67bfca4fb405be5dee38b3c596'
+hash = '51a988983ce2afbcfa5d3ea3111bae2dd10c6b671201be71b73b3298379af960d9659aff0312d967323a0b51346ef233b4c851cf0a2f0578e78ce8781ec0d75e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/gA5euN8S/versions/ZLZjeeDS/EasyShulkerBoxes-v26.1.2-mc26.1.x-Fabric.jar'
+url = 'https://cdn.modrinth.com/data/gA5euN8S/versions/sU1wAHQ9/EasyShulkerBoxes-v26.1.4-mc26.1.x-Fabric.jar'
 
 [update.modrinth]
 mod-id = 'gA5euN8S'
-version = 'ZLZjeeDS'
+version = 'sU1wAHQ9'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'ohNO6lps'
@@ -22,8 +26,4 @@ type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'QAGBst4M'
 type = 'REQUIRED'

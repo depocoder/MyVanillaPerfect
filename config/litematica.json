@@ -49,7 +49,6 @@
     },
     "entityDataSyncBackup": false,
     "entityDataSyncCacheTimeout": 2.75,
-    "entityDataSyncLoadNbt": true,
     "executeRequireHoldingTool": true,
     "fixChestMirror": true,
     "fixRailRotation": true,
@@ -58,6 +57,10 @@
     "highlightBlockInInventory": false,
     "itemUsePacketCheckBypass": true,
     "layerModeFollowsPlayer": false,
+    "materialListContainerScan": false,
+    "materialListContainerScanShulkers": false,
+    "materialListContainerScanBundles": false,
+    "materialListCountEnderCache": false,
     "materialListIgnoreState": false,
     "materialListRecipeDetails": true,
     "pasteAlwaysUseFill": false,
@@ -124,7 +127,7 @@
       "keys": ""
     },
     "executeOperation": {
-      "keys": ""
+      "keys": "M,O"
     },
     "invertGhostBlockRenderState": {
       "keys": ""
@@ -433,6 +436,7 @@
     "ignoreExistingFluids": false,
     "ignoreExistingBlocks": false,
     "ignorableExistingBlocks": [],
+    "ignoreCropAge": false,
     "overlayReducedInnerSides": {
       "enabled": false,
       "hotkey": {
