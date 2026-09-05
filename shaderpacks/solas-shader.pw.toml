@@ -1,6 +1,6 @@
 filename = 'Solas Shader V3.7b.zip'
 name = 'Solas Shader'
-side = ''
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [

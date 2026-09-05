@@ -1,6 +1,6 @@
 filename = 'Enchantment Outlines.zip'
 name = 'Enchantment Outlines'
-side = ''
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [

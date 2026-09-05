@@ -1,6 +1,6 @@
 filename = 'Default-Dark-Mode-26.2-2026.6.0.zip'
 name = 'Default Dark Mode'
-side = ''
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2' ]

@@ -1,6 +1,6 @@
 filename = 'Dramatic Skys Demo 1.5.3.36.5.zip'
 name = 'Dramatic Skys'
-side = ''
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [

@@ -1,6 +1,6 @@
 filename = 'Chat Reporting Helper.zip'
 name = 'Chat Reporting Helper'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.20.2',

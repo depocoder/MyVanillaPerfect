@@ -1,6 +1,6 @@
 filename = 'Fancy_Beds-v4.2.zip'
 name = 'Fancy Beds'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.14',

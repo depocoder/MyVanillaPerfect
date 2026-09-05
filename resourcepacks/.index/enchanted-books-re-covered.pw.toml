@@ -1,6 +1,6 @@
 filename = 'Re-covered.zip'
 name = 'Enchanted Books: Re-covered'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.21.5 Pre-Release 1',

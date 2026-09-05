@@ -1,6 +1,6 @@
 filename = 'SodiumTranslations.zip'
 name = 'Translations for Sodium'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.20',

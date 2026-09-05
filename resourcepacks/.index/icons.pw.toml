@@ -1,6 +1,6 @@
 filename = 'Icons v.1.13.4.zip'
 name = 'Icons'
-side = ''
+side = 'client'
 x-prismlauncher-loaders = []
 x-prismlauncher-mc-versions = [
     '1.20',
