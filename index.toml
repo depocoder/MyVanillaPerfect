@@ -738,7 +738,7 @@ hash = "57181c8a4bf0795981b7f28641d6f5c2e26f950983318e37159ab4ce527bc67c"
 
 [[files]]
 file = "config/my_totem_doll-known-player-uuids.json5"
-hash = "bf4566e03350ebff2d3180dce86d9891f9a5c2f98093fc1ba6ed889fd1728b64"
+hash = "4d4dbaa0b75996065a3c9c70cab2cca6ef1050efd04892944d024820d50a1dad"
 
 [[files]]
 file = "config/my_totem_doll.json5"
@@ -770,7 +770,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "5fb08e4bab0bd1728e2fdeda3d8a3e6ebcb7f7fb2d568954ff7507ad0f9e88ce"
+hash = "c6dec2b46e66b5f94b33cd3e55ace43af433939ad53df45d31e74e46f05b7ef4"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -997,6 +997,11 @@ metafile = true
 [[files]]
 file = "mods/animatica-refabricated.pw.toml"
 hash = "86812a39704a59dfac78bd5790f5a4d6c493ae261549cef0c32608f35bc319bb"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "c25e4dfb964cc9606bd8d8d7d346616050b02f9d5a460536f683d43ca349108f"
 metafile = true
 
 [[files]]

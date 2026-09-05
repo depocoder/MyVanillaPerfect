@@ -1,0 +1,21 @@
+filename = 'appleskin-fabric-mc26.1.2-3.0.10.jar'
+name = 'AppleSkin'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.0.10+mc26.1.2'
+
+[download]
+hash = 'eacb134cc9e03a4fd870c3e75fedd3fba6ef9bf1611dcff5b89f0d35b22bda5709f085436ac071c018cf7d3e5a54c9783477c4f091d4ded74deb5292f25f5644'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EsAfCjCV/versions/zLlqqiTA/appleskin-fabric-mc26.1.2-3.0.10.jar'
+
+[update.modrinth]
+mod-id = 'EsAfCjCV'
+version = 'zLlqqiTA'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
