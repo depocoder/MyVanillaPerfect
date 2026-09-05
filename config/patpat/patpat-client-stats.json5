@@ -1,6 +1,6 @@
 {
   "totalPatsCounter": {
-    "pats": 1052
+    "pats": 1123
   },
   "entities": {
     "minecraft:pillager": {
@@ -13,7 +13,7 @@
       "pats": 1
     },
     "minecraft:player": {
-      "pats": 966
+      "pats": 1037
     },
     "minecraft:zombified_piglin": {
       "pats": 10
