@@ -93,6 +93,18 @@ foreach($d in @('config','resourcepacks','shaderpacks')){
 }
 $global:LASTEXITCODE=0
 
+# нормализуем side у ресурспаков/шейдеров: пустое/некорректное -> 'client' (packwiz-installer роняет пустой side)
+$rsUtf8 = New-Object System.Text.UTF8Encoding($false)
+foreach($rsd in @('resourcepacks\.index','resourcepacks','shaderpacks','shaderpacks\.index')){
+  $rsdir = Join-Path $pack $rsd
+  if(-not (Test-Path $rsdir)){ continue }
+  foreach($rsf in (Get-ChildItem $rsdir -Filter *.pw.toml -File)){
+    $rst = [System.IO.File]::ReadAllText($rsf.FullName)
+    $rsn = [regex]::Replace($rst, "(?m)^side = '(?!(?:client|both)')[^']*'", "side = 'client'")
+    if($rsn -ne $rst){ [System.IO.File]::WriteAllText($rsf.FullName, $rsn, $rsUtf8) }
+  }
+}
+
 Write-Host "== 3/5 packwiz refresh ==" -ForegroundColor Cyan
 Push-Location $pack; & $pw refresh; Pop-Location
 

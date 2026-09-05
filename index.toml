@@ -1587,17 +1587,17 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/.index/chat-reporting-helper.pw.toml"
-hash = "e6137264f19b0e4ba928b5067ff807e1c0ef6ee51e1b7744540fc90ee70ccf9d"
+hash = "d3ac03792b1d6425e81157db0c982a10c289142ea26aa8823d57f17be9249b1b"
 metafile = true
 
 [[files]]
 file = "resourcepacks/.index/default-dark-mode.pw.toml"
-hash = "62883844f026d89e50882c851b3ebaf6c6fa76a8b09e1370b70ea21ce807ff01"
+hash = "a6fbc9960dd1fdad269650e8e157f3c9a4a773d1f7ec68b421053df1cced5d90"
 metafile = true
 
 [[files]]
 file = "resourcepacks/.index/dramatic-skys.pw.toml"
-hash = "651e1fb14486e4555c012146c8666cb2aaafa4a2fc4193c7a1a0cfc0eb17c527"
+hash = "1545caa9b57494bcfe77504ef576a8aa8ab75a5fc2df9d9313495daf94c2be0a"
 metafile = true
 
 [[files]]
@@ -1607,7 +1607,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/.index/enchanted-books-re-covered.pw.toml"
-hash = "ae26858ccf3121c5c7f52cdaca126a8bef5699be966b7adea8e2748aff4f99bf"
+hash = "55469a7a78789d180a37640673ed8558a532f96ef36751b9c89a541a291715e2"
 metafile = true
 
 [[files]]
@@ -1617,17 +1617,17 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/.index/fancy-beds.pw.toml"
-hash = "f7f84858e2204377a4b35bb765229057901bd24cb61a51123dc4cb7250313b26"
+hash = "6b81a626831ba2d7296c935229090ef2de0814353e9bbe15587c924ab914678d"
 metafile = true
 
 [[files]]
 file = "resourcepacks/.index/glowing-glints.pw.toml"
-hash = "0f5f04b276a25cebe3e46158365a1bcb97e5ef85a306b96546f0941f6c6d2ce5"
+hash = "e12932c3f39c138e97c878f8ce43922218e9f32f716b951854044048d18d1f88"
 metafile = true
 
 [[files]]
 file = "resourcepacks/.index/icons.pw.toml"
-hash = "ec179ce12a10f1be1804f4953ff37acf6c897464b2fa17a6c13a5d2f0a766051"
+hash = "6657fff74765f03a1337f4fffa17adbdba7d14965ff952350b37b67912fbe833"
 metafile = true
 
 [[files]]
@@ -1647,7 +1647,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/.index/qraftys-capitalized-font.pw.toml"
-hash = "e9855400e6a66340b3f2aefea37091fa5affbff3de0575f7e8f056406f4bf042"
+hash = "984aac40f1561e62fd7983f6c39c8ea70e1e45a5db992c3bda6be0a86c11fd5e"
 metafile = true
 
 [[files]]
@@ -1657,7 +1657,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/.index/translations-for-sodium.pw.toml"
-hash = "4a13a1d2f21586aece66d68357eb02adea17e5c5fa7a5a78046a3cab85d41952"
+hash = "303151557c339d22e15994dd4ba0351170f7a609f0e97e60d5b1acf6fa00803b"
 metafile = true
 
 [[files]]
@@ -1804,5 +1804,5 @@ hash = "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead"
 
 [[files]]
 file = "shaderpacks/solas-shader.pw.toml"
-hash = "82d90b6dd580084d9e41401572f16031f6c2e067cecee0b46a372d00d98fef30"
+hash = "ac737ed42b63619a6ebe8bddff8ad51ff4bfe28a536fbace9a58a0f971c56517"
 metafile = true
