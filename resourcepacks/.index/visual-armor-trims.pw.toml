@@ -1,0 +1,18 @@
+filename = 'visual_armor_trims_4.2.zip'
+name = 'Visual: Armor Trims'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.21.11', '26.1', '26.1.1', '26.1.2', '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.2'
+
+[download]
+hash = '55417b3475f5bde4751f2f5b97979a8db8c3676b904bc01632312ce1d25f86f3f88fec014cdf6ec8e485c6dc6f65f9150955b0a805b0ef6837dfed63563d79d3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tPtjib62/versions/Qt949MJE/visual_armor_trims_4.2.zip'
+
+[update.modrinth]
+mod-id = 'tPtjib62'
+version = 'Qt949MJE'

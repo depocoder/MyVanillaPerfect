@@ -1,29 +1,25 @@
-filename = 'freecam-fabric-1.4.1-alpha.1+mc26.1.2.jar'
+filename = 'freecam-fabric-1.4.1+mc26.1.2.jar'
 name = 'Freecam'
 side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = '1.4.1-alpha.1'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.1'
 
 [download]
-hash = 'c52d979e847ac8a866cfd8ab4e6b2f2f84ef2814caa3197847a5b59b3c91f46d919c17ba74d83c4a4723d3e1538961bd2d79244b932dd1d88392011513f2c82d'
+hash = 'f27f17a4847fa3ba8f1db3b187b5ad6d3b49c5945b56266859733e027c3ccebaa9d831f2904d75db062047beac46f6fc60681c823460aff4e77accb6f56abe48'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/XeEZ3fK2/versions/DQdAmYcA/freecam-fabric-1.4.1-alpha.1%2Bmc26.1.2.jar'
+url = 'https://cdn.modrinth.com/data/XeEZ3fK2/versions/RystERKE/freecam-fabric-1.4.1%2Bmc26.1.2.jar'
 
 [update.modrinth]
 mod-id = 'XeEZ3fK2'
-version = 'DQdAmYcA'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'mOgUt4GM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+version = 'RystERKE'
 
 [[x-prismlauncher-dependencies]]
 addonId = '9s6osm5g'
 type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'

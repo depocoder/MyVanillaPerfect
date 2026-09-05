@@ -1,1 +1,19 @@
-{"preferredFullscreenMode":"ON","pauseOnLostFocusDuringMultiplayer":false,"linux":{"preferredFullscreenMode":"BORDERLESS"},"macos":{"useScaledFramebuffer":false}}
+{
+  "fullscreenMode": "OFF",
+  "preferredFullscreenMode": "ON",
+  "fullscreenType": "minecraft:default",
+  "borderlessFullscreenType": "minecraft:windowed",
+  "useDelayedFullscreen": true,
+  "useScaledFramebuffer": true,
+  "pauseOnLostFocusDuringMultiplayer": false,
+  "linux": {
+    "preferredFullscreenMode": "BORDERLESS"
+  },
+  "macos": {
+    "useScaledFramebuffer": false
+  },
+  "windows": {
+    "fullscreenMode": "BORDERLESS",
+    "preferredFullscreenMode": "BORDERLESS"
+  }
+}

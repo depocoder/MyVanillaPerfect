@@ -1,0 +1,45 @@
+filename = 'Icons v.1.13.4.zip'
+name = 'Icons'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.13.4'
+
+[download]
+hash = '1123af5839844b5ad60b0afbb22503c80a9f578754a04c76fc9b6107feeaf98ef6e4795cef18c4dc9f70e9a29edef653f5e55cd1b1e1dde50abe33ea9f553e5b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/O7z3QKAG/versions/RNni6iXH/Icons v.1.13.4.zip'
+
+[update.modrinth]
+mod-id = 'O7z3QKAG'
+version = 'RNni6iXH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TiF5QWZY'
+type = 'OPTIONAL'

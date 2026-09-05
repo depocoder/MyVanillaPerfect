@@ -1,0 +1,47 @@
+filename = 'Just Colored Lighting (1.0.1).zip'
+name = 'Just Colored Lighting'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'fb2f3e38b6d218859e94d890733e2c1f08c46b0d3865accc333008b468fcffa4947643e79f44e252f196b35b32731ae490e4520d31d687f55954c5fbf63a53b9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/McUqXQ0J/versions/wEhiLD3b/Just Colored Lighting %281.0.1%29.zip'
+
+[update.modrinth]
+mod-id = 'McUqXQ0J'
+version = 'wEhiLD3b'

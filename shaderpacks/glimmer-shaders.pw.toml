@@ -1,0 +1,38 @@
+filename = 'Glimmer-v1.5.2.zip'
+name = 'Glimmer'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.2'
+
+[download]
+hash = 'f6ed05514c3d2d2e380d1a891e4ed555cb41ccad61a80f041e10ccbf38928a64fce10a40cc5ea20518465a93cee888b7d680f5740ac3797500974d94bf3f2fa2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PgdT4v4a/versions/1dD3KC4h/Glimmer-v1.5.2.zip'
+
+[update.modrinth]
+mod-id = 'PgdT4v4a'
+version = '1dD3KC4h'

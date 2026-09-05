@@ -1,0 +1,18 @@
+filename = 'Patrix_26.1_32x_basic.zip'
+name = 'Patrix 32x'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '88'
+
+[download]
+hash = '0d5fce9c0726061a79f962eb4d68422f4b4b8ec977dc3734c9941a7989c34a0f9cd3d912dd867fbba6e0421f899c8f89b3af1d6b5f638f3a35a19875865c83fe'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/olO1TaXd/versions/dqji1V3m/Patrix_26.1_32x_basic.zip'
+
+[update.modrinth]
+mod-id = 'olO1TaXd'
+version = 'dqji1V3m'

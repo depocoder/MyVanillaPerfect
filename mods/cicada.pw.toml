@@ -1,0 +1,21 @@
+filename = 'cicada-lib-0.15.2+26.1.jar'
+name = 'CICADA'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.15.2+26.1'
+
+[download]
+hash = '225a0d252f0d3117b63f63f6dba65555a6b10121fe3125150ea63db586c587f0f489ad2db939e98dca9e48a394f7331febcc805bdb7ff3f89c4904a0022576e4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IwCkru1D/versions/qUoRmDGM/cicada-lib-0.15.2%2B26.1.jar'
+
+[update.modrinth]
+mod-id = 'IwCkru1D'
+version = 'qUoRmDGM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

@@ -1,20 +1,20 @@
-filename = 'architectury-fabric-20.0.7.jar'
+filename = 'architectury-fabric-20.0.12.jar'
 name = 'Architectury'
 side = 'both'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '20.0.7+fabric'
+x-prismlauncher-version-number = '20.0.12+fabric'
 
 [download]
-hash = '440f904211cf4889d8a9f39b544556b485052cdf746caef061a4765dcc51a50b654d2c0c0257a836c48ba54d4eb8c7af1d47f87249cb39b623d4a09af34cc11c'
+hash = 'd8f8ecbc8f4769e9c225d5c7eb9aac0c66fdcaae92bd1e1dea74282b2d24337c7a5bb63ecf3b1465bb639ab15f10b394a7df6e283ba36791bdab377bda8e6383'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/lhGA9TYQ/versions/fe6U0jSg/architectury-fabric-20.0.7.jar'
+url = 'https://cdn.modrinth.com/data/lhGA9TYQ/versions/hNxqF6r7/architectury-fabric-20.0.12.jar'
 
 [update.modrinth]
 mod-id = 'lhGA9TYQ'
-version = 'fe6U0jSg'
+version = 'hNxqF6r7'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'P7dR8mSH'

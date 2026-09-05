@@ -1,0 +1,34 @@
+filename = 'BorderlessFullscreen-v2.4.1_01-mc26.1.2.jar'
+name = 'Borderless Fullscreen'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.4.1_01-26.1.2'
+
+[download]
+hash = '62f7ee274cc557b3fbd7bdb706cf2b234b6c9e5243f228ca1f50744b66b09fb259d2c4eb350e1c3cfd7e02ba6a2103072d25347c0bef847a8d2bb160969e6b61'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UIexcMP1/versions/2v6rdL7g/BorderlessFullscreen-v2.4.1_01-mc26.1.2.jar'
+
+[update.modrinth]
+mod-id = 'UIexcMP1'
+version = '2v6rdL7g'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Or3h4EiX'
+type = 'EMBEDDED'
+version = 'p3JSfV8F'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

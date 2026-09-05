@@ -1,0 +1,43 @@
+filename = 'Chat Reporting Helper.zip'
+name = 'Chat Reporting Helper'
+side = ''
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8',
+    '1.21.9',
+    '1.21.10',
+    '1.21.11',
+    '26.1',
+    '26.1.1',
+    '26.1.2',
+    '26.2'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.8'
+
+[download]
+hash = '83e1b968c82cd0218b9587254387b6c1c6d05d5c21cc77bf2cfaa7bf30df1a3bbf3964daaa52d4df34cfbfe67a7511ab58493b89b71df7513d7862f7971e5b33'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tN4E9NfV/versions/tHgpG6Uf/Chat Reporting Helper.zip'
+
+[update.modrinth]
+mod-id = 'tN4E9NfV'
+version = 'tHgpG6Uf'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qQyHxfxd'
+type = 'OPTIONAL'

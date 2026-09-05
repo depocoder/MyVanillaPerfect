@@ -1,20 +1,20 @@
-filename = 'locator_lodestones-1.5.2+26.1+C.jar'
+filename = 'locator_lodestones-1.5.3+26.1+A.jar'
 name = 'Locator Lodestones'
-side = 'client'
+side = 'both'
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.5.2+26.1+C'
+x-prismlauncher-version-number = '1.5.3+26.1+A'
 
 [download]
-hash = '120519eba3c73b962944face6fcc07e29efcffd654881acff9b89513dbaadb4666c17c6d371c69346ca2a1676fcdb8046e5bc6e29da576e9936a63fc925fc4e9'
+hash = '470d6ba4e2fcfad01c36caec6461ee450ccf3571d92fe87e904844a1d6c37a7b6c594dfc7a92d299f0a0920e693c24d69b1fca72cd98682d0b21ac28ddf31ceb'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/pMBcsVIg/versions/sHQP4HZT/locator_lodestones-1.5.2%2B26.1%2BC.jar'
+url = 'https://cdn.modrinth.com/data/pMBcsVIg/versions/2ScPNrBr/locator_lodestones-1.5.3%2B26.1%2BA.jar'
 
 [update.modrinth]
 mod-id = 'pMBcsVIg'
-version = 'sHQP4HZT'
+version = '2ScPNrBr'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'ZLKQjA7t'
