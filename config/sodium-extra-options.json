@@ -172,7 +172,7 @@
       "advanced": true,
       "multi_dimension_fog_control": true,
       "atmospheric": {
-        "distance_chunks": 0,
+        "distance_chunks": -1,
         "start_percent": 100,
         "shape_mode": "VANILLA",
         "affect_sky_fog": true,
