@@ -1,0 +1,29 @@
+filename = 'chunkloaders-1.2.9-fabric-mc26.1.jar'
+name = 'Chunk Loaders'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.9-fabric-mc26.1'
+
+[download]
+hash = 'd5f5e77e1b0d296a2cf5d01f0d5e53bdb42f4c70096edaab08efb74e558597bc8de89bbc511931a63d44bf6cad515d9a04ecb8d65ee31927c69d784acc806237'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t1VgucWo/versions/78s3Ulp1/chunkloaders-1.2.9-fabric-mc26.1.jar'
+
+[update.modrinth]
+mod-id = 't1VgucWo'
+version = '78s3Ulp1'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LN9BxssP'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rOUBggPv'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

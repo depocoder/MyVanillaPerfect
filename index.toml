@@ -1112,6 +1112,11 @@ hash = "6054b7520ef8e465ecc752b85135b963cc38f495c3d57ba1af5216aae8351b85"
 metafile = true
 
 [[files]]
+file = "mods/chunk-loaders.pw.toml"
+hash = "02837a7aac80fb364e843153efcf007afffe87f1b82043ea856eedf469146097"
+metafile = true
+
+[[files]]
 file = "mods/cicada.pw.toml"
 hash = "e5cce132c990f384f6e8f9bc6d034359781b4cd4045863d2ce40eab64ef4d66a"
 metafile = true
@@ -1594,6 +1599,16 @@ metafile = true
 [[files]]
 file = "mods/stendhal.pw.toml"
 hash = "c6c90aca6f60740a4ad7c13a6c7d15bb69793293a86ed06d99a18afb3c3e0e31"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "0021ac59e3881c3a4354eb1e7df864a77ec9f06354674e2d7ce57031281b8fec"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "ca5e8203359b51097801437885810dcfc58b53c468e4010fae2b92f803695cee"
 metafile = true
 
 [[files]]
