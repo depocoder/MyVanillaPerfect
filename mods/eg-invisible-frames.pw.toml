@@ -1,0 +1,25 @@
+filename = 'eg_invisible_frames-2.3.0+26.1.2-fabric.jar'
+name = 'Invisible Frames'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.3.0+26.1.2-fabric'
+
+[download]
+hash = '6e27663cb4bed3f5db286cd5056f362d797de80de2a74dc1b7c0494838f6ffa101fe09781fdd33a32f3b983b80bb367cb33251911b73fff8c6488b8efaaf5fea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8Ylb0Z81/versions/hkBr1zqj/eg_invisible_frames-2.3.0%2B26.1.2-fabric.jar'
+
+[update.modrinth]
+mod-id = '8Ylb0Z81'
+version = 'hkBr1zqj'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'

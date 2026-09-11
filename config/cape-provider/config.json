@@ -6,7 +6,7 @@
   ],
   "useDefaultProvider": true,
   "onlyLoadForSelf": false,
-  "enableElytraTexture": false,
+  "enableElytraTexture": true,
   "animatedCapesHandling": "ON",
   "remoteCustomProviders": [],
   "loadProvidersFromMods": true,
