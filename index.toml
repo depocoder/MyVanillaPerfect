@@ -86,7 +86,7 @@ hash = "f06739b335abb550670dc6454d6d9abb0225b58c96f338be16a4ef735d3bc0ee"
 
 [[files]]
 file = "config/cape-provider/config.json"
-hash = "de74efccca86bcd9735c1c5201e5348632b920ed2618656a75583b8ec2c905a8"
+hash = "f678f916845cf44271d995636889e002154c0784014625194078eca7d2f36dee"
 
 [[files]]
 file = "config/capes.json5"
@@ -498,7 +498,7 @@ hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
 
 [[files]]
 file = "config/litematica/litematica_New jorney_dim_minecraft_overworld.json"
-hash = "0ae69570a717e5370caba43f5bbf549730d7a690c8f35db5048d8ddb47de3b81"
+hash = "a058c05726cb85e846edbb9a9a31d62cb6925287f7b5a3f789f065f0c8fe1ce9"
 
 [[files]]
 file = "config/litematica/litematica_New jorney_dim_minecraft_the_end.json"
@@ -1259,6 +1259,11 @@ metafile = true
 [[files]]
 file = "mods/eclipseui.pw.toml"
 hash = "f95e80a5a1ce7fe808bd21b20dead7f06a9c880eb84a3068abe284753d305082"
+metafile = true
+
+[[files]]
+file = "mods/eg-invisible-frames.pw.toml"
+hash = "b12552fd72d43f92db2aa66149482fde66f93e185069a9577d339f4ad44b3186"
 metafile = true
 
 [[files]]
