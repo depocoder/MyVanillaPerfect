@@ -229,20 +229,12 @@ file = "config/daysplayed.json"
 hash = "5f805aa2aa68e4485cf0ee59a0e78e504cc0c370b71e3d8703c5a99b12428a5f"
 
 [[files]]
-file = "config/deathfinder-client-1.toml.bak"
-hash = "3bdfaf23e37e22071af224d8b22aef983baab524c319e165b8ef088358fa578f"
-
-[[files]]
 file = "config/deathfinder-client.toml"
 hash = "7a4ceb8b56c367231a4703af7a9249e184b756bf2e9aeae717500aada5ac2a21"
 
 [[files]]
-file = "config/deathfinder-server-1.toml.bak"
-hash = "a325689eeb51a8eba73dce6e3a496852f4b0bcc3c454606c5d193bbce4830d00"
-
-[[files]]
 file = "config/deathfinder-server.toml"
-hash = "000aad36fc4a417710fccdf302bfa4a04c11bb1371557fc565b9af53285b8905"
+hash = "d76a1003320043db46efd16342eb48ef0245891fff0d10dbcb114885a92894ef"
 
 [[files]]
 file = "config/debugify.json"
