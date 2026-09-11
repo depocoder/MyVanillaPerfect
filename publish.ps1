@@ -3,7 +3,7 @@
 #   или в терминале:  powershell -ExecutionPolicy Bypass -File publish.ps1
 #
 # Что делает: пересобирает метаданные модов из твоего инстанса (с прямыми ссылками
-# на Modrinth), синхронит config/resourcepacks/shaderpacks, обновляет packwiz-индекс
+# на Modrinth), синхронит config/shaderpacks (ресурспаки не раздаём), обновляет packwiz-индекс
 # и пушит в GitHub. Друзья получат обновление при следующем запуске игры.
 
 $ErrorActionPreference = 'Continue'
@@ -48,20 +48,30 @@ $mods = Join-Path $inst 'mods'; $idx = Join-Path $mods '.index'
 $enabled = Get-ChildItem $mods -File | Where-Object { $_.Extension -eq '.jar' }
 $enabledSet = @{}; $enabled | ForEach-Object { $enabledSet[$_.Name] = $true }
 $covered = @{}
+$knownIds = @{}   # Modrinth project-id -> jar, чтобы один мод не попал в пак двумя версиями
 if(Test-Path $idx){
   Get-ChildItem $idx -Filter *.pw.toml | ForEach-Object {
     $c = Get-Content $_.FullName -Raw
     if($c -match "filename\s*=\s*'([^']+)'" -and $enabledSet.ContainsKey($Matches[1])){
-      Copy-Item $_.FullName (Join-Path $pm $_.Name) -Force; $covered[$Matches[1]] = $true
+      $fnIdx = $Matches[1]
+      Copy-Item $_.FullName (Join-Path $pm $_.Name) -Force; $covered[$fnIdx] = $true
+      if($c -match "(?m)^mod-id\s*=\s*'([^']+)'"){ $knownIds[$Matches[1]] = $fnIdx }
     }
   }
 }
 # дозалитые вручную моды без метаданных Prism -> ищем на Modrinth по хэшу
+$staleJars = @()
 foreach($j in $enabled){ if(-not $covered.ContainsKey($j.Name)){
   $sha1=(Get-FileHash $j.FullName -Algorithm SHA1).Hash.ToLower()
   try{ $v=Invoke-RestMethod "https://api.modrinth.com/v2/version_file/$sha1" -Headers $ua
+       if($knownIds.ContainsKey($v.project_id)){
+         # тот же мод уже есть в паке другой версией -> это старый jar, который забыли удалить
+         Write-Host "  ! ДУБЛЬ: $($j.Name) — тот же мод, что и $($knownIds[$v.project_id]). Удали старый jar из инстанса." -ForegroundColor Yellow
+         $staleJars += $j.Name; continue
+       }
        $slug=($j.BaseName -replace '[^a-zA-Z0-9]+','-').ToLower()
        Write-MrToml (Join-Path $pm "$slug.pw.toml") $j.Name $j.BaseName 'both' $v
+       $knownIds[$v.project_id] = $j.Name
        Write-Host "  + $($j.Name)" }
   catch{ Write-Host "  ! НЕ найден на Modrinth: $($j.Name) — добавь вручную (packwiz cf add / url add)" -ForegroundColor Yellow }
 }}
@@ -84,18 +94,31 @@ foreach($f in (Get-ChildItem $pm -Filter *.pw.toml)){
   if($changed){ [System.IO.File]::WriteAllText($f.FullName, (($o -join "`n")+"`n"), (New-Object System.Text.UTF8Encoding($false))) }
 }
 
-Write-Host "== 2/5 Overrides (config/resourcepacks/shaderpacks) ==" -ForegroundColor Cyan
-foreach($d in @('config','resourcepacks','shaderpacks')){
+# финальная проверка: один Modrinth-проект не должен встречаться в паке дважды
+$byId = @{}
+foreach($f in (Get-ChildItem $pm -Filter *.pw.toml)){
+  $c = Get-Content $f.FullName -Raw
+  if($c -match "(?m)^mod-id\s*=\s*'([^']+)'"){ $byId[$Matches[1]] += @($f.Name) }
+}
+$dupes = $byId.GetEnumerator() | Where-Object { $_.Value.Count -gt 1 }
+if($dupes){
+  foreach($d in $dupes){ Write-Host "  ! ДУБЛЬ в паке: $($d.Value -join ', ')" -ForegroundColor Red }
+  Write-Host "  Публикация остановлена: удали лишние jar из инстанса и запусти скрипт снова." -ForegroundColor Red
+  exit 1
+}
+
+Write-Host "== 2/5 Overrides (config/shaderpacks) ==" -ForegroundColor Cyan
+# resourcepacks намеренно НЕ раздаём: каждый ставит свои
+foreach($d in @('config','shaderpacks')){
   $src=Join-Path $inst $d; $dst=Join-Path $pack $d
   if($d -eq 'config'){ robocopy $src $dst /MIR /XF $excludeConfig /NFL /NDL /NJH /NJS /NP | Out-Null }
-  elseif($d -eq 'shaderpacks'){ robocopy $src $dst /MIR /XF *.txt /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки шейдеров — у каждого свои
-  else { robocopy $src $dst /MIR /NFL /NDL /NJH /NJS /NP | Out-Null }
+  else { robocopy $src $dst /MIR /XF *.txt /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки шейдеров — у каждого свои
 }
 $global:LASTEXITCODE=0
 
-# нормализуем side у ресурспаков/шейдеров: пустое/некорректное -> 'client' (packwiz-installer роняет пустой side)
+# нормализуем side у шейдеров: пустое/некорректное -> 'client' (packwiz-installer роняет пустой side)
 $rsUtf8 = New-Object System.Text.UTF8Encoding($false)
-foreach($rsd in @('resourcepacks\.index','resourcepacks','shaderpacks','shaderpacks\.index')){
+foreach($rsd in @('shaderpacks','shaderpacks\.index')){
   $rsdir = Join-Path $pack $rsd
   if(-not (Test-Path $rsdir)){ continue }
   foreach($rsf in (Get-ChildItem $rsdir -Filter *.pw.toml -File)){
