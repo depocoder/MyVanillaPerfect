@@ -318,7 +318,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d219f90afce53b92931427e9a2f6fc438f7a3984a17a6ee9fdf36e6e4d755313"
+hash = "2e98c101d38426f6035c2046649ea08c19113788a1655b01de7d57c34051d5ed"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -1686,6 +1686,11 @@ metafile = true
 [[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "ffab4360b4612292b2b2ff5a6fa6327e73a1ed62a0727ab8f4192868c6d1104d"
+metafile = true
+
+[[files]]
+file = "mods/tiny-skeletons.pw.toml"
+hash = "c7db0b002f8dc12672be15328bc6bc1a597242b874454b448bbcea8fb9b53e0f"
 metafile = true
 
 [[files]]

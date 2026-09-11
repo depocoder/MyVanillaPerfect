@@ -1,0 +1,29 @@
+filename = 'TinySkeletons-v26.1.1-mc26.1.x-Fabric.jar'
+name = 'Tiny Skeletons'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '26.1.1'
+
+[download]
+hash = '14b0ed51f4800f54996a5609d440e8ac259779128e856baa8adc763a900b6de8b5e55b0fe816378435a1d774eef5ea0d78a61c006d4dec08393fd68488e77123'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/A2xcMSUn/versions/ObGoQZxV/TinySkeletons-v26.1.1-mc26.1.x-Fabric.jar'
+
+[update.modrinth]
+mod-id = 'A2xcMSUn'
+version = 'ObGoQZxV'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ohNO6lps'
+type = 'REQUIRED'
