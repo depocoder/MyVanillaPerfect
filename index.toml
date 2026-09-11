@@ -45,6 +45,10 @@ file = "config/animatica.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/appleskin.json5"
+hash = "65edc28ca2bf6bd3e3684ae545fb74bcc0ec935a40d6ac60cb68c00c152e34fb"
+
+[[files]]
 file = "config/autoreconnectrf.json"
 hash = "4db0a56e688f6ee526279f03abd8b931765a43bf310475be454ca6e77bbb341e"
 
@@ -82,7 +86,7 @@ hash = "f06739b335abb550670dc6454d6d9abb0225b58c96f338be16a4ef735d3bc0ee"
 
 [[files]]
 file = "config/cape-provider/config.json"
-hash = "2d2a5ee86f8b103727eed107a13716d82494cb1bf08d1a8aec4efde4d9366bf1"
+hash = "de74efccca86bcd9735c1c5201e5348632b920ed2618656a75583b8ec2c905a8"
 
 [[files]]
 file = "config/capes.json5"
@@ -225,6 +229,22 @@ file = "config/daysplayed.json"
 hash = "5f805aa2aa68e4485cf0ee59a0e78e504cc0c370b71e3d8703c5a99b12428a5f"
 
 [[files]]
+file = "config/deathfinder-client-1.toml.bak"
+hash = "3bdfaf23e37e22071af224d8b22aef983baab524c319e165b8ef088358fa578f"
+
+[[files]]
+file = "config/deathfinder-client.toml"
+hash = "7a4ceb8b56c367231a4703af7a9249e184b756bf2e9aeae717500aada5ac2a21"
+
+[[files]]
+file = "config/deathfinder-server-1.toml.bak"
+hash = "a325689eeb51a8eba73dce6e3a496852f4b0bcc3c454606c5d193bbce4830d00"
+
+[[files]]
+file = "config/deathfinder-server.toml"
+hash = "000aad36fc4a417710fccdf302bfa4a04c11bb1371557fc565b9af53285b8905"
+
+[[files]]
 file = "config/debugify.json"
 hash = "a4e5e4cb8239c9e512aa4bf6e4655caead4ccc82c483dcaf0aff0405ce9cb1ea"
 
@@ -270,7 +290,7 @@ hash = "6bfc37d85bd4e0b76ed3a477d5feeec148c7f758018f741d709f4aa90b0c12b3"
 
 [[files]]
 file = "config/entity_texture_features.json"
-hash = "bd66edf9d1a72cd717bbe9b17b41ffd16963b089493e5ddae3d3ad69153105ba"
+hash = "f2a237bd3b44af842de819bc49f9763e71cb6e56348f4e2b218a43fab58179ed"
 
 [[files]]
 file = "config/entityculling.json"
@@ -285,8 +305,12 @@ file = "config/explosiveenhancement.json"
 hash = "839482f45a8c5563f356655dadc8cbba4386decfc68f02faf901626aa0af054c"
 
 [[files]]
+file = "config/extremesoundmuffler.json5"
+hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
+
+[[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "41d27fd3981b77068c90bd23a02146de186b8d45852060c126423f242a9f5bec"
+hash = "a68e03f0a8af017c6b9929736fa3e7eeafab3d486f7eb637582c4f1998224410"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -738,7 +762,7 @@ hash = "57181c8a4bf0795981b7f28641d6f5c2e26f950983318e37159ab4ce527bc67c"
 
 [[files]]
 file = "config/my_totem_doll-known-player-uuids.json5"
-hash = "4d4dbaa0b75996065a3c9c70cab2cca6ef1050efd04892944d024820d50a1dad"
+hash = "7295f9b4ea6a5fd5f523e03a3dc3ce13934b6064c736563dc89965371a46b22d"
 
 [[files]]
 file = "config/my_totem_doll.json5"
@@ -761,8 +785,28 @@ file = "config/norealmsfix.json"
 hash = "ab20d611d4ec784ee29a6b1c051b51c61e9b40b4897aa77c4d8180ca25e7df46"
 
 [[files]]
+file = "config/notenoughanimations.json"
+hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
+
+[[files]]
 file = "config/overlaytweaks.json"
 hash = "abb08db75d97364192777791e9312025cb43b4b7e59fce6155e5017f2ac6394a"
+
+[[files]]
+file = "config/packed_packs/__version.json"
+hash = "53d0bd0d7dcc4f7d177829026f9f473fd8a5b5cd328c483a883de9a70ba33f1f"
+
+[[files]]
+file = "config/packed_packs/config.json"
+hash = "55ec6f1c8a1a905bab4ceb8a92b6ed4080b01d71fadde5c9f03185940596f35d"
+
+[[files]]
+file = "config/packed_packs/config.meta.json"
+hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
+
+[[files]]
+file = "config/packed_packs/preferences.properties"
+hash = "c825c8cb20f0fbee74597894fcdf9acfa5553c4bf578881abebcc43b61231c1a"
 
 [[files]]
 file = "config/patpat/ignore_mob_list.txt"
@@ -770,7 +814,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "c6dec2b46e66b5f94b33cd3e55ace43af433939ad53df45d31e74e46f05b7ef4"
+hash = "49500616cf61393dc9b65d04f7d9782a3676aebed5524a05897cfa6d0829804a"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -818,7 +862,7 @@ hash = "f07bb7a059a2b0416a62fc1e2932ca459f807c9e3937dba42d7a7c9dec47bd04"
 
 [[files]]
 file = "config/puzzle.json"
-hash = "27e001f09b0f5b7916a8b984b97c1bc1ba023ecb5b2a5f7a272e8ee7bab3b079"
+hash = "c1cec7aa2a2725ca5cc6688f1ecdeedbf61a77fe7b0ce049887516487ba33ef0"
 
 [[files]]
 file = "config/rimlight.json"
@@ -858,7 +902,7 @@ hash = "1f1549e3ea9e5b722d3e836529f9f715d18cfb731756a397a62227a94a0e7ca4"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "af2416ffbe2799b1fd167de24d0d268148186208f4f1db1f75cd85e9fbfc51b3"
+hash = "d529e71c5a12a90547205e6da510ca7731b54564a1275d4ca5e571a3406e3253"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -922,7 +966,7 @@ hash = "b2f22ee0f7b73a382f38eac364379c6c2e1ff0a913f0c65050878aff20a6d7eb"
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "cf645ff997869e4b3edab608be0d22d74c1fb1206f1e17aa3feb70074b210901"
+hash = "9524431f360bd6a33d2cd3487babf0d0c0789398766d1d0bfa768c6c90d70d67"
 
 [[files]]
 file = "config/ukulib.toml"
@@ -1070,11 +1114,6 @@ hash = "18f84c1aafd97c7763e9164733b0147251b179d3d13c209f51e49ca88b852de2"
 metafile = true
 
 [[files]]
-file = "mods/cape-provider.pw.toml"
-hash = "358c70f7e25fc122ad0ef1c78b1e3245b477f10898598ef22a77d9ca88f2a265"
-metafile = true
-
-[[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "6054b7520ef8e465ecc752b85135b963cc38f495c3d57ba1af5216aae8351b85"
 metafile = true
@@ -1127,6 +1166,11 @@ metafile = true
 [[files]]
 file = "mods/daycount.pw.toml"
 hash = "d53d65f45fb93373a49362eb0022e1af0ed50eba0c87561e403f6a7489f30fdb"
+metafile = true
+
+[[files]]
+file = "mods/death-finder.pw.toml"
+hash = "907b8813f8ac6153a7a04aec7a2b307e517890815049eca5c280fd38454bd449"
 metafile = true
 
 [[files]]
@@ -1440,6 +1484,11 @@ hash = "8f6b12e6fca4e9510e785c4c573086a0380f7fbec73f5e5ff8eade4569a42e08"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "c7412437afe0d87a563f310c0af75a4d4de4d470b8c019ab3dd569336414f458"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "dd03bed70248b4bf0f00429658fffbb7da76b0d8774a196db19fcb18b3116ca4"
 metafile = true
@@ -1447,6 +1496,11 @@ metafile = true
 [[files]]
 file = "mods/overlaytweaks.pw.toml"
 hash = "4b7a3870adf1a4f045663477d338f972e075661a13ae994cd806d0a33595ad87"
+metafile = true
+
+[[files]]
+file = "mods/packed-packs.pw.toml"
+hash = "ede5d52df4a39dc247c785a369c385a1bc632f09f74a6db5f9dba645ea03369e"
 metafile = true
 
 [[files]]

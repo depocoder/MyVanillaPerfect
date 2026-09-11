@@ -1,12 +1,12 @@
 {
   "activeProviderIds": [
     "minecraftcapes",
-    "cosmetica",
-    "optifine"
+    "mod-cape-provider",
+    "sneaky-capes"
   ],
   "useDefaultProvider": true,
   "onlyLoadForSelf": false,
-  "enableElytraTexture": true,
+  "enableElytraTexture": false,
   "animatedCapesHandling": "ON",
   "remoteCustomProviders": [],
   "loadProvidersFromMods": true,
