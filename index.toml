@@ -97,6 +97,10 @@ file = "config/cherishedworlds-client.toml"
 hash = "8a9beb0407d9e61a68cb814f8afb9a80ddc58a9ac4bec406fef96aa3066dff38"
 
 [[files]]
+file = "config/chunkloaders-common.toml"
+hash = "32d00ef84a71f82450eb463bdb0c7f977d6fadda7acd631023cfd3479c90439b"
+
+[[files]]
 file = "config/chunky/config.json"
 hash = "c7384a22595488f79f3125b22cc175eb729267267807a084479419349797abc8"
 
@@ -245,6 +249,14 @@ file = "config/detailarmorbar.json"
 hash = "3b0b3d33924c6382bd9b7deb186e096af8b7dc33285b37ffc8c34f10b255bfad"
 
 [[files]]
+file = "config/diagonalblocks-common.toml"
+hash = "a322c9aec6a5893f3ce933219970447f46752c8e09e83f6477bd2bddbf434c42"
+
+[[files]]
+file = "config/diagonalblocks-server.toml"
+hash = "a8893240af6d5717ea0f2fff46e92ad5dbd07d045c15c0074c05ffb2fd541502"
+
+[[files]]
 file = "config/do_a_barrel_roll-client.json"
 hash = "22d6678a60c101e625f1eeea6179f08e9063bf4b0523372482956d0c283c5964"
 
@@ -277,6 +289,10 @@ file = "config/elytratrails.json"
 hash = "89be1e83ca53d29cf1978ef3d240d93c0e46171c3cba0b4f2d02a1a43a2ad018"
 
 [[files]]
+file = "config/emotecraft.json"
+hash = "6887d1cc31c695247bb3329047751c64d32a7422e7f36f853e1cefd46b94a17e"
+
+[[files]]
 file = "config/entity_model_features.json"
 hash = "6bfc37d85bd4e0b76ed3a477d5feeec148c7f758018f741d709f4aa90b0c12b3"
 
@@ -302,7 +318,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f3867f2d87198a7478660eecd9a5b342d5dc950b4381dc153976df88350de5fb"
+hash = "d219f90afce53b92931427e9a2f6fc438f7a3984a17a6ee9fdf36e6e4d755313"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -361,6 +377,10 @@ file = "config/horseman-server.toml"
 hash = "abe1813d9f22e2e5b60273ca756c7057667b0a97802d32dd86306f13719921a6"
 
 [[files]]
+file = "config/illagerinvasion-server.toml"
+hash = "01e56809e665138b5f82a4e49389b7edb25028311f5f7efa2cedd1e75ebb6cef"
+
+[[files]]
 file = "config/immediatelyfast.json"
 hash = "9a1ae7577440d36732b4d34885195b37423a3e8b906ff8602220bc0447969d15"
 
@@ -373,6 +393,18 @@ file = "config/immersiveui.yaml"
 hash = "afce198726a7b120184a4c71cdf985cdcc7e03d9566ec37a4b8a275a8dfae853"
 
 [[files]]
+file = "config/inventory-particles/cache/chunkloaders/atlas.png"
+hash = "ce81513998ec2ba7407c19fba345f5a86f099a0a8d244c5f5e5de6a286544449"
+
+[[files]]
+file = "config/inventory-particles/cache/chunkloaders/regions.txt"
+hash = "3f7c0363fd169bd9b80d017b7c9924708099d789c035d63663ddc5b7511bf8fb"
+
+[[files]]
+file = "config/inventory-particles/cache/chunkloaders/spawn_areas.cached"
+hash = "c32c07341f1f53770009bf2de72c8bfc69ff7af37a7a6f14cf0df795b6e6c208"
+
+[[files]]
 file = "config/inventory-particles/cache/horseman/atlas.png"
 hash = "1ebad0be726a8a4f2cef8aae47f4f1ceefc85bca61bd6a5416b9d7660baed6f8"
 
@@ -383,6 +415,18 @@ hash = "1771d040ddbc9fd0c8d081b94185b2c7533cd5d15e2166f218db33cf5b1d9526"
 [[files]]
 file = "config/inventory-particles/cache/horseman/spawn_areas.cached"
 hash = "1cc6ef194035297039177e7da5c706ac6f0b94c1e542710b326bf605376b00d3"
+
+[[files]]
+file = "config/inventory-particles/cache/illagerinvasion/atlas.png"
+hash = "9006493de3fab2be932c1e685783daf3530c76bcc38308b193a0cbf7df0c2961"
+
+[[files]]
+file = "config/inventory-particles/cache/illagerinvasion/regions.txt"
+hash = "c775fa1a9000ddb508b47ee9955dc24e2d89855539f805cd3d684e5af7996d16"
+
+[[files]]
+file = "config/inventory-particles/cache/illagerinvasion/spawn_areas.cached"
+hash = "43cf4c685e3e224b5fce269bb5cc775a102fc0e1de2c2337d59e6fff3f46a41a"
 
 [[files]]
 file = "config/inventory_particles.json5"
@@ -965,6 +1009,14 @@ file = "config/ukus-armor-hud.toml"
 hash = "9360a20f6cd862bc5c09acd86cdad015dcea5ea2f05bc5090fd532129285f279"
 
 [[files]]
+file = "config/visualworkbench-client.toml"
+hash = "26063b95687c060f2acbe9be49cb1155a729d67c63f6610d50ba9a84ed4250f5"
+
+[[files]]
+file = "config/visualworkbench-server.toml"
+hash = "31e78df15ea394de05862d3b24c5031ea3eddf102cd117834f62acd3491314e6"
+
+[[files]]
 file = "config/voicechat/category-volumes.properties"
 hash = "94c1c4f70e5b995fbd71e86d4fa646030437fecae0685875b560a55fbd0d0e56"
 
@@ -1187,6 +1239,11 @@ hash = "7ef94ea62fd5eb7481d4f48fe39c3261b87c4d188d96fb727df16f05135235d7"
 metafile = true
 
 [[files]]
+file = "mods/diagonal-fences.pw.toml"
+hash = "59210adea35f8247745e406724754113d6a9c946e5bf937c2ee090c788ab604a"
+metafile = true
+
+[[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
 hash = "d70d5f48deab796e324e7b0e9b2fbda7fd6ff33cafd1e1ae32c5816012688090"
 metafile = true
@@ -1277,6 +1334,11 @@ hash = "70861d3b57deb7bc70a7a04dc8e49139744011db9aeb87b040b07ad18ac8536d"
 metafile = true
 
 [[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "5a4585373c1fbbabf77ea30c94d305f01602f95062783f9044da46fee2999959"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "166917dc56725111e696301688e8c8ec1215c9f3b4f4e5ec9cb70bde48cd359f"
 metafile = true
@@ -1359,6 +1421,11 @@ metafile = true
 [[files]]
 file = "mods/horseman.pw.toml"
 hash = "5c7133927d3f0c3ffea52407833b43d40b3a2c607dc432b19fd74ede26303ff9"
+metafile = true
+
+[[files]]
+file = "mods/illager-invasion.pw.toml"
+hash = "68cbc4a03a09e08f5ce734b585594c6b9c7506d77a3b0b697300de0119a29326"
 metafile = true
 
 [[files]]
@@ -1522,6 +1589,11 @@ hash = "12883727a13ee08039ef177ddef347c159ff0d395e2ef470d904d8666cb33581"
 metafile = true
 
 [[files]]
+file = "mods/player-animation-library.pw.toml"
+hash = "ba6ce9d7d7c6d5c35565f75bc7cb89e4fc785d099925e23fbad5939f1c732a96"
+metafile = true
+
+[[files]]
 file = "mods/pneumono_core.pw.toml"
 hash = "0eda85779dfbb3e046b448e5bf954a2bf2dc8e8a58f1ba22372345354dbadad3"
 metafile = true
@@ -1634,6 +1706,11 @@ metafile = true
 [[files]]
 file = "mods/unilib.pw.toml"
 hash = "749ced9e510a46f40059ff8d19f8cf098c192a78d0bfbf4f8be5329933284349"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+hash = "05c694bcbc464a7516812ac58fbdb9b28e2cc6700059d40c72c94c34fad788a5"
 metafile = true
 
 [[files]]
