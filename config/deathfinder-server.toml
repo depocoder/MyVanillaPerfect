@@ -1,19 +1,19 @@
 [death_messages]
 	#Show death message for players.
 	#Default Value: true
-	player_deaths = true
+	player_deaths = false
 	#Show death message for villagers.
 	#Default Value: true
-	villager_deaths = true
+	villager_deaths = false
 	#Show death message for all entities. Silence individual entities using the 'deathfinder:silent_deaths' entity type tag.
 	#Default Value: false
 	all_deaths = false
 	#Show death message for tamed entities.
 	#Default Value: true
-	pet_deaths = true
+	pet_deaths = false
 	#Show death message for named entities.
 	#Default Value: true
-	named_entity_deaths = true
+	named_entity_deaths = false
 
 [death_message_components]
 	#Who should be allowed to click the position component to teleport there.
@@ -21,10 +21,10 @@
 	#Operators can teleport to any death position without limitations, if enabled.
 	#Default Value: OPERATORS_ONLY
 	#Allowed Values: NO_ONE, OPERATORS_ONLY, EVERYONE
-	allow_teleporting = "OPERATORS_ONLY"
+	allow_teleporting = "NO_ONE"
 	#Add position component to death messages.
 	#Default Value: true
-	position_component = true
+	position_component = false
 	#Amount of seconds in which teleporting to the last death point is possible.
 	#Set to -1 to remove time limit.
 	#Default Value: 300
@@ -33,7 +33,7 @@
 	teleport_interval = 300
 	#Add distance component to death messages.
 	#Default Value: true
-	distance_component = true
+	distance_component = false
 	#Add dimension component to death messages.
 	#Default Value: true
-	dimension_component = true
+	dimension_component = false
