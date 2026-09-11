@@ -187,14 +187,14 @@
           "affect_cloud_fog": true
         },
         "minecraft:the_end": {
-          "distance_chunks": 32,
+          "distance_chunks": -1,
           "start_percent": 100,
           "shape_mode": "VANILLA",
           "affect_sky_fog": true,
           "affect_cloud_fog": true
         },
         "minecraft:the_nether": {
-          "distance_chunks": 0,
+          "distance_chunks": -1,
           "start_percent": 100,
           "shape_mode": "VANILLA",
           "affect_sky_fog": true,
