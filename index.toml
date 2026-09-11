@@ -234,7 +234,7 @@ hash = "7a4ceb8b56c367231a4703af7a9249e184b756bf2e9aeae717500aada5ac2a21"
 
 [[files]]
 file = "config/deathfinder-server.toml"
-hash = "d76a1003320043db46efd16342eb48ef0245891fff0d10dbcb114885a92894ef"
+hash = "55c1b1d6bb312c1856bdc8e3ad04e07088f57d6adb6bbcdf8a5aa69344ed4e00"
 
 [[files]]
 file = "config/debugify.json"
@@ -302,7 +302,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a68e03f0a8af017c6b9929736fa3e7eeafab3d486f7eb637582c4f1998224410"
+hash = "f3867f2d87198a7478660eecd9a5b342d5dc950b4381dc153976df88350de5fb"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -890,7 +890,7 @@ hash = "1f1549e3ea9e5b722d3e836529f9f715d18cfb731756a397a62227a94a0e7ca4"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "8f79059acc791ae8f6558995f3820254c0a9782e4c0417ddf2fee1da810083c9"
+hash = "3e0093b81df102e42bf25c18320d0b979e6672f347e35722ec5d0c3ae9abd519"
 
 [[files]]
 file = "config/sodium-extra.properties"

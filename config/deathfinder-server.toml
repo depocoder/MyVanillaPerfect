@@ -1,19 +1,19 @@
 [death_messages]
 	#Show death message for players.
 	#Default Value: true
-	player_deaths = false
+	player_deaths = true
 	#Show death message for villagers.
 	#Default Value: true
-	villager_deaths = false
+	villager_deaths = true
 	#Show death message for all entities. Silence individual entities using the 'deathfinder:silent_deaths' entity type tag.
 	#Default Value: false
 	all_deaths = false
 	#Show death message for tamed entities.
 	#Default Value: true
-	pet_deaths = false
+	pet_deaths = true
 	#Show death message for named entities.
 	#Default Value: true
-	named_entity_deaths = false
+	named_entity_deaths = true
 
 [death_message_components]
 	#Who should be allowed to click the position component to teleport there.
