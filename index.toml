@@ -334,7 +334,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b826184a3403dfe3674fd1ac01493f4a8a3a608e3b6be30f362382f77bb7dffa"
+hash = "30a863d73bec44dac457a985b3edc5dc0a3c31a79ecc6628454975815adec29c"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -447,6 +447,18 @@ hash = "c775fa1a9000ddb508b47ee9955dc24e2d89855539f805cd3d684e5af7996d16"
 [[files]]
 file = "config/inventory-particles/cache/illagerinvasion/spawn_areas.cached"
 hash = "43cf4c685e3e224b5fce269bb5cc775a102fc0e1de2c2337d59e6fff3f46a41a"
+
+[[files]]
+file = "config/inventory-particles/cache/scarecrowsterritory/atlas.png"
+hash = "539750a736fb18398e96964aa1a477711813511af8f4d71e83d690161f0dd6da"
+
+[[files]]
+file = "config/inventory-particles/cache/scarecrowsterritory/regions.txt"
+hash = "78e3197d8206243a0d8d13d01ea385170a42c008a1ffef1aedbcfd10935e7422"
+
+[[files]]
+file = "config/inventory-particles/cache/scarecrowsterritory/spawn_areas.cached"
+hash = "50b90b18970721a1a2014d3f482713db1aaf107e85d8ab8a451e08f5623b11f8"
 
 [[files]]
 file = "config/inventory_particles.json5"
@@ -913,6 +925,10 @@ file = "config/rrls.toml"
 hash = "3630be880dc7f037238b7e6347201d4f716ffc7e16db0a1498ef2f775cf8f5be"
 
 [[files]]
+file = "config/scarecrowsterritory-common.toml"
+hash = "ea02e5be3dbffc0be0d575d3abfb2e3b344914f2eccfa73a4dd9d5c206731da9"
+
+[[files]]
 file = "config/scribble.client.json"
 hash = "017e416a97f3197103c91fbf04742089810f3162dd7afcc8215579a44a4cb186"
 
@@ -1099,6 +1115,11 @@ hash = "3c9c20b6036a67c8b8e13f76b5f82cce03446b0ccda4ef732aa99a8dab80946f"
 [[files]]
 file = "emotes/blow kiss.emotecraft"
 hash = "e4e1998df50730cea768368b26c3263fc2c8fd52d7ddcf19ad9c8c64be77a445"
+
+[[files]]
+file = "mods/3d-maps.pw.toml"
+hash = "35dc9241eb2e03e974c0ebfebfdc84e9b1d7e8aedbbb1f7cbf534998ba3db221"
+metafile = true
 
 [[files]]
 file = "mods/advancement-screenshot.pw.toml"
@@ -1815,7 +1836,7 @@ file = "shaderpacks/BSL_v10.1.3.zip.disabled"
 hash = "185774628b5259c36255183fc1adeb0f64f89235f7ea2c826fa327d1112687a8"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.disabled"
+file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
 hash = "3f1cd389e717b2e62f58edff222059b9c60de71b14bb49b517eb58318ce35b15"
 
 [[files]]
