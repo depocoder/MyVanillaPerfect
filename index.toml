@@ -5,6 +5,18 @@ file = "config/.puzzle_cache/mojangstudios.png"
 hash = "27d2a588a33e94aff8cea4ea6090509ab3e10640f980e63dfd317c6b0dcd30df"
 
 [[files]]
+file = "config/0aae75c7-d2a6-43dd-83e9-fb0f7d211301.tmp"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/9633f576-66e5-4846-8968-92cafebc4777.tmp"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/9f1e9af4-f452-43fe-9f2b-b2599a631f3c.tmp"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/BBEConfig.json"
 hash = "e5f2ee57e9f9c0bd81af26c1918ceee988b3d726014c411f439406dc0fe60ef1"
 
@@ -322,7 +334,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "838c3210ff4b10c582bc914db2e66887e6c4b8239c343fe86319513386e3d732"
+hash = "b826184a3403dfe3674fd1ac01493f4a8a3a608e3b6be30f362382f77bb7dffa"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -549,6 +561,14 @@ file = "config/litematica.json"
 hash = "8dbdcff997759244e412801e7ec633ef213990a1562f8e3153991bf0fdedec42"
 
 [[files]]
+file = "config/litematica.json.tmp"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/litematica/litematica_127.0.0.1_8888_dim_minecraft_overworld.json.tmp"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/lithium.properties"
 hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 
@@ -559,6 +579,10 @@ hash = "110d0233eae368c47ffad95c258e1bbeff28cdbe9fe59ae75c7fa8564feefe32"
 [[files]]
 file = "config/malilib.json"
 hash = "45a37042ba822fad1f7d0d64888b95cde32954c807e712bb37ad57ae1da37a0e"
+
+[[files]]
+file = "config/malilib.json.tmp"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/midnightlib.json"
@@ -802,7 +826,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "53710c0b31555871ad8e7c8aca70bcef068104555f7fdd9734189433109f13e5"
+hash = "158ac16ec48f1cd75725f85b33a2a29800e7a4f6725e9662fbc4e87baf922e9a"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Без профиля.profile.json"
@@ -814,7 +838,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "eab65b6ea84d34e3a1eb41335e1935cbbba0791f8096b81629e9ca4a980e77a6"
+hash = "36d1a1704d74b73c759272b69adb546ec4a3db70c727544c28f0cea4a8d13ae5"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -983,6 +1007,10 @@ hash = "b2f22ee0f7b73a382f38eac364379c6c2e1ff0a913f0c65050878aff20a6d7eb"
 [[files]]
 file = "config/tweakeroo.json"
 hash = "9524431f360bd6a33d2cd3487babf0d0c0789398766d1d0bfa768c6c90d70d67"
+
+[[files]]
+file = "config/tweakeroo.json.tmp"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/ukulib.toml"
@@ -1650,6 +1678,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "2738db5919958ccc861da39a6e4676a55d0a8285034931f6eafafd1eeaab565c"
+metafile = true
+
+[[files]]
+file = "mods/scarecrows-territory.pw.toml"
+hash = "02e2a025c1c2447b72a380a19d467cd015c5a45042005577efc11991af0904ed"
 metafile = true
 
 [[files]]
