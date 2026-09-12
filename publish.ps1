@@ -15,7 +15,7 @@ $inst = "C:\Users\depo_pc\AppData\Roaming\PrismLauncher\instances\Fabulously Opt
 $pack = $PSScriptRoot                       # папка этого скрипта = папка пака
 $pw   = "C:\Users\depo_pc\go\bin\packwiz.exe"
 $ua   = @{ 'User-Agent' = 'fo-pack/1.0 (publish.ps1)' }
-$excludeConfig = @('sodium-options.json','iris.properties','emotecraft.json')  # личная графика/шейдер/колесо эмоций — не раздаём
+$excludeConfig = @('sodium-options.json','iris.properties','emotecraft.json','shulkerboxtooltip_mp_ender_chest_cache.dat','litematica_*.json')  # личная графика/шейдер/колесо эмоций/кэши — не раздаём
 $proxy = 'http://127.0.0.1:20808'  # локальный прокси/VPN для доступа к GitHub (поменяй порт, если у тебя другой)
 
 # Прокси задаём ТОЛЬКО для этой сессии скрипта; систему не трогаем, после выхода сбросится сам.
@@ -112,7 +112,7 @@ Write-Host "== 2/5 Overrides (config/shaderpacks/emotes) ==" -ForegroundColor Cy
 foreach($d in @('config','shaderpacks','emotes')){
   $src=Join-Path $inst $d; $dst=Join-Path $pack $d
   if($d -eq 'config'){ robocopy $src $dst /MIR /XF $excludeConfig /NFL /NDL /NJH /NJS /NP | Out-Null }
-  elseif($d -eq 'shaderpacks'){ robocopy $src $dst /MIR /XF *.txt /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки шейдеров — у каждого свои
+  elseif($d -eq 'shaderpacks'){ robocopy $src $dst /MIR /XF *.txt /XD "*EuphoriaPatches*" /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки и распакованные папки Euphoria Patcher (мод создаёт их сам) — нет
   else { robocopy $src $dst /MIR /NFL /NDL /NJH /NJS /NP | Out-Null }   # кастомные эмоции Emotecraft
 }
 $global:LASTEXITCODE=0
