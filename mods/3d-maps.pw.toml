@@ -1,0 +1,21 @@
+filename = '3d-maps-0.8.2.jar'
+name = '3D Maps'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1.2' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.8.2'
+
+[download]
+hash = '2312b6ddb5f621a6c0528ae871f3dd05669777575e492f4cb6348462c7a4d6d4ac11b023f7b7ff0f06c3af7d434d760341f1cb33cd1028b6d6e74b4fe55b0cc0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s4WQHerM/versions/5iDklO7Z/3d-maps-0.8.2.jar'
+
+[update.modrinth]
+mod-id = 's4WQHerM'
+version = '5iDklO7Z'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
