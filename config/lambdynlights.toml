@@ -172,6 +172,31 @@ mode = "fastest"
 				wither = true
 				spruce_chest_boat = true
 
+			[light_sources.settings.entities.tinyskeletons]
+				thrown_item = true
+				baby_stray = true
+				baby_wither_skeleton = true
+				baby_skeleton = true
+				baby_bogged = true
+				baby_parched = true
+
+			[light_sources.settings.entities.illagerinvasion]
+				skull_bolt = true
+				sorcerer = true
+				alchemist = true
+				surrendered = true
+				basher = true
+				necromancer = true
+				firecaller = true
+				invoker = true
+				marauder = true
+				invoker_fangs = true
+				flying_magma = true
+				hatchet = true
+				archivist = true
+				provoker = true
+				inquisitor = true
+
 [debug]
 	active_dynamic_lighting_cells = false
 	display_dynamic_lighting_chunk_rebuild = false
