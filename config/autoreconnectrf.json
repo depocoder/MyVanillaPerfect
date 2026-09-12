@@ -6,8 +6,8 @@
       30,
       60
     ],
-    "initial": false,
-    "infinite": false,
+    "initial": true,
+    "infinite": true,
     "conditionType": false,
     "conditionKeys": [
       "disconnect.loginFailedInfo",
