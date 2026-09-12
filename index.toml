@@ -846,7 +846,7 @@ hash = "00c6f09d17d414269dae0b09ad2d5de036aa7bfda3b6c793f3970335a751bd7c"
 
 [[files]]
 file = "config/pingwheel.json"
-hash = "6878009a9f7ca2309feb78f6884556493b6752232f7f87e12901dbb6946ab5ea"
+hash = "15b2caa22d0fe7b42ecca00e963b42918f25cf9b2549f4fda11f24df93d12d1b"
 
 [[files]]
 file = "config/pingwheel.server.json"
@@ -982,7 +982,7 @@ hash = "b2f22ee0f7b73a382f38eac364379c6c2e1ff0a913f0c65050878aff20a6d7eb"
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "b7551053dd2f61e78516dc16f72e39c386fcccd5e8897b217fd565d0f2330a7a"
+hash = "9524431f360bd6a33d2cd3487babf0d0c0789398766d1d0bfa768c6c90d70d67"
 
 [[files]]
 file = "config/ukulib.toml"
