@@ -15,7 +15,7 @@ $inst = "C:\Users\depo_pc\AppData\Roaming\PrismLauncher\instances\Fabulously Opt
 $pack = $PSScriptRoot                       # папка этого скрипта = папка пака
 $pw   = "C:\Users\depo_pc\go\bin\packwiz.exe"
 $ua   = @{ 'User-Agent' = 'fo-pack/1.0 (publish.ps1)' }
-$excludeConfig = @('sodium-options.json','iris.properties')  # личная графика/шейдер — не раздаём
+$excludeConfig = @('sodium-options.json','iris.properties','emotecraft.json')  # личная графика/шейдер/колесо эмоций — не раздаём
 $proxy = 'http://127.0.0.1:20808'  # локальный прокси/VPN для доступа к GitHub (поменяй порт, если у тебя другой)
 
 # Прокси задаём ТОЛЬКО для этой сессии скрипта; систему не трогаем, после выхода сбросится сам.
@@ -107,12 +107,13 @@ if($dupes){
   exit 1
 }
 
-Write-Host "== 2/5 Overrides (config/shaderpacks) ==" -ForegroundColor Cyan
+Write-Host "== 2/5 Overrides (config/shaderpacks/emotes) ==" -ForegroundColor Cyan
 # resourcepacks намеренно НЕ раздаём: каждый ставит свои
-foreach($d in @('config','shaderpacks')){
+foreach($d in @('config','shaderpacks','emotes')){
   $src=Join-Path $inst $d; $dst=Join-Path $pack $d
   if($d -eq 'config'){ robocopy $src $dst /MIR /XF $excludeConfig /NFL /NDL /NJH /NJS /NP | Out-Null }
-  else { robocopy $src $dst /MIR /XF *.txt /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки шейдеров — у каждого свои
+  elseif($d -eq 'shaderpacks'){ robocopy $src $dst /MIR /XF *.txt /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки шейдеров — у каждого свои
+  else { robocopy $src $dst /MIR /NFL /NDL /NJH /NJS /NP | Out-Null }   # кастомные эмоции Emotecraft
 }
 $global:LASTEXITCODE=0
 

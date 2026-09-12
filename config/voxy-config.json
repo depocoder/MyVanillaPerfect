@@ -2,7 +2,7 @@
   "enabled": true,
   "enable_rendering": true,
   "ingest_enabled": true,
-  "section_render_distance": 3.125,
+  "section_render_distance": 5.9375,
   "service_threads": 16,
   "sub_division_size": 64.9186,
   "use_environmental_fog": false,
