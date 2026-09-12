@@ -2,47 +2,32 @@
   "selected_animations": [
     {
       "kind": "item",
-      "definition": "SPEAR",
-      "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining": "pack:punchy:punchy",
-        "hand_in": "pack:punchy:punchy",
-        "spear_charge": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
       "definition": "FULL_BLOCK",
       "animations": {
-        "attack": "pack:punchy:punchy",
-        "mining_v2": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "SHOVEL",
-      "animations": {
-        "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
-        "useitem": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "MACE",
-      "animations": {
+        "useitem": "pack:punchy:punchy",
+        "interaction": "pack:punchy:punchy",
+        "inspect": "pack:punchy:punchy",
         "mining_v2": "pack:punchy:punchy",
         "attack": "pack:punchy:punchy"
       }
     },
     {
       "kind": "item",
-      "definition": "SWORD",
+      "definition": "EMPTY_HAND",
+      "animations": {
+        "mining": "pack:punchy:punchy",
+        "interaction": "punchy_default",
+        "attack": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SPEAR",
       "animations": {
         "attack": "pack:punchy:punchy",
-        "mining_v2": "pack:punchy:punchy",
-        "inspect": "pack:punchy:punchy",
-        "triggerable": "pack:punchy:punchy"
+        "hand_in": "pack:punchy:punchy",
+        "spear_charge": "pack:punchy:punchy",
+        "mining": "pack:punchy:punchy"
       }
     },
     {
@@ -62,35 +47,20 @@
     },
     {
       "kind": "item",
-      "definition": "SHIELD",
-      "animations": {
-        "use_shield": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
       "definition": "FISHING_ROD",
       "animations": {
-        "fishingrod": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy"
+        "useitem": "pack:punchy:punchy",
+        "attack": "pack:punchy:punchy",
+        "fishingrod": "pack:punchy:punchy"
       }
     },
     {
       "kind": "item",
       "definition": "AXE",
       "animations": {
-        "mining_v2": "pack:punchy:punchy",
         "attack": "pack:punchy:punchy",
-        "useitem": "pack:punchy:punchy"
-      }
-    },
-    {
-      "kind": "item",
-      "definition": "HOE",
-      "animations": {
+        "inspect": "pack:punchy:punchy",
         "mining_v2": "pack:punchy:punchy",
-        "attack": "pack:punchy:punchy",
         "useitem": "pack:punchy:punchy"
       }
     },
@@ -105,14 +75,55 @@
       "kind": "item",
       "definition": "PICKAXE",
       "animations": {
-        "mining_v2": "pack:punchy:punchy",
         "attack": "pack:punchy:punchy",
+        "interaction": "pack:punchy:punchy",
+        "mining_v2": "pack:punchy:punchy",
         "inspect": "pack:punchy:punchy"
       }
     },
     {
       "kind": "item",
-      "definition": "EMPTY_HAND",
+      "definition": "HOE",
+      "animations": {
+        "attack": "pack:punchy:punchy",
+        "useitem": "pack:punchy:punchy",
+        "interaction": "pack:punchy:punchy",
+        "mining_v2": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHOVEL",
+      "animations": {
+        "attack": "pack:punchy:punchy",
+        "useitem": "pack:punchy:punchy",
+        "interaction": "pack:punchy:punchy",
+        "mining_v2": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SWORD",
+      "animations": {
+        "attack": "pack:punchy:punchy",
+        "hand_in": "pack:punchy:punchy",
+        "inspect": "pack:punchy:punchy",
+        "interaction": "pack:punchy:punchy",
+        "mining_v2": "pack:punchy:punchy",
+        "triggerable": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHIELD",
+      "animations": {
+        "use_shield": "pack:punchy:punchy",
+        "attack": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "MACE",
       "animations": {
         "mining_v2": "pack:punchy:punchy",
         "attack": "pack:punchy:punchy"
