@@ -850,7 +850,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "36d1a1704d74b73c759272b69adb546ec4a3db70c727544c28f0cea4a8d13ae5"
+hash = "a4cae4608c421fe89ba83e526d76181b662c4e1ce1e190e0dac44f780e797f60"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -926,7 +926,7 @@ hash = "3630be880dc7f037238b7e6347201d4f716ffc7e16db0a1498ef2f775cf8f5be"
 
 [[files]]
 file = "config/scarecrowsterritory-common.toml"
-hash = "ea02e5be3dbffc0be0d575d3abfb2e3b344914f2eccfa73a4dd9d5c206731da9"
+hash = "942bade330ec6dd56cd84749fc552a4c494bdd0a0d52366d7ded9f9a365b789c"
 
 [[files]]
 file = "config/scribble.client.json"
@@ -1022,7 +1022,7 @@ hash = "b2f22ee0f7b73a382f38eac364379c6c2e1ff0a913f0c65050878aff20a6d7eb"
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "9524431f360bd6a33d2cd3487babf0d0c0789398766d1d0bfa768c6c90d70d67"
+hash = "ce502b6c110275e717ff72195e46e6fb8739344738207850eaafa5ca0e756ae6"
 
 [[files]]
 file = "config/tweakeroo.json.tmp"
