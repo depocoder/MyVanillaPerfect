@@ -334,7 +334,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "30a863d73bec44dac457a985b3edc5dc0a3c31a79ecc6628454975815adec29c"
+hash = "89d9ab13e3e840b59c56f9e283cc68dd3947e0ea7242325af3dd4ab282079d56"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -1115,11 +1115,6 @@ hash = "3c9c20b6036a67c8b8e13f76b5f82cce03446b0ccda4ef732aa99a8dab80946f"
 [[files]]
 file = "emotes/blow kiss.emotecraft"
 hash = "e4e1998df50730cea768368b26c3263fc2c8fd52d7ddcf19ad9c8c64be77a445"
-
-[[files]]
-file = "mods/3d-maps.pw.toml"
-hash = "35dc9241eb2e03e974c0ebfebfdc84e9b1d7e8aedbbb1f7cbf534998ba3db221"
-metafile = true
 
 [[files]]
 file = "mods/advancement-screenshot.pw.toml"
