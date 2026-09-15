@@ -15,7 +15,8 @@ $inst = "C:\Users\depo_pc\AppData\Roaming\PrismLauncher\instances\Fabulously Opt
 $pack = $PSScriptRoot                       # папка этого скрипта = папка пака
 $pw   = "C:\Users\depo_pc\go\bin\packwiz.exe"
 $ua   = @{ 'User-Agent' = 'fo-pack/1.0 (publish.ps1)' }
-$excludeConfig = @('sodium-options.json','iris.properties','emotecraft.json','shulkerboxtooltip_mp_ender_chest_cache.dat','litematica_*.json')  # личная графика/шейдер/колесо эмоций/кэши — не раздаём
+$excludeConfig = @('sodium-options.json','iris.properties','emotecraft.json','shulkerboxtooltip_mp_ender_chest_cache.dat','litematica.json*','voicechat-client.properties')  # личная графика/шейдер/колесо эмоций/кэши/хоткеи Litematica/микрофон войс-чата — не раздаём
+$excludeConfigDirs = @('litematica','punchy')  # личные настройки Punchy и данные Litematica по мирам — не раздаём
 $proxy = 'http://127.0.0.1:20808'  # локальный прокси/VPN для доступа к GitHub (поменяй порт, если у тебя другой)
 
 # Прокси задаём ТОЛЬКО для этой сессии скрипта; систему не трогаем, после выхода сбросится сам.
@@ -111,7 +112,7 @@ Write-Host "== 2/5 Overrides (config/shaderpacks/emotes) ==" -ForegroundColor Cy
 # resourcepacks намеренно НЕ раздаём: каждый ставит свои
 foreach($d in @('config','shaderpacks','emotes')){
   $src=Join-Path $inst $d; $dst=Join-Path $pack $d
-  if($d -eq 'config'){ robocopy $src $dst /MIR /XF $excludeConfig /NFL /NDL /NJH /NJS /NP | Out-Null }
+  if($d -eq 'config'){ robocopy $src $dst /MIR /XF $excludeConfig /XD $excludeConfigDirs /NFL /NDL /NJH /NJS /NP | Out-Null }
   elseif($d -eq 'shaderpacks'){ robocopy $src $dst /MIR /XF *.txt /XD "*EuphoriaPatches*" /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки и распакованные папки Euphoria Patcher (мод создаёт их сам) — нет
   else { robocopy $src $dst /MIR /NFL /NDL /NJH /NJS /NP | Out-Null }   # кастомные эмоции Emotecraft
 }
