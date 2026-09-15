@@ -19,3 +19,7 @@ publish.ps1
 .packwizignore
 .github/
 shaderpacks/*.txt
+config/litematica/
+config/litematica.json*
+config/punchy/
+config/voicechat/voicechat-client.properties
