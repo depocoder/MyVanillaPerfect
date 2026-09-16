@@ -28,7 +28,7 @@
 		}
 	},
 	common: {
-		search_range_blocks: 8,
+		search_range_blocks: 12,
 		do_nested_search: true,
 		command_aliases: [
 			"whereis"

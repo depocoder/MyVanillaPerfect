@@ -338,7 +338,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "74f30d737d9201dcd80dc9cddbac8ff9dd2d4623f1675a8a969ec4833bb41ade"
+hash = "58ee09f2a683e3923da2b7e97b51eddb628a4bce18f334bcb25754fd489d696d"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -1066,7 +1066,7 @@ hash = "b30cdb7a7fbdb14e6d81c5b6934429084e8b9b41ec49891068114db00a8e5fb8"
 
 [[files]]
 file = "config/whereisit.json5"
-hash = "828a73cf298c50040faf1c9ea9fdb0992948a2bdec2a3351cfc5866c6d421ccc"
+hash = "b5d58561e5f6e79f969a8bbe5bdda0662272058bcbd51715cf6e4f4b3cb17c56"
 
 [[files]]
 file = "config/worldplaytime/config.json"
@@ -1101,6 +1101,11 @@ file = "emotes/blow kiss.emotecraft"
 hash = "e4e1998df50730cea768368b26c3263fc2c8fd52d7ddcf19ad9c8c64be77a445"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "6bf50a48c586bbd2a07b230872dc11f47a1927d3f9d6287d3f67825880c8e350"
+metafile = true
+
+[[files]]
 file = "mods/advancement-screenshot.pw.toml"
 hash = "3de2eb0912e087f1b68f35874f55e0ccd20b792f1acf53138461efab8e5fe90d"
 metafile = true
@@ -1128,6 +1133,11 @@ metafile = true
 [[files]]
 file = "mods/autoreconnectrf.pw.toml"
 hash = "d349519dcc78cb0790956eec3e8bb0d2cea38ccdb67ded468948bb83dc328913"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "390e51d6f3bd2ac12cc748f6bfd13b2c121f42becef9e7d32f87c2d7ad4a4c58"
 metafile = true
 
 [[files]]
@@ -1503,6 +1513,11 @@ metafile = true
 [[files]]
 file = "mods/ixeris.pw.toml"
 hash = "4545be3aeea81e37cfafc60a807b32000d08d269d7d834f65ee931d10d7ccb27"
+metafile = true
+
+[[files]]
+file = "mods/kleeslabs.pw.toml"
+hash = "85c6cf6d1e22daa63e57b1cc802005541fa1837620709de725aaf8742181f8f4"
 metafile = true
 
 [[files]]
