@@ -3,7 +3,8 @@
 #   или в терминале:  powershell -ExecutionPolicy Bypass -File publish.ps1
 #
 # Что делает: пересобирает метаданные модов из твоего инстанса (с прямыми ссылками
-# на Modrinth), синхронит config/shaderpacks (ресурспаки не раздаём), обновляет packwiz-индекс
+# на Modrinth; jar без Modrinth-версии, например пропатченный мод, кладётся в пак как файл),
+# синхронит config/shaderpacks (ресурспаки не раздаём), обновляет packwiz-индекс
 # и пушит в GitHub. Друзья получат обновление при следующем запуске игры.
 
 $ErrorActionPreference = 'Continue'
@@ -60,8 +61,11 @@ if(Test-Path $idx){
     }
   }
 }
-# дозалитые вручную моды без метаданных Prism -> ищем на Modrinth по хэшу
+# дозалитые вручную моды без метаданных Prism -> ищем на Modrinth по хэшу.
+# Jar, которого на Modrinth нет (например, пропатченная сборка мода), кладём в пак как обычный файл:
+# packwiz раздаёт его прямо из репозитория, а старую версию у друзей удаляет сам.
 $staleJars = @()
+$localJars = @{}
 foreach($j in $enabled){ if(-not $covered.ContainsKey($j.Name)){
   $sha1=(Get-FileHash $j.FullName -Algorithm SHA1).Hash.ToLower()
   try{ $v=Invoke-RestMethod "https://api.modrinth.com/v2/version_file/$sha1" -Headers $ua
@@ -74,8 +78,25 @@ foreach($j in $enabled){ if(-not $covered.ContainsKey($j.Name)){
        Write-MrToml (Join-Path $pm "$slug.pw.toml") $j.Name $j.BaseName 'both' $v
        $knownIds[$v.project_id] = $j.Name
        Write-Host "  + $($j.Name)" }
-  catch{ Write-Host "  ! НЕ найден на Modrinth: $($j.Name) — добавь вручную (packwiz cf add / url add)" -ForegroundColor Yellow }
+  catch{
+    $code = 0; try{ $code = [int]$_.Exception.Response.StatusCode }catch{}
+    if($code -eq 404){
+      Copy-Item $j.FullName (Join-Path $pm $j.Name) -Force
+      $localJars[$j.Name] = $true
+      Write-Host "  + $($j.Name) (нет на Modrinth — раздаём сам jar из пака)" -ForegroundColor DarkYellow
+    } elseif(Test-Path (Join-Path $pm $j.Name)){
+      # Modrinth не ответил, но этот jar уже лежит в паке — оставляем как есть
+      $localJars[$j.Name] = $true
+      Write-Host "  = $($j.Name) (Modrinth не ответил, HTTP $code — оставлен локальный jar)" -ForegroundColor DarkGray
+    } else {
+      Write-Host "  ! Modrinth не ответил по $($j.Name) (HTTP $code) — мод пропущен, запусти скрипт ещё раз" -ForegroundColor Yellow
+    }
+  }
 }}
+# локальные jar, которых больше нет в инстансе, убираем из пака
+foreach($lj in (Get-ChildItem $pm -Filter *.jar -File)){
+  if(-not $localJars.ContainsKey($lj.Name)){ Remove-Item $lj.FullName -Force; Write-Host "  - $($lj.Name) (локальный jar убран из пака)" -ForegroundColor DarkGray }
+}
 # любые CF-ссылки -> переводим на прямой Modrinth
 foreach($f in (Get-ChildItem $pm -Filter *.pw.toml)){
   $c=Get-Content $f.FullName -Raw

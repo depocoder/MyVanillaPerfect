@@ -65,6 +65,14 @@ file = "config/autoreconnectrf.json"
 hash = "a9b9a18c1bb66af44d3c3aef83b314d0ddbf773824bf8bf28cd2905469adc182"
 
 [[files]]
+file = "config/bclib/client.json"
+hash = "775cf5f6f4f9ba7cb906d5f060808b5f4671bb8f0715a9778a633d1f02477ef3"
+
+[[files]]
+file = "config/bclib/main.json"
+hash = "b0434d69def416fe260be56416f99bcfff5aa1a1590aae5d7861128f03cd02be"
+
+[[files]]
 file = "config/better_screenshots.json"
 hash = "e57a9dd5338557d7d3efa84b8c669a4c81ab0c2ba437e4b8597fcf1f3ce481b3"
 
@@ -149,8 +157,28 @@ file = "config/continuity.json"
 hash = "28eaff624c99a24e49882e5f56496a9e0f55e9a25e583e9313b0360494810b65"
 
 [[files]]
-file = "config/controlify.json"
+file = "config/controlify.json.backup"
 hash = "d67ac51bd350ac878284f2e186cacd225770746add019590cd8091f1d57ca97b"
+
+[[files]]
+file = "config/controlify/controlify.json"
+hash = "a02be552271073c070578b0998c6917564dea0e21328b1324c796397d902a495"
+
+[[files]]
+file = "config/controlify/profile-1.json"
+hash = "f3051cdad72a13e4e191fe133f768c588e07a8637e11954b9541f12f0c54a81a"
+
+[[files]]
+file = "config/controlify/profile-1.lock"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/controlify/profile-2.json"
+hash = "f3051cdad72a13e4e191fe133f768c588e07a8637e11954b9541f12f0c54a81a"
+
+[[files]]
+file = "config/controlify/profile-2.lock"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/craftpresence.json"
@@ -338,7 +366,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "58ee09f2a683e3923da2b7e97b51eddb628a4bce18f334bcb25754fd489d696d"
+hash = "091795d7b8996fb62790a97d07feb1fc97b98c8a41a72cac2ffd24e41bfdf1f7"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -551,6 +579,10 @@ hash = "6378bc385b12a9e73b35c0390f47758120e89982d644fc36b20c3ae526e32c27"
 [[files]]
 file = "config/ixeris.toml"
 hash = "2aa4011e85ac263e8b8817af09eae4566fb83fa3404282ba923978cf29959579"
+
+[[files]]
+file = "config/kleeslabs-common.toml"
+hash = "a726eaa05f569f69edcc79379455a73520c966ccc325456b4872e4b6c80cae6f"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -937,6 +969,10 @@ file = "config/simple_favorite_items_favourites.json"
 hash = "e2013c21d8fce825c5bd4d9dda94c2752a8c6b86f5a53296c9d4b29331e36086"
 
 [[files]]
+file = "config/skinlayers.json"
+hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+
+[[files]]
 file = "config/skyboxify.json"
 hash = "1f1549e3ea9e5b722d3e836529f9f715d18cfb731756a397a62227a94a0e7ca4"
 
@@ -1071,6 +1107,18 @@ hash = "b5d58561e5f6e79f969a8bbe5bdda0662272058bcbd51715cf6e4f4b3cb17c56"
 [[files]]
 file = "config/worldplaytime/config.json"
 hash = "2dafd311e06ef3b74cbb2d686e4312a9be24f8e2870b02d0af8f3b9097665a5e"
+
+[[files]]
+file = "config/wover/cached.json"
+hash = "4b3f6e132d886040e1b03780bf923e2b9b1a103ea3ed84cbea31a28ded0ce940"
+
+[[files]]
+file = "config/wover/client.json"
+hash = "1bc134faba9360c95401204e9d44063acc86f68440bf9915367b43af31a58d28"
+
+[[files]]
+file = "config/wover/main.json"
+hash = "a7bea58851f87098de3f7a94716efad9b9b080d28b25cd4350eb90c7652f39c9"
 
 [[files]]
 file = "config/yacl.json5"
@@ -1248,6 +1296,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "b0148cdd9db4b2658f2ca4aaebfb19e85454d5e464fdb2cab3185e46b3310a3c"
+metafile = true
+
+[[files]]
+file = "mods/controlify.pw.toml"
+hash = "3939515bb5b5c224fd79a7182fc5eefc1c60da29b3682a15f1ec8dfa056154fb"
 metafile = true
 
 [[files]]
@@ -1701,9 +1754,8 @@ hash = "2738db5919958ccc861da39a6e4676a55d0a8285034931f6eafafd1eeaab565c"
 metafile = true
 
 [[files]]
-file = "mods/scarecrows-territory.pw.toml"
-hash = "02e2a025c1c2447b72a380a19d467cd015c5a45042005577efc11991af0904ed"
-metafile = true
+file = "mods/scarecrowsterritory-1.1.11levelfix-fabric-mc26.1.jar"
+hash = "0b0ef20f77ed1b903aa6c6e53092f6f946b212be1a720a9b8dc94bf66a9321b3"
 
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"

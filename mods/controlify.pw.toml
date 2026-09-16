@@ -1,0 +1,29 @@
+filename = 'controlify-3.5.0+mc26.1-universal.jar'
+name = 'Controlify (Controller support)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '3.5.0+mc26.1'
+
+[download]
+hash = 'a1f2996d4414b03f0add170ad991ab03886c5b1589601a5d581a38361546a6e7079f18fc7ea6dc10b5fdfb8497cd8fc186c14503ae249fbfc927bf30f68714cf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DOUdJVEm/versions/oEMsb0wo/controlify-3.5.0%2Bmc26.1-universal.jar'
+
+[update.modrinth]
+mod-id = 'DOUdJVEm'
+version = 'oEMsb0wo'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

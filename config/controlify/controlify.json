@@ -1,0 +1,48 @@
+{
+  "schema_version": 8,
+  "global": {
+    "virtual_mouse_screens": [
+      "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen"
+    ],
+    "mixed_input": true,
+    "out_of_focus_input": false,
+    "reach_around": "off",
+    "allow_server_rumble": true,
+    "extra_ui_sounds": true,
+    "notify_low_battery": true,
+    "ingame_button_guide_scale": 1.0,
+    "use_enhanced_steam_deck_driver": true,
+    "keyboard_movement": false,
+    "analogue_movement_whitelist": [],
+    "seen_servers": [
+      "127.0.0.1:25565"
+    ],
+    "show_splitscreen_ad": true
+  },
+  "devices": {
+    "117ddf15b98b03f4fbecd90ddf6529cd": {
+      "name": "Steam Controller",
+      "last_seen": 1789585064812,
+      "controller_type": "controlify:steam_controller",
+      "gyro_calibration": {}
+    },
+    "7394dd9f6667b6a9d5350303b375c6ac": {
+      "name": "Steam Controller",
+      "last_seen": 1789586058762,
+      "controller_type": "controlify:steam_controller",
+      "gyro_calibration": {
+        "offset": {
+          "pitch": 0.0071407147,
+          "yaw": -4.5146607E-4,
+          "roll": -0.0040467996
+        }
+      }
+    },
+    "117ddf15b98b03f4fbecd90ddf6529cd-1": {
+      "name": "Steam Controller",
+      "last_seen": 1789581411357,
+      "controller_type": "controlify:steam_controller",
+      "gyro_calibration": {}
+    }
+  }
+}
