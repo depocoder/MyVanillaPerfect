@@ -109,6 +109,10 @@ file = "config/cherishedworlds-client.toml"
 hash = "8a9beb0407d9e61a68cb814f8afb9a80ddc58a9ac4bec406fef96aa3066dff38"
 
 [[files]]
+file = "config/chesttracker.json5"
+hash = "ef3e640a745d2876b057c1d643e86917870e3de4d9471be7e0d0addb8e0f1557"
+
+[[files]]
 file = "config/chunkloaders-common.toml"
 hash = "69a424340ea4d289c7227f9a23901a9e265d8b7e8a925f2ad241f4ac58216fc7"
 
@@ -334,7 +338,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b51fde920735d34e535ad4c09d460818c3238deffebf48235b54d4432074afc7"
+hash = "74f30d737d9201dcd80dc9cddbac8ff9dd2d4623f1675a8a969ec4833bb41ade"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -1061,6 +1065,10 @@ file = "config/vss-server-config.json"
 hash = "b30cdb7a7fbdb14e6d81c5b6934429084e8b9b41ec49891068114db00a8e5fb8"
 
 [[files]]
+file = "config/whereisit.json5"
+hash = "828a73cf298c50040faf1c9ea9fdb0992948a2bdec2a3351cfc5866c6d421ccc"
+
+[[files]]
 file = "config/worldplaytime/config.json"
 hash = "2dafd311e06ef3b74cbb2d686e4312a9be24f8e2870b02d0af8f3b9097665a5e"
 
@@ -1519,7 +1527,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "a171cd6ac14572befef624c8ac4aeae158691b13e51806a9231e9cecca26eee0"
+hash = "d3b5ce0e63cf0ba6e2bac801e42e1ac444abe8dacc13a6702ee7d8176ef9a980"
 metafile = true
 
 [[files]]
@@ -1539,7 +1547,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "68226b59eb654a53234ec55f4a1649361b87a80e6bc712806c1f2e4dd94a7f55"
+hash = "6f17ea6b0afe6630625810074a1200a68324214fc6f116ae53df6d4e5a54f3b7"
 metafile = true
 
 [[files]]
