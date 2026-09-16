@@ -366,7 +366,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0bf4501ca77d82834f69a01abc6e7889aa6aa47b916efef57a0611828f9ece5d"
+hash = "11e3506a755402bf63f8eb974e5453def87ab8ad417f02b94c85919351751811"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -579,10 +579,6 @@ hash = "6378bc385b12a9e73b35c0390f47758120e89982d644fc36b20c3ae526e32c27"
 [[files]]
 file = "config/ixeris.toml"
 hash = "2aa4011e85ac263e8b8817af09eae4566fb83fa3404282ba923978cf29959579"
-
-[[files]]
-file = "config/kleeslabs-common.toml"
-hash = "a726eaa05f569f69edcc79379455a73520c966ccc325456b4872e4b6c80cae6f"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -870,7 +866,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "0470d68bf4c73ccb6265335d57a7203feda7a3d9e39caea6cf89f86b4c0c896b"
+hash = "d8a0ea14dcdebebd5214b66300eedb3f28ef407fdf8c1a940ce9f19f35a2bae7"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Без профиля.profile.json"
@@ -882,7 +878,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "1fa2a17b67b4a09d2706ccf4430928adbe9e0fe82d4a51e42d143602758a94ec"
+hash = "f5f8ab6be7b95320a3058d2f1d8ed158168c9667c3060b7947f48cc71610beb6"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -1181,11 +1177,6 @@ metafile = true
 [[files]]
 file = "mods/autoreconnectrf.pw.toml"
 hash = "d349519dcc78cb0790956eec3e8bb0d2cea38ccdb67ded468948bb83dc328913"
-metafile = true
-
-[[files]]
-file = "mods/balm.pw.toml"
-hash = "390e51d6f3bd2ac12cc748f6bfd13b2c121f42becef9e7d32f87c2d7ad4a4c58"
 metafile = true
 
 [[files]]
@@ -1569,11 +1560,6 @@ hash = "4545be3aeea81e37cfafc60a807b32000d08d269d7d834f65ee931d10d7ccb27"
 metafile = true
 
 [[files]]
-file = "mods/kleeslabs.pw.toml"
-hash = "85c6cf6d1e22daa63e57b1cc802005541fa1837620709de725aaf8742181f8f4"
-metafile = true
-
-[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "2226eecbcb533ee79a9d5aeddce37805233bb494fe098515f5765d14926d41b0"
 metafile = true
@@ -1661,11 +1647,6 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "8f6b12e6fca4e9510e785c4c573086a0380f7fbec73f5e5ff8eade4569a42e08"
-metafile = true
-
-[[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "c7412437afe0d87a563f310c0af75a4d4de4d470b8c019ab3dd569336414f458"
 metafile = true
 
 [[files]]
