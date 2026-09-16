@@ -366,7 +366,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "091795d7b8996fb62790a97d07feb1fc97b98c8a41a72cac2ffd24e41bfdf1f7"
+hash = "0bf4501ca77d82834f69a01abc6e7889aa6aa47b916efef57a0611828f9ece5d"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -1754,8 +1754,8 @@ hash = "2738db5919958ccc861da39a6e4676a55d0a8285034931f6eafafd1eeaab565c"
 metafile = true
 
 [[files]]
-file = "mods/scarecrowsterritory-1.1.11levelfix-fabric-mc26.1.jar"
-hash = "0b0ef20f77ed1b903aa6c6e53092f6f946b212be1a720a9b8dc94bf66a9321b3"
+file = "mods/scarecrowsterritory-1.1.11levelfix2-fabric-mc26.1.jar"
+hash = "98f354918ba8d0aa5ba6371d3134c26062219fc0963057a507625e8090e44b1c"
 
 [[files]]
 file = "mods/shatterbyte-lib.pw.toml"
