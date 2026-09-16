@@ -334,7 +334,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0f1bd3b46501f6837ebbfe4509185ce0c141531db9bdcd51483e6656594bcf73"
+hash = "b51fde920735d34e535ad4c09d460818c3238deffebf48235b54d4432074afc7"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -834,7 +834,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "aa13087a6d5af08c736290849017e34fb61a65a3dc79a9fe8ec9f8d22707d1b7"
+hash = "0470d68bf4c73ccb6265335d57a7203feda7a3d9e39caea6cf89f86b4c0c896b"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Без профиля.profile.json"
@@ -846,7 +846,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/patpat/patpat-client-stats.json5"
-hash = "df583500e97e3c5d01d467f0b051d9ec05c42eff848d6cc470def2873a48563e"
+hash = "1fa2a17b67b4a09d2706ccf4430928adbe9e0fe82d4a51e42d143602758a94ec"
 
 [[files]]
 file = "config/patpat/patpat-client.json5"
@@ -874,7 +874,7 @@ hash = "f7addbe1a44760c8f3242e202c7d24a56bafcbc23c1f7b8e25b20bdbf5187cfe"
 
 [[files]]
 file = "config/pickupnotifications.toml"
-hash = "00c6f09d17d414269dae0b09ad2d5de036aa7bfda3b6c793f3970335a751bd7c"
+hash = "e4944cdc068fc751d144278fd6550c2bf0af613cff50773b1392741a14d96311"
 
 [[files]]
 file = "config/pingwheel.json"
@@ -1030,7 +1030,7 @@ hash = "94c1c4f70e5b995fbd71e86d4fa646030437fecae0685875b560a55fbd0d0e56"
 
 [[files]]
 file = "config/voicechat/player-volumes.properties"
-hash = "d019d89fa67e55e74ecb0126ef61d3ac04c4fa8743fa885618ae92a70d7b4c7d"
+hash = "984e6ee4fa3d71b522172406187a4116c84a6a53f55626b7cb0de5cc98fe350d"
 
 [[files]]
 file = "config/voicechat/translations.properties"
@@ -1185,6 +1185,11 @@ metafile = true
 [[files]]
 file = "mods/cherished-worlds.pw.toml"
 hash = "6054b7520ef8e465ecc752b85135b963cc38f495c3d57ba1af5216aae8351b85"
+metafile = true
+
+[[files]]
+file = "mods/chest-tracker-port.pw.toml"
+hash = "899dbbc862cba0759f767f0f64e024fa87dec630a11a83d8c683fe3dc3ab2509"
 metafile = true
 
 [[files]]

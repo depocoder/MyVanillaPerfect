@@ -16,7 +16,7 @@ guiScale = 1.0
 # How many notifications can be on the screen at a time.
 # Additional notifications will be queued up and shown once
 # there is room.
-maxNotifications = 4
+maxNotifications = 5
 # Whether the item icons should appear on the 'left' or
 # 'right' of notifications, always on the 'outside' (left for
 # left-aligned, right for right-aligned), or always on the
