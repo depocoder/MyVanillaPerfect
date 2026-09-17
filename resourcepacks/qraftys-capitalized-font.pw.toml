@@ -1,0 +1,13 @@
+name = "qrafty's Capitalized Font"
+filename = "qrafty's-capitalized-font-4.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FA4ebMMU/versions/OfUda66d/qrafty%27s-capitalized-font-4.1.zip"
+hash-format = "sha512"
+hash = "0dea2adab1eed39b2cfcd33e3b5185b59ccb4257583af9973a42a1a5866e225ea228c430d749154e8baaf9cbddd8ebaa45716300c591678ab260f99b9caaa443"
+
+[update]
+[update.modrinth]
+mod-id = "FA4ebMMU"
+version = "OfUda66d"

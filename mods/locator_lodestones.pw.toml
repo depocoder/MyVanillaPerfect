@@ -1,6 +1,6 @@
 filename = 'locator_lodestones-1.5.3+26.1+A.jar'
 name = 'Locator Lodestones'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

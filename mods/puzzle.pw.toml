@@ -1,6 +1,6 @@
 filename = 'puzzle-fabric-2.3.1+26.1.jar'
 name = 'Puzzle'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

@@ -1,6 +1,6 @@
 filename = 'sodium-extra-fabric-0.9.1+mc26.1.2.jar'
 name = 'Sodium Extra'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

@@ -1,6 +1,6 @@
 filename = 'fwa+26.1.2-1.2.37.jar'
 name = 'Fancy World Animations'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

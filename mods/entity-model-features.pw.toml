@@ -1,6 +1,6 @@
 filename = 'entity_model_features-3.3.5-26.1-fabric.jar'
 name = '[EMF] Entity Model Features [Fabric & Forge]'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

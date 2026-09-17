@@ -1,6 +1,6 @@
 filename = 'Flashback-0.43.4-for-MC26.1.jar'
-name = 'Flashback-0.43.4-for-MC26.1'
-side = 'both'
+name = 'Flashback'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

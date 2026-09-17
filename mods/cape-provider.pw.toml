@@ -1,6 +1,6 @@
 filename = 'cape-provider-5.4.3.jar'
 name = 'Cape Provider'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

@@ -1,0 +1,13 @@
+name = "BACAP Language Pack"
+filename = "BACAP Language Pack 1.20.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YX5bAAJN/versions/BTG11Jry/BACAP%20Language%20Pack%201.20.0.1.zip"
+hash-format = "sha512"
+hash = "c1406c1ecf013ae46a11fe3ffe418582abe16d1b53af0dddda5d85da10419003f9f4dd36573d29c2805f2a48fa5af72d746396a8e8774d3e899013df5b679940"
+
+[update]
+[update.modrinth]
+mod-id = "YX5bAAJN"
+version = "BTG11Jry"

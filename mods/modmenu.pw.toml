@@ -1,6 +1,6 @@
 filename = 'modmenu-18.0.0.jar'
 name = 'Mod Menu'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

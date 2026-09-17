@@ -1,6 +1,6 @@
 filename = 'Ixeris-4.6.5+26.1.2-fabric.jar'
 name = 'Ixeris'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

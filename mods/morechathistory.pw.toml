@@ -1,6 +1,6 @@
 filename = 'morechathistory-2.0.0.jar'
 name = 'More Chat History'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

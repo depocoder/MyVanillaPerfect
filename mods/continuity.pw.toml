@@ -1,6 +1,6 @@
 filename = 'continuity-3.0.1-beta.2+26.1.jar'
 name = 'Continuity'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

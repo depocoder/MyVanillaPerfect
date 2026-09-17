@@ -1,6 +1,6 @@
 filename = 'iris-fabric-1.11.3+mc26.1.2.jar'
 name = 'Iris'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

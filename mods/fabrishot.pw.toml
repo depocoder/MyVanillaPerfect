@@ -1,6 +1,6 @@
 filename = 'fabrishot-1.17.0.jar'
 name = 'Fabrishot'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

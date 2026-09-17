@@ -1,12 +1,12 @@
 name = "MyVanillaPerfect"
 author = "depocoder"
-version = "1.0.0"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "717a99b4e75a57ccb6efb236f93802ed4afdb9cb80dfac13c35157e0d015c828"
+hash = "1b182d70c238a737cb80c31c854e5757aa4074a77f80ee3b035472e59b82fbf9"
 
 [versions]
 fabric = "0.19.3"

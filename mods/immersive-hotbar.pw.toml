@@ -1,6 +1,6 @@
 filename = 'immersive-hotbar-1.1.1-26.1.jar'
 name = 'Immersive Hotbar'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

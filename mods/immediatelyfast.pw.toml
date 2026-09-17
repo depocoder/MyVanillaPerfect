@@ -1,6 +1,6 @@
 filename = 'ImmediatelyFast-Fabric-1.15.3+26.1.jar'
 name = 'ImmediatelyFast'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

@@ -1,6 +1,6 @@
 filename = 'paginatedadvancements-2.8.0+26.1.jar'
 name = 'Paginated Advancements & Custom Frames'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

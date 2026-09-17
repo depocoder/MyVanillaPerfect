@@ -1,6 +1,6 @@
 filename = 'DetailArmorBarReconstructed-5.3.2-26.1.2-fabric.jar'
 name = 'Detail Armor Bar Reconstructed'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

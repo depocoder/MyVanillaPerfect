@@ -1,6 +1,6 @@
 filename = 'bbe-fabric-1.3.7-beta.1+mc26.1.2.jar'
 name = 'BBE'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'beta'

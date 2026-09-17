@@ -1,6 +1,6 @@
 filename = 'skyboxify-3.3.1+26.1.2-fabric.jar'
 name = 'Skyboxify'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

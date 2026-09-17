@@ -1,6 +1,6 @@
 filename = 'reeses-sodium-options-fabric-2.2.3+mc26.1.2.jar'
 name = "Reese's Sodium Options"
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'

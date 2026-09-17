@@ -1,8 +1,0 @@
-{
-  "create_version": "26.101.2",
-  "version": {
-    "last_check_date": "2026-09-16T17:38:04.657383200Z",
-    "last_json": "eyJtYyI6IjI2LjEuMiIsImxvYWRlciI6ImZhYnJpYyIsIm1vZHMiOlt7Im4iOiJ3dW5kZXJyZWljaCIsInYiOiIyNi4xMDEuMSJ9LHsibiI6IndvdmVyIiwidiI6IjI2LjEwMS4xIn0seyJuIjoiYmNsaWIiLCJ2IjoiMjYuMTAxLjEifSx7Im4iOiJiZXR0ZXJlbmQiLCJ2IjoiMjYuMTAxLjEifSx7Im4iOiJiZXR0ZXJuZXRoZXIiLCJ2IjoiMjYuMTAxLjEifV19"
-  },
-  "modify_version": "26.101.2"
-}

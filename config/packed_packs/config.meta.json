@@ -1,7 +1,10 @@
 {
   "resourcepacks": {
     "loadDefaultCondition": "NO_OPTIONS_OR_VERSION_FILE",
-    "aliases": {}
+    "aliases": {
+      "regex:file\\/VanillaTweaks.*": "regex:file\\/VanillaTweaks.*"
+    },
+    "defaultProfile": "MyVanillaPerfect"
   },
   "datapacks": {
     "aliases": {}

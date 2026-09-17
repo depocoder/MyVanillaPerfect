@@ -1,0 +1,43 @@
+# resourcepacks.list — единственный источник правды о том, какие ресурспаки раздаёт пак и в каком порядке.
+# Читает publish.ps1 (шаг 2b) и resourcepacks-setup.ps1. Сам файл в индекс пака не входит (.packwizignore).
+#
+# Формат строки:  <тип>:<значение>   [# комментарий]
+#   mr:<slug>@<version-id>   Modrinth-пак: resourcepacks/<slug>.pw.toml (packwiz mr add --project-id --version-id).
+#                            @version-id можно опустить — тогда packwiz возьмёт последнюю версию под MC из pack.toml.
+#   raw:<файл.zip>           zip из resourcepacks/ инстанса владельца — копируется в репо как есть (только если пака нет на Modrinth).
+#   id:<pack id>             только в профиль Packed Packs, файл не раздаётся: встроенные паки модов (punchy:punchy, continuity:default)
+#                            и ЛИЧНЫЕ паки друзей, которые подхватываются через alias (VanillaTweaks — у каждого свой файл).
+#
+# ПОРЯДОК СТРОК = ПОРЯДОК В ИГРЕ: первая строка — самый верхний пак (перекрывает всех), последняя — vanilla.
+# Всё, чего нет в списке, publish.ps1 из resourcepacks/ пака УДАЛЯЕТ (у друзей — packwiz-installer при следующем запуске).
+# Никогда не раздаются (жёсткий стоп-лист в publish.ps1): VanillaTweaks*, FreshAnimations*, FA+*, Patrix*, Dramatic*, Redstone*.
+#
+# Решения владельца 17.09.2026: Fast Better Grass — в самый верх; Enchantment Outlines — выше VanillaTweaks и Mace but 3D;
+# Chat Reporting Helper 6.0, qrafty 4.1, SodiumTranslations 8.15; HyperPunchy — новее 2.5 на Modrinth нет (17.09.2026).
+# Новые: Gentler Weather Sounds, Enhanced Boss Bars, Motschen's Better Leaves, Fresh Food, Animated Items, BACAP Language Pack (RU).
+# Enhanced Audio — только тест у владельца, в список не входит.
+
+mr:fast-better-grass@U9zNcnWW              # 26.2 (pack_format 84–88), самый верх — решение владельца
+mr:hyper-punchy@nJiwz3lJ                   # 2.5 — анимации Punchy; .rpo (CamShake=false) раздаём с preserve
+id:punchy:punchy                           # встроенный пак мода Punchy
+mr:enchanted-books-re-covered@6JpG9oNx     # Re-covered 4.0 — обложки зачарованных книг (выше Enchantment Outlines — так и надо)
+mr:glowing-glints@JtnHjGTs                 # Enchantment Outlines 1.10.8 — выше VT и Mace but 3D
+mr:mace-but-3d-resourcepack@awf1UkmW       # macebut3d-1.0.1
+mr:animated-items@CSLqdyiP                 # Animated Items 1.6.3 — НОВЫЙ; проверить текстуру тотема с My Totem Doll
+mr:fresh-food@DdBV0zoy                     # Fresh Food 1.3.5 — НОВЫЙ
+mr:dungeons-crit-sound@3COcYIxG            # MC_Dungeons_Crit 26.1 (на Modrinth без тега 26.1.2 — версия закреплена явно, тот же файл, что у владельца)
+mr:gentler-weather-sounds@VmBTRwCD         # Gentler Weather Sounds 2.3.0 — НОВЫЙ
+mr:vvi@B0ExDjpO                            # Vocal Villagers 1.4
+mr:visual-armor-trims@Qt949MJE             # 4.2
+mr:fancy-beds@Zdz7XQhL                     # 4.2
+mr:better-leaves@w4ReEpuG                  # Motschen's Better Leaves 9.6 — НОВЫЙ (ниже VT: DarkerDarkOakLeaves из VT остаётся)
+mr:enhanced-boss-bars@EcgWW9Yi             # Enhanced Boss Bars 1.6 — НОВЫЙ (выше DDM/VT DarkUI, иначе перекроют спрайты)
+id:file/VanillaTweaks_r897971_MC26.2.x.zip # ЛИЧНЫЙ: у каждого свой файл, подхватывается alias'ом regex:file\/VanillaTweaks.* (config.meta.json)
+mr:qraftys-capitalized-font@OfUda66d       # 4.1 (обновление с 4.0)
+mr:icons@RNni6iXH                          # 1.13.4
+mr:default-dark-mode@tPC8gaIQ              # 2026.6.0-26.2 — единственный тёмный GUI (Mandala удалён)
+mr:bacap-language-pack@BTG11Jry            # 1.20.0.1 — русские названия ачивок BlazeandCave (датапак стоит на сервере)
+mr:chat-reporting-helper@63Rh5ZVj          # 6.0 (обновление с 5.8)
+mr:translations-for-sodium@PWltlBcZ        # SodiumTranslations v8.15.0 (обновление с 8.12)
+id:continuity:default                      # встроенный пак Continuity
+id:vanilla

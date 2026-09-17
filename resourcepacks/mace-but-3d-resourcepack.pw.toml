@@ -1,0 +1,13 @@
+name = "Mace but 3D"
+filename = "macebut3d-1.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/r9aFsDLk/versions/awf1UkmW/macebut3d-1.0.1.zip"
+hash-format = "sha512"
+hash = "6a45a69208638bb373718c4a7b8d2ea90208d938db11e8df1b697313f79ea8f3ed494ccda64cb1f22ccdeedb20b2a4c6fd780e0d3f296e0245bea51675282dbe"
+
+[update]
+[update.modrinth]
+mod-id = "r9aFsDLk"
+version = "awf1UkmW"

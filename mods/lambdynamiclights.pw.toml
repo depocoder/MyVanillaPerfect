@@ -1,6 +1,6 @@
 filename = 'lambdynamiclights-4.11.2+26.1.2.jar'
 name = 'LambDynamicLights'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

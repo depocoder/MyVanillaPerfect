@@ -1,6 +1,6 @@
 filename = 'fastquit-3.1.4+mc26.1.x.jar'
 name = 'FastQuit'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

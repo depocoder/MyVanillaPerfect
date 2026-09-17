@@ -1,0 +1,13 @@
+name = "Dungeons Crit Sound"
+filename = "MC_Dungeons_Crit 26.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q2JYZUmr/versions/3COcYIxG/MC_Dungeons_Crit%2026.1.zip"
+hash-format = "sha512"
+hash = "70ce3e157db4d7f0e900a9b3fe8de1c57f529ff27189aeed45410b7159c3b369848e284500411d6f50a322127c99fc7ab0ebb8f1bba4687c7a2bde0cafeaa5b2"
+
+[update]
+[update.modrinth]
+mod-id = "Q2JYZUmr"
+version = "3COcYIxG"

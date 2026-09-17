@@ -1,6 +1,6 @@
 filename = 'sodium-shadowy-path-blocks-fabric-7.0.0.jar'
 name = 'Sodium Shadowy Path Blocks (SSPB)'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

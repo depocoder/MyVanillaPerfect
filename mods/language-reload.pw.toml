@@ -1,6 +1,6 @@
 filename = 'language-reload-1.7.7+26.1.2.jar'
 name = 'Language Reload'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

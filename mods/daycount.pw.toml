@@ -1,6 +1,6 @@
 filename = 'DayCount-1.6.0-Fabric-mc26.1.jar'
 name = 'DayCount'
-side = 'both'
+side = 'client'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2' ]

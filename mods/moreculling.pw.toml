@@ -1,6 +1,6 @@
 filename = 'moreculling-fabric-26.1.2-1.7.3.jar'
 name = 'More Culling'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

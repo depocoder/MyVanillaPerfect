@@ -1,6 +1,6 @@
 filename = 'animatica-0.6.3+26.1.jar'
 name = 'Animatica Refabricated'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

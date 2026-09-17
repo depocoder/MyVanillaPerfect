@@ -1,0 +1,13 @@
+name = "Enhanced Boss Bars"
+filename = "[1.6] Enhanced Boss Bars.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/U5SedJ9S/versions/EcgWW9Yi/%5B1.6%5D%20Enhanced%20Boss%20Bars.zip"
+hash-format = "sha512"
+hash = "9ddc2bf33c7865ea8bfb379ba74bbd4893b77e62e0f162c14c5d61c1451747214fec2b0b5705937d2cca0bd45a0f4d4ed2c5aaae98de8fd8680dc8bf32decd65"
+
+[update]
+[update.modrinth]
+mod-id = "U5SedJ9S"
+version = "EcgWW9Yi"

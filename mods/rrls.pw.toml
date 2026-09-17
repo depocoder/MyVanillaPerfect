@@ -1,6 +1,6 @@
 filename = 'rrls-5.2.6+mc.26.1.jar'
 name = 'Remove Reloading Screen'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'

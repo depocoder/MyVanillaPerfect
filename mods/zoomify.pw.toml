@@ -1,6 +1,6 @@
 filename = 'zoomify-2.16.0+26.1.jar'
 name = 'Zoomify'
-side = 'both'
+side = 'client'
 
 [download]
 hash-format = 'sha512'
