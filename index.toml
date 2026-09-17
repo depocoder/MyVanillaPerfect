@@ -366,7 +366,7 @@ hash = "a4e2c911b566e195a5079d076b137b9abc69bd9cb151f88c647b9985d386e86e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "11e3506a755402bf63f8eb974e5453def87ab8ad417f02b94c85919351751811"
+hash = "f17a6abe996d16a2b951421baf6641f1f07e1c15c532c188a39d9740f09d0a54"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -866,7 +866,7 @@ hash = "5f2f84e2db28e1c3d7d36c2bb8fea85fefbd609344b1a9e24f878ebb8e7e8a67"
 
 [[files]]
 file = "config/packed_packs/preferences.properties"
-hash = "d8a0ea14dcdebebd5214b66300eedb3f28ef407fdf8c1a940ce9f19f35a2bae7"
+hash = "3d5371f0dcb7cac9aab534ca51651d1a05ba10cc92899b7014a81d292c89709f"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Без профиля.profile.json"
@@ -966,7 +966,7 @@ hash = "e2013c21d8fce825c5bd4d9dda94c2752a8c6b86f5a53296c9d4b29331e36086"
 
 [[files]]
 file = "config/skinlayers.json"
-hash = "45162f45aa2db525a0edc483959f35b6d958ba2e54066a4f87e7f3c3f0f99166"
+hash = "4cb3f0ef33181167ada93ee3f2e83502a23140980f35b998637b34696a28bdfd"
 
 [[files]]
 file = "config/skyboxify.json"
