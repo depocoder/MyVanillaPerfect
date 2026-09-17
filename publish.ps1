@@ -65,6 +65,7 @@ $excludeConfigDirs = @(
   'voicechat',                                            # Simple Voice Chat удалён из пака (решение 17.09)
   'worldplaytime','worldplaytimereborn',                  # личный HUD времени в мире
   'chunky',                                               # tasks/ = личное состояние прегена (мода в паке нет)
+  'spark',                                                # spark: tmp-client/ и config.json — временное/личное (этап 4)
   'modlist_history',                                      # crash_assistant: история эталонных модлистов владельца
   'modpack_defaults','.puzzle_cache','cache',             # снимок дефолтов FO, кэши (моды пересоздают сами; 'cache' = inventory-particles\cache и любые другие)
   'inventory-particles\cache'
@@ -74,6 +75,8 @@ $excludeConfigDirs = @(
 $preserveConfig = @(
   # графика / производительность (каждый под своё железо); решение владельца 17.09 (вопрос 4): Sodium Extra и Voxy — preserve, а не исключение
   'config/sodium-extra-options.json','config/voxy-config.json',
+  # v1.1.2 (этап 4): визуальные клиентские моды — дефолты владельца один раз, дальше каждый крутит сам
+  'config/chat_heads.json*','config/fallingleaves*.json','config/cosycritters.json','config/subtle_effects/*','config/fzzy_config/*',
   'config/dynamic_fps.json','config/lambdynlights.toml','config/moreculling.toml','config/entityculling.json',
   'config/immediatelyfast.json','config/skyboxify.json','config/bettergrass.json','config/continuity.json',
   'config/sodium-shadowy-path-blocks-options.json','config/blur.json','config/BBEConfig.json','config/iris-excluded.json',
@@ -111,6 +114,8 @@ $sideOverride = @{
   'fabrishot' = 'client'; 'stendhal' = 'client'; 'world-play-time-reborn' = 'client'
   # v1.1.1: Subtle Effects на Modrinth server_side=optional (не unsupported) -> автоопределение дало бы both; мод чисто клиентский (этап 4, партия 7)
   'subtle-effects' = 'client'
+  # v1.1.2 (этап 4): fzzy-config на Modrinth required/required -> both; это библиотека Subtle Effects, серверу не нужна
+  'fzzy-config' = 'client'
 }
 # shaderpacks: *.zip.disabled в пак не идут; .pw.toml на «выключенные» у владельца шейдеры оставляем —
 # у друзей они продолжают скачиваться с Modrinth (поставь $false, чтобы .pw.toml выключенных тоже не раздавать)

@@ -1,0 +1,13 @@
+{
+	"minecraft:mineshafts": {
+		"minecraft:mineshaft": true
+	},
+	"special_mineshafts": {
+		"minecraft:mineshaft_mesa": true,
+		"mineshaft_jaggedpeak": true,
+		"mineshaft_stonepeak": true
+	},
+	"surface_mineshaft": {
+		"mineshaft_surface": true
+	}
+}
