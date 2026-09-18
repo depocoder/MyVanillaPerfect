@@ -21,6 +21,14 @@
     "curseForgeHash": 3036858132,
     "modrinthHash": "941fd0ded0c51e97eef2e4c16d3ed56491678b1b"
   },
+  "AmbientSounds_FABRIC_v6.3.6_mc26.1.2.jar": {
+    "jarName": "AmbientSounds_FABRIC_v6.3.6_mc26.1.2.jar",
+    "modId": "ambientsounds",
+    "name": "AmbientSounds",
+    "version": "6.3.6",
+    "curseForgeHash": 3082050462,
+    "modrinthHash": "1d7fa7520c758bfa19145db4e6f264a946d1aaf2"
+  },
   "animatica-0.6.3+26.1.jar": {
     "jarName": "animatica-0.6.3+26.1.jar",
     "modId": "animatica",
@@ -149,6 +157,14 @@
     "curseForgeHash": 949171318,
     "modrinthHash": "f835be6cdcdbc578c449b99c7f3018ca274f2d28"
   },
+  "chat_heads-1.2.8-fabric-26.1.jar": {
+    "jarName": "chat_heads-1.2.8-fabric-26.1.jar",
+    "modId": "chat_heads",
+    "name": "Chat Heads",
+    "version": "1.2.8",
+    "curseForgeHash": 653454506,
+    "modrinthHash": "a320d713c60bb34d676c97aaadd8256acb9416da"
+  },
   "cherishedworlds-fabric-16.0.1+26.1.2.jar": {
     "jarName": "cherishedworlds-fabric-16.0.1+26.1.2.jar",
     "modId": "cherishedworlds",
@@ -180,14 +196,6 @@
     "version": "0.15.2+26.1",
     "curseForgeHash": 3884523550,
     "modrinthHash": "bbe857e5cb266afe2c74ee107e863348ff115298"
-  },
-  "classicfarlands-1.2.3+mc26.1.jar": {
-    "jarName": "classicfarlands-1.2.3+mc26.1.jar",
-    "modId": "classicfarlands",
-    "name": "Classic Farlands",
-    "version": "1.2.3+mc26.1",
-    "curseForgeHash": 2476006028,
-    "modrinthHash": "c087b2ac7cca0a17d2deebe7682dde4fbfe29269"
   },
   "clickthrough-plus-3.6.5+26.1.2-fabric.jar": {
     "jarName": "clickthrough-plus-3.6.5+26.1.2-fabric.jar",
@@ -237,6 +245,14 @@
     "curseForgeHash": 3171720291,
     "modrinthHash": "d62df76581319ad9757fef7f145da9a4bcb7b261"
   },
+  "cosycritters-0.3.3+26.1-fabric.jar": {
+    "jarName": "cosycritters-0.3.3+26.1-fabric.jar",
+    "modId": "cosycritters",
+    "name": "Cosy Critters \u0026 Creepy Crawlies",
+    "version": "0.3.3",
+    "curseForgeHash": 1769619847,
+    "modrinthHash": "cde2188bb3a208ff7f39e168cd776a40339d48f4"
+  },
   "CraftPresence-2.7.1+26.1.2-fabric.jar": {
     "jarName": "CraftPresence-2.7.1+26.1.2-fabric.jar",
     "modId": "craftpresence",
@@ -252,6 +268,22 @@
     "version": "1.11.12",
     "curseForgeHash": 345611646,
     "modrinthHash": "6b120e383cd890a9f115a1aaea771475dec8957d"
+  },
+  "CreativeCore_FABRIC_v2.14.16_mc26.1.2.jar": {
+    "jarName": "CreativeCore_FABRIC_v2.14.16_mc26.1.2.jar",
+    "modId": "creativecore",
+    "name": "CreativeCore",
+    "version": "2.14.16",
+    "curseForgeHash": 1873532889,
+    "modrinthHash": "6857841185600b9e224e6b6351622ae322cd929f"
+  },
+  "cristellib-fabric-26.1.2-3.1.11.jar": {
+    "jarName": "cristellib-fabric-26.1.2-3.1.11.jar",
+    "modId": "cristellib",
+    "name": "Cristel Lib",
+    "version": "3.1.11",
+    "curseForgeHash": 2909371743,
+    "modrinthHash": "27ebae86a13e481725812bdff4cc56bf01f5c118"
   },
   "DayCount-1.6.0-Fabric-mc26.1.jar": {
     "jarName": "DayCount-1.6.0-Fabric-mc26.1.jar",
@@ -340,6 +372,14 @@
     "version": "1-v2.1",
     "curseForgeHash": 1891715213,
     "modrinthHash": "fe0fbefce4fbbe01327e33c930bf6c8be6ad444e"
+  },
+  "dungeons-and-taverns-mineshaft-overhaul-1.jar": {
+    "jarName": "dungeons-and-taverns-mineshaft-overhaul-1.jar",
+    "modId": "mr_dungeons_andtavernsmineshaftoverhaul",
+    "name": "Dungeons and Taverns Mineshaft Overhaul",
+    "version": "1",
+    "curseForgeHash": 1323850370,
+    "modrinthHash": "0c49b01d8a89c6c0df2a93f650fcd93ab26a5959"
   },
   "dungeons-and-taverns-nether-fortress-overhaul-v3.1.jar": {
     "jarName": "dungeons-and-taverns-nether-fortress-overhaul-v3.1.jar",
@@ -477,6 +517,14 @@
     "curseForgeHash": 2343488792,
     "modrinthHash": "d06d8ee29f28a31a682aaf100c1911ab4b974b45"
   },
+  "Explorify v1.6.5.mod.jar": {
+    "jarName": "Explorify v1.6.5.mod.jar",
+    "modId": "explorify",
+    "name": "Explorify",
+    "version": "1.6.5",
+    "curseForgeHash": 1043010622,
+    "modrinthHash": "5fb28be29200a41b034e423d87823eb19ad651cd"
+  },
   "explosive-enhancement-1.4.2-26.1.1.jar": {
     "jarName": "explosive-enhancement-1.4.2-26.1.1.jar",
     "modId": "explosiveenhancement",
@@ -516,6 +564,14 @@
     "version": "1.17.0",
     "curseForgeHash": 3422524852,
     "modrinthHash": "cabc7f77ce10fd58cf33cbfd04eeda3ef33167c8"
+  },
+  "fallingleaves-2.0.7+26.1.jar": {
+    "jarName": "fallingleaves-2.0.7+26.1.jar",
+    "modId": "fallingleaves",
+    "name": "Falling Leaves",
+    "version": "2.0.7",
+    "curseForgeHash": 3076806145,
+    "modrinthHash": "2e2c25af73998b29e6ae87da427c34aa9d01a4cb"
   },
   "fancytoasts-fabric-26.1.x-1.4.7.jar": {
     "jarName": "fancytoasts-fabric-26.1.x-1.4.7.jar",
@@ -572,6 +628,14 @@
     "version": "1.2.37",
     "curseForgeHash": 944792685,
     "modrinthHash": "f23b7815b111297511a014dc9af8bb1cbb4155c0"
+  },
+  "fzzy_config-0.7.6+26.1.jar": {
+    "jarName": "fzzy_config-0.7.6+26.1.jar",
+    "modId": "fzzy_config",
+    "name": "Fzzy Config",
+    "version": "0.7.6+26.1",
+    "curseForgeHash": 1408081779,
+    "modrinthHash": "dabdfb956438fc9526ec0794fcf4ff0261a75870"
   },
   "horseman-fabric-26.1.1-1.7.4.jar": {
     "jarName": "horseman-fabric-26.1.1-1.7.4.jar",
@@ -652,6 +716,14 @@
     "version": "4.6.5+26.1.2-fabric",
     "curseForgeHash": 2077322739,
     "modrinthHash": "a40fb9887a68e911a47d8333d3a8ae0cce67cc0c"
+  },
+  "krypton-0.3.0.jar": {
+    "jarName": "krypton-0.3.0.jar",
+    "modId": "krypton",
+    "name": "Krypton",
+    "version": "0.3.0",
+    "curseForgeHash": 4261826018,
+    "modrinthHash": "2557a2dae9492ab98580a61fb9f209df7a90e733"
   },
   "lambdynamiclights-4.11.2+26.1.2.jar": {
     "jarName": "lambdynamiclights-4.11.2+26.1.2.jar",
@@ -821,6 +893,14 @@
     "curseForgeHash": 477951890,
     "modrinthHash": "fbbeba9df9e63351086b95f316156be96b5aa0dc"
   },
+  "particlerain-4.0.0-beta.10+26.1-fabric.jar": {
+    "jarName": "particlerain-4.0.0-beta.10+26.1-fabric.jar",
+    "modId": "particlerain",
+    "name": "Particle Rain",
+    "version": "4.0.0-beta.10",
+    "curseForgeHash": 3651359293,
+    "modrinthHash": "0d3bb188cd73a8ae239eb6c94b9a153df5867f65"
+  },
   "PatPat-1.3.1+26.1+fabric.jar": {
     "jarName": "PatPat-1.3.1+26.1+fabric.jar",
     "modId": "patpat",
@@ -981,6 +1061,14 @@
     "curseForgeHash": 3897544311,
     "modrinthHash": "1399156a64c7bfbc38fa21af935495cfb74923c3"
   },
+  "sound-physics-remastered-fabric-1.5.1+26.1.2.jar": {
+    "jarName": "sound-physics-remastered-fabric-1.5.1+26.1.2.jar",
+    "modId": "sound_physics_remastered",
+    "name": "Sound Physics Remastered",
+    "version": "1.5.1+26.1.2",
+    "curseForgeHash": 2937896375,
+    "modrinthHash": "f7592512bf6a54c14d5a807aa941b86d802436a5"
+  },
   "sounds-2.5.1+lts+26.1.2-fabric.jar": {
     "jarName": "sounds-2.5.1+lts+26.1.2-fabric.jar",
     "modId": "sounds",
@@ -988,6 +1076,14 @@
     "version": "2.5.1+lts",
     "curseForgeHash": 1300920259,
     "modrinthHash": "8ab64c507e15ccf659056b679773873898533a1f"
+  },
+  "spark-1.10.185-fabric.jar": {
+    "jarName": "spark-1.10.185-fabric.jar",
+    "modId": "spark",
+    "name": "spark",
+    "version": "1.10.185",
+    "curseForgeHash": 1938182780,
+    "modrinthHash": "cc8dfe9817ea7aed09eff62db22e364b9d2963ff"
   },
   "status-effect-bars-1.0.11.jar": {
     "jarName": "status-effect-bars-1.0.11.jar",
@@ -1005,6 +1101,22 @@
     "curseForgeHash": 2231060622,
     "modrinthHash": "4747fb5b7c7109d992a9de7b6e1602a6670c33a5"
   },
+  "Structory_Towers_26.2_v1.0.17.jar": {
+    "jarName": "Structory_Towers_26.2_v1.0.17.jar",
+    "modId": "structory_towers",
+    "name": "Structory: Towers",
+    "version": "1.0.17",
+    "curseForgeHash": 4017686508,
+    "modrinthHash": "fa40253068726262f9db9fa048c41b96750fd4b7"
+  },
+  "SubtleEffects-fabric-26.1-1.14.3.jar": {
+    "jarName": "SubtleEffects-fabric-26.1-1.14.3.jar",
+    "modId": "subtle_effects",
+    "name": "Subtle Effects",
+    "version": "1.14.3",
+    "curseForgeHash": 1780590790,
+    "modrinthHash": "6ae47cdd0d73aa1bfb3dd991d4d64196e6820c5e"
+  },
   "supermartijn642configlib-1.1.8-fabric-mc26.1.jar": {
     "jarName": "supermartijn642configlib-1.1.8-fabric-mc26.1.jar",
     "modId": "supermartijn642configlib",
@@ -1020,6 +1132,14 @@
     "version": "1.1.24+a",
     "curseForgeHash": 2867779676,
     "modrinthHash": "a31bf2b0330223a2eeca7100fa0a126bbb6848a7"
+  },
+  "t_and_t-fabric-neoforge-1.13.11.jar": {
+    "jarName": "t_and_t-fabric-neoforge-1.13.11.jar",
+    "modId": "t_and_t",
+    "name": "Towns and Towers",
+    "version": "1.13.11",
+    "curseForgeHash": 412129941,
+    "modrinthHash": "4cd47ac4de700ff8dc4d5c0cbfe9d2bf1535a92a"
   },
   "tcdcommons-5.5.6+fn-26.1.jar": {
     "jarName": "tcdcommons-5.5.6+fn-26.1.jar",

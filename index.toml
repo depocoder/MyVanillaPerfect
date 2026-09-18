@@ -106,10 +106,6 @@ file = "config/chunkloaders-common.toml"
 hash = "69a424340ea4d289c7227f9a23901a9e265d8b7e8a925f2ad241f4ac58216fc7"
 
 [[files]]
-file = "config/classicfarlands.toml"
-hash = "6eddaf3b7833b3a4b5f1d464097263a59c57e1e6ebc02de4624bc464fb51374d"
-
-[[files]]
 file = "config/clickthrough.toml"
 hash = "fdaa85d4e9b4e7e8caa0ad3fa97c726aa794516e6d7a8a7baa18b761652d66f4"
 preserve = true
@@ -203,7 +199,7 @@ hash = "b5712b2acb11ec4206f25a1f38cffd0607974e2c05663506ebfead649ae7a4f1"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "e41e4911bc66acf0a9d59a9ace1c5f971c30229aae5ec5649414b694742dc436"
+hash = "523d1a24429cbe0e7eec06def765ebcc9c89dcfc71e423cfe65755d65e8c965e"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -391,7 +387,8 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4c47fa2b23b111977dc47326a368471c46c67f171d0164eff926ecbf32f0e90c"
+hash = "be26157a9910ecf1731deed3cbe7aeb262220a2e6ac41c22894d0d6d4541dea5"
+preserve = true
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -725,7 +722,7 @@ preserve = true
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "5fb2a01f442043cb2f656b87097b1c86eecfe7fe38d338a440bc5137e70a3518"
+hash = "e51b0c3a999a4ead7d396c46da0f32d69c79fc685bba4a607f457952bf3aa1c3"
 preserve = true
 
 [[files]]

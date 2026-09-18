@@ -78,6 +78,7 @@ $preserveConfig = @(
   # v1.1.2 (этап 4): визуальные клиентские моды — дефолты владельца один раз, дальше каждый крутит сам
   'config/chat_heads.json*','config/fallingleaves*.json','config/cosycritters.json','config/subtle_effects/*','config/fzzy_config/*',
   'config/sound_physics_remastered/*','config/ambientsounds.json','config/particlerain/*','config/creativecore-client.json',
+  'config/fabric/indigo-renderer.properties',   # только timestamp-комментарий меняется при каждом publish — не перетирать у друзей
   'config/dynamic_fps.json','config/lambdynlights.toml','config/moreculling.toml','config/entityculling.json',
   'config/immediatelyfast.json','config/skyboxify.json','config/bettergrass.json','config/continuity.json',
   'config/sodium-shadowy-path-blocks-options.json','config/blur.json','config/BBEConfig.json','config/iris-excluded.json',
