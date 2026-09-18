@@ -83,7 +83,7 @@ GitHub Repository: [NEED TO MAKE ONE]
 		"village_snowy_taiga": true,
 		"village_sparse_jungle": true,
 		"village_sunflower_plains": true,
-		"village_swamp": true,
+		"village_swamp": false,
 		"village_wooded_badlands": true
 	}
 }

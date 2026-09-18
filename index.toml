@@ -756,7 +756,7 @@ hash = "75e9477c67a7bdf9acce5fbaeb23500b3bf411e3c0b58ddb28cd7c73d5bb0068"
 
 [[files]]
 file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
-hash = "7c70e7df82d014a87dcb2defcf45d9654a22362283c7efe1f81f3b3c04290709"
+hash = "a7b9ef8438ff8f253dee1a74c38509959e3593f7c01144ef171f394f145d67c2"
 
 [[files]]
 file = "config/towns_and_towers/structure_rarity_new.json5"
@@ -965,11 +965,6 @@ metafile = true
 [[files]]
 file = "mods/cicada.pw.toml"
 hash = "e5cce132c990f384f6e8f9bc6d034359781b4cd4045863d2ce40eab64ef4d66a"
-metafile = true
-
-[[files]]
-file = "mods/classic-farlands.pw.toml"
-hash = "df8a432f38fd2792a25d1e2ac952f2851f10226c39e81849b51cc50770f10fc5"
 metafile = true
 
 [[files]]
