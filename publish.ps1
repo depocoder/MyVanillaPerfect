@@ -77,6 +77,7 @@ $preserveConfig = @(
   'config/sodium-extra-options.json','config/voxy-config.json',
   # v1.1.2 (этап 4): визуальные клиентские моды — дефолты владельца один раз, дальше каждый крутит сам
   'config/chat_heads.json*','config/fallingleaves*.json','config/cosycritters.json','config/subtle_effects/*','config/fzzy_config/*',
+  'config/sound_physics_remastered/*','config/ambientsounds.json','config/particlerain/*','config/creativecore-client.json',
   'config/dynamic_fps.json','config/lambdynlights.toml','config/moreculling.toml','config/entityculling.json',
   'config/immediatelyfast.json','config/skyboxify.json','config/bettergrass.json','config/continuity.json',
   'config/sodium-shadowy-path-blocks-options.json','config/blur.json','config/BBEConfig.json','config/iris-excluded.json',
@@ -116,6 +117,8 @@ $sideOverride = @{
   'subtle-effects' = 'client'
   # v1.1.2 (этап 4): fzzy-config на Modrinth required/required -> both; это библиотека Subtle Effects, серверу не нужна
   'fzzy-config' = 'client'
+  # v1.1.3 (1.2.2): Sound Physics (server optional) и CreativeCore (required/required) — на сервере не нужны
+  'sound-physics-remastered' = 'client'; 'creativecore' = 'client'
 }
 # shaderpacks: *.zip.disabled в пак не идут; .pw.toml на «выключенные» у владельца шейдеры оставляем —
 # у друзей они продолжают скачиваться с Modrinth (поставь $false, чтобы .pw.toml выключенных тоже не раздавать)

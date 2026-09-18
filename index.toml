@@ -214,12 +214,25 @@ file = "config/crash_assistant/scripts/startup/example.jexl"
 hash = "346378f04a9e7319cdcb405fad82d6e7f1b36b39e0e4129c00a226b49f41cf37"
 
 [[files]]
+file = "config/creativecore-client.json"
+hash = "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac"
+preserve = true
+
+[[files]]
 file = "config/cristellib/auto_config_settings.json5"
 hash = "de7b2c20171712fb50a7cce9481430d68a847bf669566ac8ac8957d32010e003"
 
 [[files]]
 file = "config/cristellib/built_in_packs.json5"
 hash = "76120cb769b1303ffdbd30a197e01e69692a9c111eb818a3b5a5272925343364"
+
+[[files]]
+file = "config/cristellib/explorify/structure_placement_config.json5"
+hash = "aa513376c71c8b7d6ad3699d55efe1929b4e06c15981bdd4c068f8ede1f8147b"
+
+[[files]]
+file = "config/cristellib/explorify/structure_toggle_config.json5"
+hash = "eb7bce1a1bc8130028b25c9b5348a6c589f6831ff5ee6afc8f9dac00ee5a3214"
 
 [[files]]
 file = "config/cristellib/illagerinvasion/structure_placement_config.json5"
@@ -378,7 +391,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "78c569732fc06e62b51f85b3baa1166a8caad02242fb0b2b0c203db2ae8631dc"
+hash = "4c47fa2b23b111977dc47326a368471c46c67f171d0164eff926ecbf32f0e90c"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -592,6 +605,11 @@ file = "config/packed_packs/profiles/resourcepacks/MyVanillaPerfect.profile.json
 hash = "3aeb9479a3ec5185e1ea1fd0ea30437d797d9cc5f1896cf7b5a86a8a3f179ab2"
 
 [[files]]
+file = "config/particlerain/config.json"
+hash = "bd8abf7000e1cd681b090d8425b808f196297b6af473826405321d037e6fdd3a"
+preserve = true
+
+[[files]]
 file = "config/patpat/ignore_mob_list.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -688,6 +706,26 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 [[files]]
 file = "config/sodium-shadowy-path-blocks-options.json"
 hash = "71c8d050837ca80f08b33231ffaf25907fe88536015fddcfac4099a0467fff63"
+preserve = true
+
+[[files]]
+file = "config/sound_physics_remastered/occlusion.properties"
+hash = "273214a8ed3b42da98b0cf6abdad616dec72e00c9a4fe143ec50ee36176f9958"
+preserve = true
+
+[[files]]
+file = "config/sound_physics_remastered/reflectivity.properties"
+hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+preserve = true
+
+[[files]]
+file = "config/sound_physics_remastered/sound_rates.properties"
+hash = "2c9613003a14e02902c717b17c66668146196e3a3e5c9508b3ec62f3e6f6b554"
+preserve = true
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "5fb2a01f442043cb2f656b87097b1c86eecfe7fe38d338a440bc5137e70a3518"
 preserve = true
 
 [[files]]
@@ -863,6 +901,11 @@ hash = "1e38df5a12f7e77acc9a175a3c7c08ff5646cb0d32e006226fade542d899229b"
 metafile = true
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "e1b5ffe0a49e8586f2650495d7ea180970743ad3739334021be2ca9ca554a241"
+metafile = true
+
+[[files]]
 file = "mods/animatica-refabricated.pw.toml"
 hash = "4d2cbd15c657e755bac02c6aa4b8429d780f5540606c6fe5010c396a7345c156"
 metafile = true
@@ -1013,6 +1056,11 @@ hash = "3242a93c568415b6f87ca240e263a2d6c418c4e4c3bd5da8549627b78dff06e7"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "6eec7ab822e4a578048f7ba4537a775f4b1b0f0e23f60cd8528acb4430adcd3c"
+metafile = true
+
+[[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "6ad85b3fd958447d313d74be4c4f8800ab7a1a84ee74876d155c9584693a9e6d"
 metafile = true
@@ -1160,6 +1208,11 @@ metafile = true
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "a52ba64f62468c57e9d64f3d1a44ac8193349a523e214b34c280ec4ff4beadb4"
+metafile = true
+
+[[files]]
+file = "mods/explorify.pw.toml"
+hash = "4a7f3b9325398912844275d58150fa0d036e0f34a36fb5d1a0b78a63bd6ba43b"
 metafile = true
 
 [[files]]
@@ -1393,6 +1446,11 @@ hash = "a1f81a9958821b3987ad68ed6d52a758b0671de71c064d3bbe74b1a93d3d2fbe"
 metafile = true
 
 [[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "78a54bde235e9608e55b90a226478acebc1ebf67c552eb08abd8e38c7e507c34"
+metafile = true
+
+[[files]]
 file = "mods/patpat.pw.toml"
 hash = "ed0dc33cb1098dd94fe2f1d033114116aed7f3dec3d74afda368cda48a144657"
 metafile = true
@@ -1484,6 +1542,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "fa97aab5c6df4cf49349a37296539a90dbc12c96517823f373daf7e18af8baf5"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "e94b3cd72938ac2154409f31b64e73761d5f17d2c7630dbc85ec3b05e4f94ac0"
 metafile = true
 
 [[files]]
