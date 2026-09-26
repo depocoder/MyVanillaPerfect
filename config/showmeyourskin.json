@@ -5,23 +5,23 @@
   "fadeOutTime": 2.0,
   "global": {
     "head": {
-      "trim": true,
-      "base": true,
-      "glint": true
+      "trim": false,
+      "base": false,
+      "glint": false
     },
     "chest": {
-      "trim": true,
-      "base": true,
+      "trim": false,
+      "base": false,
       "glint": true
     },
     "legs": {
-      "trim": true,
-      "base": true,
+      "trim": false,
+      "base": false,
       "glint": true
     },
     "feet": {
-      "trim": true,
-      "base": true,
+      "trim": false,
+      "base": false,
       "glint": true
     },
     "elytra": {
@@ -40,5 +40,46 @@
     "showNameTag": true,
     "forceElytraWhenFlying": true
   },
-  "overrides": {}
+  "overrides": {
+    "35268f2a-48cf-4c09-a5b3-1183640c621c": {
+      "title": "herypank",
+      "config": {
+        "head": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "chest": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "legs": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "feet": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "elytra": {
+          "base": true,
+          "glint": true
+        },
+        "shield": {
+          "base": true,
+          "glint": true
+        },
+        "hat": {
+          "base": true,
+          "glint": true
+        },
+        "showInCombat": true,
+        "showNameTag": true,
+        "forceElytraWhenFlying": true
+      }
+    }
+  }
 }

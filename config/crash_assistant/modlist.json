@@ -877,6 +877,14 @@
     "curseForgeHash": 4057766192,
     "modrinthHash": "1fe57906185f2231560b98b05183c5ad16d4ab48"
   },
+  "owo-lib-0.13.0+26.1.jar": {
+    "jarName": "owo-lib-0.13.0+26.1.jar",
+    "modId": "owo",
+    "name": "oωo",
+    "version": "0.13.0+26.1",
+    "curseForgeHash": 2307743330,
+    "modrinthHash": "71d435de2aaa7c71767cd3f8388547eac5acc404"
+  },
   "packed_packs-fabric-2.2.4+26.1.jar": {
     "jarName": "packed_packs-fabric-2.2.4+26.1.jar",
     "modId": "packed_packs",
@@ -1013,6 +1021,22 @@
     "curseForgeHash": 738274878,
     "modrinthHash": "2a7692b27a30239166e27fbdd352db5c933c265a"
   },
+  "ShoulderSurfing-Fabric-26.1.2-5.1.1.jar": {
+    "jarName": "ShoulderSurfing-Fabric-26.1.2-5.1.1.jar",
+    "modId": "shouldersurfing",
+    "name": "Shoulder Surfing Reloaded",
+    "version": "5.1.1",
+    "curseForgeHash": 927077006,
+    "modrinthHash": "1cabaa9ec2ae6ee6cf70526f9bf22efcb6a4fccb"
+  },
+  "show-me-your-skin-2.0.3+26.1.2.jar": {
+    "jarName": "show-me-your-skin-2.0.3+26.1.2.jar",
+    "modId": "showmeyourskin",
+    "name": "Show Me Your Skin!",
+    "version": "2.0.3+26.1.2",
+    "curseForgeHash": 2379236865,
+    "modrinthHash": "d2a491164524a75279e15a561fd547b86e061d15"
+  },
   "shulkerboxtooltip-fabric-5.4.0+26.1.1.jar": {
     "jarName": "shulkerboxtooltip-fabric-5.4.0+26.1.1.jar",
     "modId": "shulkerboxtooltip",
@@ -1020,6 +1044,14 @@
     "version": "5.4.0+26.1.1",
     "curseForgeHash": 2867288742,
     "modrinthHash": "512e2e286e947db2f879df8a4055ec7f8e43fe19"
+  },
+  "skinlayers3d-fabric-1.11.3-mc26.1.jar": {
+    "jarName": "skinlayers3d-fabric-1.11.3-mc26.1.jar",
+    "modId": "skinlayers3d",
+    "name": "3d-Skin-Layers",
+    "version": "1.11.3",
+    "curseForgeHash": 2824467497,
+    "modrinthHash": "68c17cf59871feb7539a286b5b0b777aaebc52ec"
   },
   "skyboxify-3.3.1+26.1.2-fabric.jar": {
     "jarName": "skyboxify-3.3.1+26.1.2-fabric.jar",

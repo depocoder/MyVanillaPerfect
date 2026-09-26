@@ -204,7 +204,7 @@ hash = "b5712b2acb11ec4206f25a1f38cffd0607974e2c05663506ebfead649ae7a4f1"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "0b1a927b08971286af17d27235b8590f9547ed96b897cda5d55db0f5e0909b06"
+hash = "bc51d8e1e85c05daedea58c5391ee4735e926216c9283790bfd1bc5be4e5e297"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -396,7 +396,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4b7039ec6cc17bead41c756fda0b6b9441256c4ea08b3293f8a2b020dc9efea3"
+hash = "a724f0d86461f3178d91ef0b0a20399116bdb6ee070d377a1c76bf0f7451218b"
 preserve = true
 
 [[files]]
@@ -683,7 +683,7 @@ hash = "942bade330ec6dd56cd84749fc552a4c494bdd0a0d52366d7ded9f9a365b789c"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
-hash = "561de759131dd92d5ef184120018486ec207b7b7d45cc5e11d77f63809237f73"
+hash = "4a62846b1a6f2a32c793ffade1b34508b98602e60aec094cebb67b2ab62d3e7e"
 preserve = true
 
 [[files]]
@@ -693,7 +693,7 @@ preserve = true
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "cea36b54a627c79e00db08c9eb8ae197f0e32b9fe5f7a2a7c6d369a036ef882c"
+hash = "2a2c63691a24359ca186e1b9a21bf854c22683df04b0cf80efa60964cc35c603"
 preserve = true
 
 [[files]]
