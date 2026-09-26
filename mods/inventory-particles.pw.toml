@@ -1,41 +1,13 @@
-filename = 'InventoryParticles-3.0.0+26.1+fabric.jar'
+filename = 'InventoryParticles-3.2.0+26.2+fabric.jar'
 name = 'Inventory Particles'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.0.0+26.1+fabric'
 
 [download]
-hash = '07699c560cd7fb7aaae2a55f55e9908c423686cdf0f882ca0f6e45f01491320190d14ce8b6251620688436d5aad5a3ddd255a05d5b380e16f39243bda659154f'
 hash-format = 'sha512'
+hash = 'cdc1ab1002337f2306e5253adf64b8123ed1158cb9e5f89be40184180bffd8174844880510222187080eb1a11493b9ed14f30d59994c799f66b57becc71ac1ac'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/XYnKrsxH/versions/ddxYFox8/InventoryParticles-3.0.0%2B26.1%2Bfabric.jar'
+url = 'https://cdn.modrinth.com/data/XYnKrsxH/versions/6fZZmxDU/InventoryParticles-3.2.0%2B26.2%2Bfabric.jar'
 
 [update.modrinth]
 mod-id = 'XYnKrsxH'
-version = 'ddxYFox8'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'mOgUt4GM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'FCzmUKBr'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ffLDUGbm'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'PLAGcSFJ'
-type = 'OPTIONAL'
+version = '6fZZmxDU'

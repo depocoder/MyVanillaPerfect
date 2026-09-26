@@ -1,21 +1,13 @@
-filename = 'tweakeroo-fabric-26.1.2-0.28.8.jar'
+filename = 'tweakeroo-fabric-26.2-0.29.5.jar'
 name = 'Tweakeroo'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.28.8'
 
 [download]
-hash = 'da89d98d4a0fcabd1da6f840d9142aaff3c52c3d0edac512ac7bfb99da15cf8e03b92bb4c4710c085311c323c5ea654244695f526f6051176e11d976f9af0222'
 hash-format = 'sha512'
+hash = '11eca77b157b371ea6dd10ba3e46de39c25280f68f1bf775e4ad378b4d3764b7f17d37e60a553d1cdea33e6ffc6c9991571036c9c482a1e80da2a0b5d39f1614'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/t5wuYk45/versions/drlfmPSx/tweakeroo-fabric-26.1.2-0.28.8.jar'
+url = 'https://cdn.modrinth.com/data/t5wuYk45/versions/tzGdG1Ri/tweakeroo-fabric-26.2-0.29.5.jar'
 
 [update.modrinth]
 mod-id = 't5wuYk45'
-version = 'drlfmPSx'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'GcWjdA9I'
-type = 'REQUIRED'
+version = 'tzGdG1Ri'

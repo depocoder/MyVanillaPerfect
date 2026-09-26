@@ -1,21 +1,13 @@
-filename = 'supermartijn642configlib-1.1.8-fabric-mc26.1.jar'
-name = "SuperMartijn642's Config Lib"
+filename = 'supermartijn642configlib-1.1.8-fabric-mc26.2.jar'
+name = 'SuperMartijn642's Config Lib'
 side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1.8-fabric-mc26.1'
 
 [download]
-hash = '70db6860cba3760c36f6d3cb9be1ac048b7a4cb03085ce493588d18e89312c86d0c8d52d6a29ecdba8b2807d13906d4788eb0344fa18ead6c1986d91780009bc'
 hash-format = 'sha512'
+hash = '415c6ce953ccc618a98653c08eb36bfa1344227ef9e17c4c7603a07882f71e29266091e67b391dde59f76836b7d7d783342c65e75b6c4cffaaf31d0d929dacef'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/LN9BxssP/versions/Agu5fI4t/supermartijn642configlib-1.1.8-fabric-mc26.1.jar'
+url = 'https://cdn.modrinth.com/data/LN9BxssP/versions/tg619S8t/supermartijn642configlib-1.1.8-fabric-mc26.2.jar'
 
 [update.modrinth]
 mod-id = 'LN9BxssP'
-version = 'Agu5fI4t'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+version = 'tg619S8t'

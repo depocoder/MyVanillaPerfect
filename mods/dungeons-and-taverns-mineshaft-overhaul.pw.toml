@@ -1,13 +1,13 @@
-filename = 'dungeons-and-taverns-mineshaft-overhaul-1.jar'
+filename = 'dungeons-and-taverns-mineshaft-overhaul-1.1.jar'
 name = 'Dungeons and Taverns Mineshaft Overhaul'
 side = 'both'
 
 [download]
 hash-format = 'sha512'
-hash = '35403f3ae760deefda67fc606ee2d97e521d88fe076892316d2d05c40b40f78114487892ddfbdf60340c85c68ea67c9fc72c3eeb8d0602611d67569cf7c160e6'
+hash = '0cb7f7dd1a43d406232b6f4e154d4c70611b316c4909da1e8b3a223f27a7d2d348abd7000fa45e1fcf8f76568a122dda6ea3d5a7716881ab6fcf6befc76dfa46'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ozLFhOy3/versions/m7aJOeDj/dungeons-and-taverns-mineshaft-overhaul-1.jar'
+url = 'https://cdn.modrinth.com/data/ozLFhOy3/versions/7zo1nTm8/dungeons-and-taverns-mineshaft-overhaul-1.1.jar'
 
 [update.modrinth]
 mod-id = 'ozLFhOy3'
-version = 'm7aJOeDj'
+version = '7zo1nTm8'

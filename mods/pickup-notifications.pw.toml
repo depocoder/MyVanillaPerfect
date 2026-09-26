@@ -1,21 +1,13 @@
-filename = 'pickupnotifications-fabric-3.0.1+26.1.jar'
+filename = 'pickupnotifications-fabric-3.0.1+26.2.jar'
 name = 'Pickup Notifications'
 side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.0.1+26.1-fabric'
 
 [download]
-hash = 'f3783330ea0885920b1f7d01f7428a4c695b286baffb4595be2ce531b2f59092689ad83b6c7c8ab2c2cb1687dab497b145bfb36fd5a546c6f638701e332ad19b'
 hash-format = 'sha512'
+hash = 'cffcf789cb95f5a2174572db3e6a16c4dcfbda7b1215d4f33d0069f43ac2f2221c55a1bf8880348c449b41bd4395046df61c77862c00adf999bfc87dfe8a69f1'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/wWiJfmyy/versions/hWeaC0Nm/pickupnotifications-fabric-3.0.1%2B26.1.jar'
+url = 'https://cdn.modrinth.com/data/wWiJfmyy/versions/LAXLx6E9/pickupnotifications-fabric-3.0.1%2B26.2.jar'
 
 [update.modrinth]
 mod-id = 'wWiJfmyy'
-version = 'hWeaC0Nm'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+version = 'LAXLx6E9'

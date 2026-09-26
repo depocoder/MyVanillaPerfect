@@ -1,10 +1,10 @@
 {
   "options": {
     "delays": [
-      3,
-      10,
-      30,
-      60
+      3.0,
+      10.0,
+      30.0,
+      60.0
     ],
     "initial": true,
     "infinite": true,

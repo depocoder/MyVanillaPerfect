@@ -37,7 +37,7 @@
 		   Default: false
 		*/
 		"leftButtons": false,
-		/* Show tips in the Muffler screen?
+		/* Allow Ko-Fi tip in the Muffler screen?
 		   Default: true
 		*/
 		"showTip": true,

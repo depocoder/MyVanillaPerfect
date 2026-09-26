@@ -1,21 +1,13 @@
-filename = 'cherishedworlds-fabric-16.0.1+26.1.2.jar'
+filename = 'cherishedworlds-fabric-17.0.0+26.2.jar'
 name = 'Cherished Worlds'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '16.0.1+26.1.2'
 
 [download]
-hash = '18ed49f4f39256d56ca271c81eb19b4f00c912fd1cd54fc464c746f12add119a956e6db1c64030d47ace37a7e2593c04f1182ed097408c245d3685d5308cb7e0'
 hash-format = 'sha512'
+hash = 'f2d1482ee9c4e8e725e21fbc0168baee9f77ccaf606ec831e2ab5a49accb6eb8e4c352798e63f33c02a57ca8e728c946f7e3ed0dbc2a11c44d0d7810d9f4189d'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/3azQ6p0W/versions/WQJIIT05/cherishedworlds-fabric-16.0.1%2B26.1.2.jar'
+url = 'https://cdn.modrinth.com/data/3azQ6p0W/versions/VhoXPFdC/cherishedworlds-fabric-17.0.0%2B26.2.jar'
 
 [update.modrinth]
 mod-id = '3azQ6p0W'
-version = 'WQJIIT05'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+version = 'VhoXPFdC'

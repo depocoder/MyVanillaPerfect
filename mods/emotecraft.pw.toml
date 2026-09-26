@@ -1,29 +1,13 @@
-filename = 'emotecraft-for-MC26.1.2-3.3.0-b.build.164.jar'
+filename = 'emotecraft-for-MC26.2-3.4.0-b.build.168.jar'
 name = 'Emotecraft'
 side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '3.3.0-b.build.164'
 
 [download]
-hash = '24654fd4e72217d45612e49e4f8ed3e2a76e7f010ab2941b93737a4cfa9722869ae83547270cfc7081385b74fc019ea2a90041b9037786ffeb3d0da2ccfdbc29'
 hash-format = 'sha512'
+hash = 'e906eecbcc36ca8b7a260a66b466c7b7ef216c479ad7f9b0b6f5d8f8ec3359c68191975637390f9d328f643ded80476eb73d9e92c65369e8ee9ea6595f64391e'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/pZ2wrerK/versions/N3M6FTa2/emotecraft-for-MC26.1.2-3.3.0-b.build.164.jar'
+url = 'https://cdn.modrinth.com/data/pZ2wrerK/versions/AT1LY7QN/emotecraft-for-MC26.2-3.4.0-b.build.168.jar'
 
 [update.modrinth]
 mod-id = 'pZ2wrerK'
-version = 'N3M6FTa2'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'OI3FlFon'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ha1mEyJS'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'fuuu3xnx'
-type = 'OPTIONAL'
+version = 'AT1LY7QN'

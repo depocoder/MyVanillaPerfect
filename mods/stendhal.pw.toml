@@ -1,18 +1,13 @@
-filename = 'stendhal-1.4.6-26.1.2.jar'
+filename = 'stendhal-1.4.9-26.2.jar'
 name = 'Stendhal'
 side = 'client'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.4.6-26.1.2'
 
 [download]
-hash = '36714beaf5f70bf6688fceecf48d81e55d5da18cdd017f82daff8a1d6bc27af5fb120e54723fcebe39f91099da667054f6bca70e261069a581da51e4884d0779'
 hash-format = 'sha512'
+hash = '1a7aa0c8137ba8a21341d8f62d3b429d0f0ca9c81dc2b018340134f36d2e758c594fddba73e8bacc224706a0ac80a7e978c2e41a7ed59175ed702c9e393239dc'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/BWloQ9jK/versions/FNWNtIX0/stendhal-1.4.6-26.1.2.jar'
+url = 'https://cdn.modrinth.com/data/BWloQ9jK/versions/t2D32YQv/stendhal-1.4.9-26.2.jar'
 
 [update.modrinth]
 mod-id = 'BWloQ9jK'
-version = 'FNWNtIX0'
+version = 't2D32YQv'

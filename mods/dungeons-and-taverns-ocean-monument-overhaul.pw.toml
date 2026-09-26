@@ -1,18 +1,13 @@
-filename = 'dungeons-and-taverns-ocean-monument-overhaul-v2.2.jar'
+filename = 'dungeons-and-taverns-ocean-monument-overhaul-2.2.1.jar'
 name = 'Dungeons and Taverns Ocean Monument Overhaul'
 side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.21.11', '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'v2.2+mod'
 
 [download]
-hash = '39816f33cdabe80e249d750ecfecfacbdb5a4d889a5877111ff9fd60c8be5b6696494dc56660044432eff58526bf23c79ba70bf1cf3bda93a21e20ff1ebaed31'
 hash-format = 'sha512'
+hash = '6a195b76fb91ed2491658f763943a51b4ba37f35fbc70388306c99f085b1ec480a06fab83061b0c608812901e295300ffaad80a4a3054f3f6cd162b497a91437'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/z6GJ3ycD/versions/mJJ8TcJi/dungeons-and-taverns-ocean-monument-overhaul-v2.2.jar'
+url = 'https://cdn.modrinth.com/data/z6GJ3ycD/versions/pSv7WyCj/dungeons-and-taverns-ocean-monument-overhaul-2.2.1.jar'
 
 [update.modrinth]
 mod-id = 'z6GJ3ycD'
-version = 'mJJ8TcJi'
+version = 'pSv7WyCj'

@@ -1,18 +1,13 @@
-filename = 'tcdcommons-5.5.6+fn-26.1.jar'
+filename = 'tcdcommons-5.5.6+fn-26.2.jar'
 name = 'TCDCommons API'
 side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26w14a' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '5.5.6+fn-26.1'
 
 [download]
-hash = '61bb5d4c22fe9dc2d368c70da13af677d27ca5e914b0f81317e556dc482bc6ad5d5639a1fcd3217a7819c578bc15c97f3c4c562c64c3f11e70156eceb0fc01bf'
 hash-format = 'sha512'
+hash = '0d1dc4b14b42d516a35ddb5b458c708981cfb2bf8c0bf89e4a5ef79d9e3fc8ee0d2787b9b82ad5ce3b5facf826fdf0e716880a4533d192941ef5e8c3e136c5e2'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Eldc1g37/versions/uSpV2sxA/tcdcommons-5.5.6%2Bfn-26.1.jar'
+url = 'https://cdn.modrinth.com/data/Eldc1g37/versions/NM3aWYRR/tcdcommons-5.5.6%2Bfn-26.2.jar'
 
 [update.modrinth]
 mod-id = 'Eldc1g37'
-version = 'uSpV2sxA'
+version = 'NM3aWYRR'

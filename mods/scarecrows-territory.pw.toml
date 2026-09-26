@@ -1,0 +1,13 @@
+filename = 'scarecrowsterritory-1.1.12-fabric-mc26.2.jar'
+name = 'Scarecrows' Territory'
+side = 'both'
+
+[download]
+hash-format = 'sha512'
+hash = '4acce5e79ef9967c9f2a43d0366fa60a63439563f639c78e1eb2bcf1702e564ce92c01d92c08571b9c924c1d4abfa325237c0154e2e01d63cd254382e0975056'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1RaTTUPz/versions/V0ckI4zp/scarecrowsterritory-1.1.12-fabric-mc26.2.jar'
+
+[update.modrinth]
+mod-id = '1RaTTUPz'
+version = 'V0ckI4zp'

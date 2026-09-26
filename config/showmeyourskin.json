@@ -80,6 +80,46 @@
         "showNameTag": true,
         "forceElytraWhenFlying": true
       }
+    },
+    "0df02045-74b8-4605-94fc-e9849d42573f": {
+      "title": "Hikkilla",
+      "config": {
+        "head": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "chest": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "legs": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "feet": {
+          "trim": false,
+          "base": false,
+          "glint": true
+        },
+        "elytra": {
+          "base": true,
+          "glint": true
+        },
+        "shield": {
+          "base": true,
+          "glint": true
+        },
+        "hat": {
+          "base": true,
+          "glint": true
+        },
+        "showInCombat": true,
+        "showNameTag": true,
+        "forceElytraWhenFlying": true
+      }
     }
   }
 }

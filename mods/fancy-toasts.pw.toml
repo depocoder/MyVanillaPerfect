@@ -1,21 +1,13 @@
-filename = 'fancytoasts-fabric-26.1.x-1.4.7.jar'
+filename = 'fancytoasts-1.5.1-fabric-26.2.jar'
 name = 'Fancy Toasts | Better Advancements'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.4.7-fabric-26.1.x'
 
 [download]
-hash = '27169e0cecd3b673844ca667006d64a7065df5ecf2b7094e704597bb44b35a9d793b8d89b30310340acfe37aa0fb36bacbcca5de993fe41985d577463d316938'
 hash-format = 'sha512'
+hash = '70bb50649ca89922018d2916d5a4a438d29e13a6dc54f9918057f71db803f9f7c075c3fbb2dfcfd3a125178abb362100847a9ef84efa2ecaa09676da4e37b05c'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/eUziWqPC/versions/Bty2jGGE/fancytoasts-fabric-26.1.x-1.4.7.jar'
+url = 'https://cdn.modrinth.com/data/eUziWqPC/versions/Q1wSfyHM/fancytoasts-1.5.1-fabric-26.2.jar'
 
 [update.modrinth]
 mod-id = 'eUziWqPC'
-version = 'Bty2jGGE'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+version = 'Q1wSfyHM'

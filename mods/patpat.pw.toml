@@ -1,33 +1,13 @@
-filename = 'PatPat-1.3.1+26.1+fabric.jar'
-name = 'PatPat'
+filename = 'PatPat-1.3.2+26.2+fabric.jar'
+name = 'PatPat [Mod & Plugin]'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.3.1+26.1+fabric'
 
 [download]
-hash = '8dda6690b156d8aabf5d6807dbb869e317fd4510ef3c427de95458fdff8f03799497137455fd51b5cf04dcc5927daf9fe893c56c83377ff82909fad3a7d91f35'
 hash-format = 'sha512'
+hash = '87eb43e166e39237d775afc8712a4caf4278f780e423324f9b5361c88037127640ac251271d808a4faef14c09e23d2207a1bcebb9d3e8d0838a696655317ec9f'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/dw7LChq9/versions/6x7D8Zul/PatPat-1.3.1%2B26.1%2Bfabric.jar'
+url = 'https://cdn.modrinth.com/data/dw7LChq9/versions/VIFZrWcO/PatPat-1.3.2%2B26.2%2Bfabric.jar'
 
 [update.modrinth]
 mod-id = 'dw7LChq9'
-version = '6x7D8Zul'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'mOgUt4GM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '9s6osm5g'
-type = 'OPTIONAL'
+version = 'VIFZrWcO'

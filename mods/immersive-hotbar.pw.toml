@@ -1,13 +1,13 @@
-filename = 'immersive-hotbar-1.1.1-26.1.jar'
+filename = 'immersive-hotbar-1.2.2-26.2.jar'
 name = 'Immersive Hotbar'
 side = 'client'
 
 [download]
 hash-format = 'sha512'
-hash = 'e568947eb3a8d0eb3c86d62ff2abfa778d24732a106f78156981d06a9a7fcc2f6f3accd4a8f5e40c262c03793f52582ac315892b4431b13097e2f8edcc5b2bb8'
+hash = '9819096ab1266aa6e58ec005dbd7a2cba67bcc4512593af6d3314888c24538b5ebf39ab6bee2276c06b4ef180c91c50b8d63942701376a69f11f075ed0c3a87b'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/hsPB5xMD/versions/oUDDTYRW/immersive-hotbar-1.1.1-26.1.jar'
+url = 'https://cdn.modrinth.com/data/hsPB5xMD/versions/hAT45lLg/immersive-hotbar-1.2.2-26.2.jar'
 
 [update.modrinth]
 mod-id = 'hsPB5xMD'
-version = 'oUDDTYRW'
+version = 'hAT45lLg'

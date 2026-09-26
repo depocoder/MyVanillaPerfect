@@ -1,17 +1,11 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": {
     "modEnabled": true,
     "debugLogEnabled": false,
     "patCombination": {
-      "attributeKey": {
-        "id": 340,
-        "type": "keysym"
-      },
-      "key": {
-        "id": 1,
-        "type": "mouse"
-      }
+      "attributeKey": "key.keyboard.left.shift",
+      "key": "key.mouse.right"
     }
   },
   "resourcePacks": {

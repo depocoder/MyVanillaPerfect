@@ -16,8 +16,8 @@
 	},
 	"crypts": {
 		"salt": 96586859,
-		"separation": 30,
-		"spacing": 55
+		"separation": 25,
+		"spacing": 50
 	},
 	"desert_structures": {
 		"salt": 239021,
@@ -135,20 +135,10 @@
 		"separation": 190,
 		"spacing": 200
 	},
-	"villages_birch": {
+	"villages": {
 		"salt": 10387312,
-		"separation": 8,
-		"spacing": 34
-	},
-	"villages_jungle": {
-		"salt": 10387312,
-		"separation": 8,
-		"spacing": 34
-	},
-	"villages_swamp": {
-		"salt": 10387312,
-		"separation": 8,
-		"spacing": 34
+		"separation": 16,
+		"spacing": 51
 	},
 	"wells": {
 		"salt": 430930,

@@ -1,30 +1,13 @@
-filename = 'voxy-0.2.18-beta-26.1.2.jar'
-name = 'Voxy'
+filename = 'voxy-0.2.19-beta.jar'
+name = 'voxy'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1.2' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.2.18-beta'
 
 [download]
-hash = '2683d18f0675d9154fc37629903dbe15072bb0482b0882f89a3e8b96ca06d360b99aa86432f1e3a06bee3311efa764d9812e0c5e4735f83866439b1e1f5e17d7'
 hash-format = 'sha512'
+hash = '9071acefff00f952b049134f7ee8b5c8be27646ade992274f9a32e4adf7ad0932f9755530fa212a8e65cc23b3ed5dc643af139be83fcb89c778d8c8e723b9c3a'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/fxxUqruK/versions/Zt3LPI0b/voxy-0.2.18-beta-26.1.2.jar'
+url = 'https://cdn.modrinth.com/data/fxxUqruK/versions/LzyXnE51/voxy-0.2.19-beta.jar'
 
 [update.modrinth]
 mod-id = 'fxxUqruK'
-version = 'Zt3LPI0b'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'mOgUt4GM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AANobbMI'
-type = 'REQUIRED'
-version = 'vf7UgZpC'
+version = 'LzyXnE51'

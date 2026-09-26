@@ -1,22 +1,13 @@
-filename = 'betterstats-5.5.6+fn-26.1.jar'
+filename = 'betterstats-5.5.6+fn-26.2.jar'
 name = 'Better Statistics Screen'
 side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26w14a' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '5.5.6+fn-26.1'
 
 [download]
-hash = '015a6dbef0375dec01287afa23ba37490a0f1637a379414a274f85ddf4ec51a13318b57e06871806c4573a5cf854a7da18839bf38d66c332a0bf0da40a1661d6'
 hash-format = 'sha512'
+hash = 'aa57b6f8893ff0f1dda8b79ce08e9cb369d245fad0ba26e65eb5a67f299172b3073f0e23080f8e648b32d27a0d68566516efb83498138754eef7544967f159a1'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/n6PXGAoM/versions/LqOH9k7B/betterstats-5.5.6%2Bfn-26.1.jar'
+url = 'https://cdn.modrinth.com/data/n6PXGAoM/versions/ga3HGfK0/betterstats-5.5.6%2Bfn-26.2.jar'
 
 [update.modrinth]
 mod-id = 'n6PXGAoM'
-version = 'LqOH9k7B'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Eldc1g37'
-type = 'REQUIRED'
-version = 'uSpV2sxA'
+version = 'ga3HGfK0'

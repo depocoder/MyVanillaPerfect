@@ -89,6 +89,7 @@
 		"remnant_bundle_tent": true,
 		"remnant_bunny_base": true,
 		"remnant_classic_village": true,
+		"remnant_creeper_homestead": true,
 		"remnant_desert_remnant": true,
 		"remnant_forest_smith": true,
 		"remnant_frog_ranch": true,
@@ -164,13 +165,9 @@
 	"trident_trial_monument": {
 		"trident_trial_monument": true
 	},
-	"villages_birch": {
-		"village_birch": true
-	},
-	"villages_jungle": {
-		"village_jungle": true
-	},
-	"villages_swamp": {
+	"villages": {
+		"village_birch": true,
+		"village_jungle": true,
 		"village_swamp": true
 	},
 	"wells": {

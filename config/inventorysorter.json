@@ -3,6 +3,7 @@
   "showTooltips": true,
   "separateButton": true,
   "sortPlayerInventory": false,
+  "allowPlayerInventorySorting": true,
   "sortType": "ID",
   "enableDoubleClickSort": false,
   "sortIntoBundles": true,

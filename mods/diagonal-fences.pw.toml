@@ -1,29 +1,13 @@
-filename = 'DiagonalFences-v26.1.0-mc26.1.x-Fabric.jar'
+filename = 'DiagonalFences-v26.2.0-mc26.2.x-Fabric.jar'
 name = 'Diagonal Fences'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '26.1.0'
 
 [download]
-hash = '54e8a5104bbd577a9f2ed6e89616f545f81d7e0ab872e21c36d972a266d1aea4cbb8c8abc130cb2a68960d262bd33377df5a1f22b894c2b6f0dd7365553ea114'
 hash-format = 'sha512'
+hash = '1c56bfcb82da74d3bdb48b2074db39e06e62be6500a01f2989692ea18c87058c165a4efa7603cf115eeeb01a2ffdc71c70040697cba7fe922d64e99cae5331a1'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/IKARgflD/versions/UUuyVvvj/DiagonalFences-v26.1.0-mc26.1.x-Fabric.jar'
+url = 'https://cdn.modrinth.com/data/IKARgflD/versions/XxnvsgPA/DiagonalFences-v26.2.0-mc26.2.x-Fabric.jar'
 
 [update.modrinth]
 mod-id = 'IKARgflD'
-version = 'UUuyVvvj'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ohNO6lps'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'QAGBst4M'
-type = 'REQUIRED'
+version = 'XxnvsgPA'

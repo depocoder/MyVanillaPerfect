@@ -1,25 +1,13 @@
-filename = 'DetailArmorBarReconstructed-5.3.2-26.1.2-fabric.jar'
+filename = 'DetailArmorBarReconstructed-5.3.2-26.2-fabric.jar'
 name = 'Detail Armor Bar Reconstructed'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '5.3.2-26.1.2-fabric'
 
 [download]
-hash = '9828fc820c57c6e0b9da7643cbf78ec2670b83cf8b1e1f68dd010eb5c2df2f32bfcf16c9e523f2b7930393c5e037d02762978a8f6d2d4162ae5e011c0ea4c5aa'
 hash-format = 'sha512'
+hash = '1ac30c8483acb790f84723960d5bc855c187a626ca41bf427be201f621da49ffc3d6a2a00d46747e53513763975808e31eff788bd9f8a447a45bb689dacb800b'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Si9Uim4y/versions/C2oMREA4/DetailArmorBarReconstructed-5.3.2-26.1.2-fabric.jar'
+url = 'https://cdn.modrinth.com/data/Si9Uim4y/versions/lVIRNeQ4/DetailArmorBarReconstructed-5.3.2-26.2-fabric.jar'
 
 [update.modrinth]
 mod-id = 'Si9Uim4y'
-version = 'C2oMREA4'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '99cGtHRy'
-type = 'REQUIRED'
+version = 'lVIRNeQ4'

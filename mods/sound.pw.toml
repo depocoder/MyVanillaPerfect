@@ -1,29 +1,13 @@
-filename = 'sounds-2.5.1+lts+26.1.2-fabric.jar'
+filename = 'sounds-2.5.1+edge+26.2-fabric.jar'
 name = 'Sounds'
 side = 'client'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '2.5.1+lts+26.1-fabric'
 
 [download]
-hash = '387e89983826fd3b811b7c2705ead66ee858aa441bf935c27f8aa5320d8226d2a56b5b074fbbda1d8b0826891db0fe429b405a4ae457592fc3168f42f95e08ad'
 hash-format = 'sha512'
+hash = '7563d48eea3c195b516130359199ec981826bf1c1aa757b23f5e6f1aca7afb27a5992ac2f37231f9101c5ccb0d13b737a9af37c47169846f826e0b0243188311'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ZouiUX7t/versions/BRKz4RE8/sounds-2.5.1%2Blts%2B26.1.2-fabric.jar'
+url = 'https://cdn.modrinth.com/data/ZouiUX7t/versions/kv2RxMQu/sounds-2.5.1%2Bedge%2B26.2-fabric.jar'
 
 [update.modrinth]
 mod-id = 'ZouiUX7t'
-version = 'BRKz4RE8'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'SNVQ2c0g'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'SKW62Pht'
-type = 'OPTIONAL'
+version = 'kv2RxMQu'
