@@ -1526,6 +1526,11 @@ file = "mods/scarecrowsterritory-1.1.11levelfix2-fabric-mc26.1.jar"
 hash = "98f354918ba8d0aa5ba6371d3134c26062219fc0963057a507625e8090e44b1c"
 
 [[files]]
+file = "mods/shoulder-surfing-reloaded.pw.toml"
+hash = "cf247666af8f3e50e5fbf28efc4ab1a4ee019f21e89478c85a38fbfef176d8d3"
+metafile = true
+
+[[files]]
 file = "mods/show-me-your-skin.pw.toml"
 hash = "66c3aacd6ac2297fc8d2a2a599397732e957049f1ccdb140645a2de0b593db07"
 metafile = true
