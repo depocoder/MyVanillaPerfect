@@ -91,6 +91,8 @@ $preserveConfig = @(
   'config/dynamiccrosshair.json5','config/detailarmorbar.json','config/ukus-armor-hud.toml','config/status-effect-bars.json',
   'config/betterstats.json','config/daycount.json5','config/pingwheel.json','config/fancytoasts/*','config/pickupnotifications.toml',
   'config/PaginatedAdvancements.json5','config/inventory_particles.json5','config/my_totem_doll.json5','config/languagereload.json',
+  # v1.2.5: камера из-за плеча и прозрачность брони — личные предпочтения; CCA - конфиг библиотеки SMYS
+  'config/shouldersurfing-client.toml','config/showmeyourskin.json','config/showmeyourskin-server.json','config/cardinal-components-api.properties',
   # личные инструменты / хоткеи
   'config/tweakeroo.json','config/malilib.json','config/patpat/patpat-client.json5','config/stendhal/*','config/craftpresence.json',
   'config/chesttracker.json5','config/whereisit.json5','config/inventorysorter.json','config/nemos-inventory-sorting/*',

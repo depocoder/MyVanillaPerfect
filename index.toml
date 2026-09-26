@@ -87,6 +87,11 @@ hash = "f06739b335abb550670dc6454d6d9abb0225b58c96f338be16a4ef735d3bc0ee"
 preserve = true
 
 [[files]]
+file = "config/cardinal-components-api.properties"
+hash = "8d3ae8c9240fc60475fbb98a87b7e2e0874703b173a449fb346fb0857ada7bba"
+preserve = true
+
+[[files]]
 file = "config/chat_heads.json5"
 hash = "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503"
 preserve = true
@@ -391,7 +396,7 @@ preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "be26157a9910ecf1731deed3cbe7aeb262220a2e6ac41c22894d0d6d4541dea5"
+hash = "4b7039ec6cc17bead41c756fda0b6b9441256c4ea08b3293f8a2b020dc9efea3"
 preserve = true
 
 [[files]]
@@ -675,6 +680,21 @@ preserve = true
 [[files]]
 file = "config/scarecrowsterritory-common.toml"
 hash = "942bade330ec6dd56cd84749fc552a4c494bdd0a0d52366d7ded9f9a365b789c"
+
+[[files]]
+file = "config/shouldersurfing-client.toml"
+hash = "561de759131dd92d5ef184120018486ec207b7b7d45cc5e11d77f63809237f73"
+preserve = true
+
+[[files]]
+file = "config/showmeyourskin-server.json"
+hash = "380bceb33477213fc5fa9b13bd3f0f598fa26a0239c10f4c9cc4ae07dd2242f0"
+preserve = true
+
+[[files]]
+file = "config/showmeyourskin.json"
+hash = "cea36b54a627c79e00db08c9eb8ae197f0e32b9fe5f7a2a7c6d369a036ef882c"
+preserve = true
 
 [[files]]
 file = "config/shulkerboxtooltip.json5"
@@ -1438,7 +1458,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "5f90be66ef4a59204f205587a0a37c9c46e6bed94323af9d44a3f45b52889e18"
+hash = "06e3100b5d258ab630a7b2d872a5c9daf251cc4d149997bd460bd59a21685226"
 metafile = true
 
 [[files]]
