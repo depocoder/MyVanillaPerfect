@@ -527,4 +527,10 @@ if($branch -eq 'main'){ Write-Host "  (main = все друзья при сле�
 if($NoPush){ Write-Host "  -NoPush: коммит есть, push не делаем. Когда проверишь: git push" -ForegroundColor Yellow }
 else { & git push }
 Pop-Location
+# «Что нового» в чат сервера: датапак mvp-changes из верхней записи CHANGELOG (каждый игрок увидит один раз при заходе).
+# Только для main (то, что получают все друзья); сервер подхватит при следующем старте.
+if(-not $NoPush -and $branch -eq 'main'){
+  Write-Host "== чат сервера: что нового ==" -ForegroundColor Cyan
+  try { & (Join-Path $PSScriptRoot 'server-announce.ps1') } catch { Write-Host "  не удалось собрать датапак: $($_.Exception.Message)" -ForegroundColor Red }
+}
 Write-Host "`nГотово. Друзья получат обновление при следующем запуске игры." -ForegroundColor Green
