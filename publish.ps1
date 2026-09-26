@@ -26,7 +26,9 @@
 #      v1.1.1 (замечание ревью 17.09): appleskin / modmenu / rrls — чисто клиентские UI-предпочтения без влияния на геймплей,
 #      перенесены в класс B ($preserveConfig): приезжают один раз, дальше друг настраивает сам.
 
-param([switch]$DryRun, [switch]$NoPush, [switch]$AllowSameVersion)
+#   -Instance <путь к ...\minecraft>  собрать пак из ДРУГОГО инстанса (тест новой версии MC). Только НЕ на ветке main:
+#                      например ветка test-26.2 -> друг ставит отдельный инстанс с URL .../test-26.2/pack.toml.
+param([switch]$DryRun, [switch]$NoPush, [switch]$AllowSameVersion, [string]$Instance = '')
 
 $ErrorActionPreference = 'Continue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -35,6 +37,13 @@ $ProgressPreference = 'SilentlyContinue'
 # ===== ПУТИ (поменяй, если перенесёшь инстанс/packwiz) =====
 $inst = "C:\Users\depo_pc\AppData\Roaming\PrismLauncher\instances\Fabulously Optimized(4)\minecraft"
 $realPack = $PSScriptRoot                   # папка этого скрипта = папка пака
+if($Instance){
+  $curBranch = (& git -C $realPack rev-parse --abbrev-ref HEAD).Trim()
+  if($curBranch -eq 'main'){ Write-Host "СТОП: -Instance (другой инстанс) нельзя публиковать в main - это получат все друзья. Переключись на тестовую ветку (git checkout -b test-...)." -ForegroundColor Red; exit 1 }
+  if(-not (Test-Path -LiteralPath (Join-Path $Instance 'mods'))){ Write-Host "СТОП: в $Instance нет папки mods" -ForegroundColor Red; exit 1 }
+  $inst = $Instance
+  Write-Host "Инстанс: $inst (ветка $curBranch)" -ForegroundColor Yellow
+}
 $pack = $realPack
 $pw   = "C:\Users\depo_pc\go\bin\packwiz.exe"
 $ua   = @{ 'User-Agent' = 'MyVanillaPerfect/publish.ps1 (github.com/depocoder/MyVanillaPerfect)' }
