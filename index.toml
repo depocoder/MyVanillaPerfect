@@ -199,7 +199,7 @@ hash = "b5712b2acb11ec4206f25a1f38cffd0607974e2c05663506ebfead649ae7a4f1"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "523d1a24429cbe0e7eec06def765ebcc9c89dcfc71e423cfe65755d65e8c965e"
+hash = "0b1a927b08971286af17d27235b8590f9547ed96b897cda5d55db0f5e0909b06"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -213,6 +213,10 @@ hash = "346378f04a9e7319cdcb405fad82d6e7f1b36b39e0e4129c00a226b49f41cf37"
 file = "config/creativecore-client.json"
 hash = "acb6c8c1394d4d6f2d0c98d5c314c5ef8ad34b8a76f0a420fc596733bcbc51ac"
 preserve = true
+
+[[files]]
+file = "config/creativecore.json"
+hash = "5f08d0878d7f89c6b4c947a49dce368d7738255d44fecf9aad59ec6ae8a4fcef"
 
 [[files]]
 file = "config/cristellib/auto_config_settings.json5"
@@ -884,7 +888,7 @@ hash = "e4e1998df50730cea768368b26c3263fc2c8fd52d7ddcf19ad9c8c64be77a445"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
-hash = "6bf50a48c586bbd2a07b230872dc11f47a1927d3f9d6287d3f67825880c8e350"
+hash = "865c876681fad667e4cdc02d6655a2fc789f36d7ac935c4ad9e4bbedf3ec87c3"
 metafile = true
 
 [[files]]
@@ -1433,6 +1437,11 @@ hash = "4b7a3870adf1a4f045663477d338f972e075661a13ae994cd806d0a33595ad87"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "5f90be66ef4a59204f205587a0a37c9c46e6bed94323af9d44a3f45b52889e18"
+metafile = true
+
+[[files]]
 file = "mods/packed-packs.pw.toml"
 hash = "ede5d52df4a39dc247c785a369c385a1bc632f09f74a6db5f9dba645ea03369e"
 metafile = true
@@ -1515,6 +1524,11 @@ metafile = true
 [[files]]
 file = "mods/scarecrowsterritory-1.1.11levelfix2-fabric-mc26.1.jar"
 hash = "98f354918ba8d0aa5ba6371d3134c26062219fc0963057a507625e8090e44b1c"
+
+[[files]]
+file = "mods/show-me-your-skin.pw.toml"
+hash = "66c3aacd6ac2297fc8d2a2a599397732e957049f1ccdb140645a2de0b593db07"
+metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"

@@ -1,20 +1,20 @@
-filename = 'skinlayers3d-fabric-1.11.2-mc26.1.jar'
-name = '3D Skin Layers'
+filename = 'skinlayers3d-fabric-1.11.3-mc26.1.jar'
+name = '3d-Skin-Layers'
 side = 'client'
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.11.2'
+x-prismlauncher-version-number = '1.11.3'
 
 [download]
-hash = 'e3158aac16887ba643e175af097a1f050be01b245d34da3beecea6a22586794ccfa8e0fe14e4b5760a333f1f524bd29e9cf9cecdfa9f70498d13e561aedc48f5'
+hash = '27a79fdb974b669552b5515475efdd996acd85acdac2f87d6982c6dc7fac176799c69c5d746ddf64cbfe588e830dad94c8aeb8709c37b7de7c1f04a06a06c30f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/zV5r3pPn/versions/yGhuC8Hx/skinlayers3d-fabric-1.11.2-mc26.1.jar'
+url = 'https://cdn.modrinth.com/data/zV5r3pPn/versions/66bZhn3Y/skinlayers3d-fabric-1.11.3-mc26.1.jar'
 
 [update.modrinth]
 mod-id = 'zV5r3pPn'
-version = 'yGhuC8Hx'
+version = '66bZhn3Y'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'P7dR8mSH'

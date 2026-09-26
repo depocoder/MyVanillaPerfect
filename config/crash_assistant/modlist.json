@@ -1021,14 +1021,6 @@
     "curseForgeHash": 2867288742,
     "modrinthHash": "512e2e286e947db2f879df8a4055ec7f8e43fe19"
   },
-  "skinlayers3d-fabric-1.11.2-mc26.1.jar": {
-    "jarName": "skinlayers3d-fabric-1.11.2-mc26.1.jar",
-    "modId": "skinlayers3d",
-    "name": "3d-Skin-Layers",
-    "version": "1.11.2",
-    "curseForgeHash": 2876718140,
-    "modrinthHash": "d716a9ada79d3342085db73159bda5395ad6e01a"
-  },
   "skyboxify-3.3.1+26.1.2-fabric.jar": {
     "jarName": "skyboxify-3.3.1+26.1.2-fabric.jar",
     "modId": "skyboxify",
