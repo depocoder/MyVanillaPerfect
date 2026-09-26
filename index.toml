@@ -1609,9 +1609,8 @@ hash = "7878e27c2acb69847a94929b1a7e3eb38dd4c101826a8ee6c3f995cfc42d0dda"
 metafile = true
 
 [[files]]
-file = "mods/scarecrows-territory.pw.toml"
-hash = "1a63c40859bf332b5aa5d4a434ec8724230223e54ce0c9fc5de7ad2e4a1d926a"
-metafile = true
+file = "mods/scarecrowsterritory-1.1.12-fabric-mc26.2.jar"
+hash = "1c94dff34780538b744c286703108a32b9a4cc8da036e437e70ce0359a1b253f"
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
@@ -1684,14 +1683,12 @@ hash = "b1f11d6f6e5b277543da8f794df27a38b7b0fdacf72aa7d9d34f5220bc252dc2"
 metafile = true
 
 [[files]]
-file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "8c10651cc9d4eb2a00c86251b45a06077f3399229bbb03fceaeb93fc1cf9bd93"
-metafile = true
+file = "mods/supermartijn642configlib-1.1.8-fabric-mc26.2.jar"
+hash = "3546d8d49ac587aa3aed70b0cd68461366a6f78b9575b8f7ba757866905aca6f"
 
 [[files]]
-file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "8ed32f02c675d41cdd74eb3df9118b6c291e935ed0069c1f319db1635485763e"
-metafile = true
+file = "mods/supermartijn642corelib-1.1.24b-fabric-mc26.2.jar"
+hash = "860628ec62741c9046c4f731253561df9ad2bc8d611086439c56e94d09855c1b"
 
 [[files]]
 file = "mods/tcdcommons.pw.toml"
@@ -1724,9 +1721,8 @@ hash = "3a25b53b7449ad4539432bfbb5cdf1942a7bb68bc747d0d8a697d2bc9c8e1ea2"
 metafile = true
 
 [[files]]
-file = "mods/ukus-armor-hud.pw.toml"
-hash = "a64fdc326342c057c9291426dfdbfaff9ffbac91403db2d9df0aaf2a0239c143"
-metafile = true
+file = "mods/ukus-armor-hud-fabric-0.12.0+mc26.2.jar"
+hash = "dedb7d3ad55688f5720b1b2c87febeb96a0ad6e538f669dada1d6eebfa53c4d5"
 
 [[files]]
 file = "mods/unilib.pw.toml"
