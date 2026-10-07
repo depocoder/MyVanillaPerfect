@@ -91,7 +91,9 @@ rtk powershell -ExecutionPolicy Bypass -File .\publish.ps1 -NoPush
 
 ## Ресурспаки
 
-Сборка распространяет девять ресурспаков из `Fabulously Optimized 26.3(1)`: Fresh Animations, пять используемых дополнений FA+, Mod Menu Helper, Chat Reporting Helper и Sodium Translations.
+Сборка распространяет шесть ZIP-паков из `Fabulously Optimized 26.3(1)`: FA+ Player, FA+ All Extensions, Fresh Animations, Mod Menu Helper, Chat Reporting Helper и Sodium Translations. В профиль также включены два встроенных ресурспака Continuity.
+
+Порядок анимационных паков сверху вниз: **FA+ Player → FA+ All Extensions → Fresh Animations**. Отдельные FA+ Objects, Creepers, Details и Spiders не используются, потому что уже входят в All Extensions.
 
 Порядок задаётся в `resourcepacks.list`; первая строка имеет наивысший приоритет. `publish.ps1` создаёт профиль Packed Packs `MyVanillaPerfect`, поэтому после первого запуска его нужно один раз выбрать в меню ресурспаков. Содержимое других веток автоматически не подхватывается.
 

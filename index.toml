@@ -234,7 +234,7 @@ hash = "68e2c050d2956ac85830664ad09a8240e7f99aee50b6727cb2d656fc91e032db"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/MyVanillaPerfect.profile.json"
-hash = "3151a8e467532d910d142846cf5b64a3f656cbf332b93b51ef0c5a7f3ff05443"
+hash = "51caa49bfb9df26c1521eb1284dab491b38be1897d28d3bb29d2ad4407aaa53e"
 
 [[files]]
 file = "config/reeses_sodium_options.json"

@@ -1,10 +1,9 @@
 # Порядок сверху вниз: первая строка получает наивысший приоритет в профиле Packed Packs.
-raw:FA+Objects-v2.1.2.zip
-raw:FA+Creepers-v2.1.zip
-raw:FA+Details-v2.3.zip
 raw:FA+Player-v1.1.zip
-raw:FA+Spiders-v2.2.zip
+raw:FA+All_Extensions-v1.9.2.zip
 raw:FreshAnimations_v1.10.5.zip
+id:continuity:default
+id:continuity:glass_pane_culling_fix
 raw:Mod Menu Helper.zip
 raw:Chat Reporting Helper.zip
 raw:SodiumTranslations.zip
