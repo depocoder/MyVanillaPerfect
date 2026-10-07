@@ -229,25 +229,12 @@ hash = "a0b2444db1aa65997fd715d0c2a7753f5be302d1304364993260fb7489c1eddb"
 preserve = true
 
 [[files]]
-file = "config/packed_packs/config.meta.json"
-hash = "68e2c050d2956ac85830664ad09a8240e7f99aee50b6727cb2d656fc91e032db"
-
-[[files]]
-file = "config/packed_packs/profiles/resourcepacks/MyVanillaPerfect.profile.json"
-hash = "51caa49bfb9df26c1521eb1284dab491b38be1897d28d3bb29d2ad4407aaa53e"
-
-[[files]]
 file = "config/reeses_sodium_options.json"
 hash = "6dbf38d3c870c6f03539f7ea8150833b41f89a6ca5b86bcd3ff0ef19d881fc83"
 
 [[files]]
 file = "config/renice-shot.properties"
 hash = "f5ff731194f66727bfeb75a28a70104fc4687cbc84b69e60c94fe1b7d901f453"
-
-[[files]]
-file = "config/resourcify.json"
-hash = "ade1b4a28332a849a0b3dfe006db3d1ef22810301999316fd58a34b130968fb5"
-preserve = true
 
 [[files]]
 file = "config/rrls.toml"
@@ -533,27 +520,3 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "cdbd9af611cc19294a0ff032211c126d83378cc1178e7210f77973d47090edcb"
 metafile = true
-
-[[files]]
-file = "resourcepacks/Chat Reporting Helper.zip"
-hash = "11c6e2fb728cd269eadfb5663b28de8d9849e633de7792ea1d44e870782ba6a8"
-
-[[files]]
-file = "resourcepacks/FA+All_Extensions-v1.9.2.zip"
-hash = "027acba5f64c9d1bf5ccb8daecb7fc756961bfeee866434a0ee5f7809a48d326"
-
-[[files]]
-file = "resourcepacks/FA+Player-v1.1.zip"
-hash = "9ee3ae5b2fe5cd980e4041429dc66d88243f5f2420e2814e5361c746ad937f33"
-
-[[files]]
-file = "resourcepacks/FreshAnimations_v1.10.5.zip"
-hash = "cf9f17a2977e171b33cb0b598bc4357dd0383e09c10d5f768ff17c12d0a028ee"
-
-[[files]]
-file = "resourcepacks/Mod Menu Helper.zip"
-hash = "5507d3986bd2657806d081c6324b6812b1bba2ce3849fb9d8baeef43776ec1ce"
-
-[[files]]
-file = "resourcepacks/SodiumTranslations.zip"
-hash = "9bb7222562b584282f62e1aa61efe2bea82063a2c1ba2e44c7b676880721991d"

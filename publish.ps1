@@ -110,7 +110,7 @@ $excludeConfig = @(
   # личные данные / state / кэши (pc-05, modconfig-06, consistency-02)
   'controlify.json*','capes.json5',
   'my_totem_doll-known-player-uuids.json5','my-totem-doll-known-player-uuids.json5',
-  'sodium-fingerprint.json','username-cache.json','player-volumes.properties','category-volumes.properties',
+  'sodium-fingerprint.json','username-cache.json','player-volumes.properties','category-volumes.properties','resourcify.json',
   'patpat-client-stats.json5','.data.json','better_screenshots.json','imgui.ini','.flashback.json.backup',
   # мусор (modconfig-08)
   '*.tmp','*.bak','*.backup'
@@ -187,7 +187,7 @@ $shipDisabledShaderMeta = $true
 # ===== Ресурспаки: только по списку =====
 $rpList = Join-Path $realPack 'resourcepacks.list'
 # стоп-лист: такие файлы не раздаются НИКОГДА, даже если попали в список или в resourcepacks/ пака
-$rpNever = @('VanillaTweaks*','Patrix*','Dramatic*','Redstone*','Mandala*','EvenBetterEnchants*','Theone*')
+$rpNever = @('VanillaTweaks*','FreshAnimations*','FA+*','Patrix*','Dramatic*','Redstone*','Mandala*','EvenBetterEnchants*','Theone*')
 $rpProfileName = 'MyVanillaPerfect'   # default-профиль Packed Packs (config/packed_packs/profiles/resourcepacks/<name>.profile.json)
 $rpAliases = [ordered]@{ 'regex:file\/VanillaTweaks.*' = 'regex:file\/VanillaTweaks.*' }   # личный VT друга подхватится под любым именем
 
@@ -542,7 +542,7 @@ Write-Host "== 5/7 Контроль индекса ==" -ForegroundColor Cyan
 if(-not (Test-Path -LiteralPath $indexPath)){ Write-Host "СТОП: packwiz не создал index.toml" -ForegroundColor Red; exit 1 }
 $idxText = [System.IO.File]::ReadAllText($indexPath)
 $bad = @()
-foreach($p in @('config/controlify','config/voicechat/','config/packed_packs/preferences','config/packed_packs/__version','shaderpacks/.*\.disabled','config/sodium-options','resourcepacks/VanillaTweaks','resourcepacks/Patrix','mods/voicechat','mods/simple-voice-chat','mods/do-a-barrel-roll','mods/speed-happy-ghast')){
+foreach($p in @('config/controlify','config/voicechat/','config/packed_packs/preferences','config/packed_packs/__version','shaderpacks/.*\.disabled','config/sodium-options','resourcepacks/VanillaTweaks','resourcepacks/Patrix','resourcepacks/FreshAnimations','resourcepacks/FA+','mods/voicechat','mods/simple-voice-chat','mods/do-a-barrel-roll','mods/speed-happy-ghast')){
   if([regex]::IsMatch($idxText, '(?m)^file = "' + $p)){ $bad += $p }
 }
 if($bad.Count){ Write-Host "  ! В индексе есть то, чего быть не должно: $($bad -join ', ')" -ForegroundColor Red; if(-not $DryRun){ exit 1 } }

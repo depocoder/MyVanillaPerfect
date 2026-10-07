@@ -40,6 +40,8 @@ shaderpacks/*.disabled
 resourcepacks/.index/
 resourcepacks/VanillaTweaks*.zip
 resourcepacks/VanillaTweaks*
+resourcepacks/FreshAnimations*
+resourcepacks/FA+*
 resourcepacks/Patrix*
 resourcepacks/Dramatic*
 resourcepacks/Redstone*

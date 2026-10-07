@@ -1,9 +1,2 @@
-# Порядок сверху вниз: первая строка получает наивысший приоритет в профиле Packed Packs.
-raw:FA+Player-v1.1.zip
-raw:FA+All_Extensions-v1.9.2.zip
-raw:FreshAnimations_v1.10.5.zip
-id:continuity:default
-id:continuity:glass_pane_culling_fix
-raw:Mod Menu Helper.zip
-raw:Chat Reporting Helper.zip
-raw:SodiumTranslations.zip
+# Пусто намеренно: FO 26.3 не публикует ресурспаки.
+# Каждый пользователь устанавливает нужные ресурспаки вручную из официальных источников.
