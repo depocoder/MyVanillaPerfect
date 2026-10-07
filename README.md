@@ -2,6 +2,42 @@
 
 Независимая сборка для Minecraft 26.3 на Fabric Loader 0.19.5.
 
+## Установка для друга в Prism Launcher
+
+Перед подключением друга владелец должен один раз опубликовать ветку:
+
+```powershell
+rtk git push -u origin fo-26.3
+```
+
+Пока ветка существует только локально, ссылка ниже недоступна другим компьютерам.
+
+Другу нужно выполнить следующие шаги:
+
+1. В Prism Launcher создать **новый пустой** инстанс с Minecraft **26.3** и загрузчиком **Fabric 0.19.5**. Не импортировать Fabulously Optimized и не копировать старые папки `mods` или `config`: посторонние файлы packwiz автоматически не удалит.
+2. Скачать [packwiz-installer-bootstrap.jar](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar).
+3. Открыть папку нового инстанса через **ПКМ по инстансу → Folder** и положить JAR в папку `minecraft`.
+4. Открыть **Edit → Settings → Custom commands**, включить **Custom commands** и вставить в **Pre-launch command**:
+
+   ```text
+   "$INST_JAVA" -jar "$INST_MC_DIR/packwiz-installer-bootstrap.jar" -s client "https://raw.githubusercontent.com/depocoder/MyVanillaPerfect/fo-26.3/pack.toml"
+   ```
+
+   Использовать именно `-s client`, чтобы установщик не загружал серверные файлы.
+5. В **Edit → Settings → Java** установить максимальную память 6–8 ГБ. Для Java 25 добавить в **Java arguments**:
+
+   ```text
+   -XX:CompileCommand=exclude,io/netty/util/internal/ReferenceCountUpdater.retryRelease0
+   ```
+
+6. Нажать **Play**. При первом запуске packwiz скачает моды и конфиги; при следующих запусках будет автоматически проверять обновления ветки `fo-26.3`.
+
+Если GitHub временно недоступен, Prism остановит запуск на pre-launch-команде. Для временного запуска уже установленной версии можно выключить **Custom commands**, а после восстановления сети включить обратно.
+
+### Если у друга уже была другая сборка
+
+Надёжнее создать отдельный пустой инстанс по инструкции выше. Если используется существующий инстанс, игру нужно закрыть и полностью очистить его папки `mods` и `config`, иначе старые моды и настройки могут остаться рядом с файлами FO 26.3 и вызвать конфликт. Миры, `options.txt`, `servers.dat` и скриншоты перед очисткой можно сохранить отдельно.
+
 ## Независимая ветка
 
 `fo-26.3` создана как orphan-ветка: у неё нет общего родительского коммита с `main`, и она не наследует моды, конфиги, ресурспаки или шейдеры основной сборки.
