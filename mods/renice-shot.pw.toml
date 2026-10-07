@@ -1,29 +1,13 @@
 filename = 'renice-shot-1.1.0+mc26.3.jar'
 name = 'Renice Shot'
-side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Renice Shot 1.1.0+mc26.3'
+side = 'client'
 
 [download]
-hash = 'a0802502ed6b41937231efbada88ba7d9ac99528'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = '8ab61859e41166d47cf8d03e4b2e1677b343fda1ee0b31777b39b569b8fb8376bd91718e9aa4f63d3bedfa9b24269779e1b06f6ad02be189288dd0771929cd4e'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZDCwiIc3/versions/kyU7vmxY/renice-shot-1.1.0%2Bmc26.3.jar'
 
-[update.curseforge]
-file-id = 8887834
-project-id = 1655703
-
-[[x-prismlauncher-dependencies]]
-addonId = '348521'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '308702'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '306612'
-type = 'REQUIRED'
+[update.modrinth]
+mod-id = 'ZDCwiIc3'
+version = 'kyU7vmxY'

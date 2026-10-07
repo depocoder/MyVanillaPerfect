@@ -1,25 +1,13 @@
 filename = 'BetterGrassify-1.8.8+fabric.26.3.jar'
 name = 'BetterGrassify'
-side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'BetterGrassify 1.8.8+fabric.26.3'
+side = 'client'
 
 [download]
-hash = '626f74d3265d140f80ebb5ca1703f43ba07ff1bd'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = '14cd361bb1f56d207a3e811a25d4af9bfc76d52bcd7bd9aad73ca8f334a7226ff3cb69d9890d4fc3cdd83eb4b630077b36870dcaff8149be178207ee2a9ea90d'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/m5T5xmUy/versions/8qcmuwZa/BetterGrassify-1.8.8%2Bfabric.26.3.jar'
 
-[update.curseforge]
-file-id = 8896505
-project-id = 1026394
-
-[[x-prismlauncher-dependencies]]
-addonId = '348521'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '306612'
-type = 'REQUIRED'
+[update.modrinth]
+mod-id = 'm5T5xmUy'
+version = '8qcmuwZa'

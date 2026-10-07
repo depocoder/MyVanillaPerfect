@@ -1,21 +1,13 @@
 filename = 'rrls-5.2.8+mc.26.3.jar'
 name = 'Remove Reloading Screen'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'alpha'
-x-prismlauncher-version-number = '[26.3] v5.2.8'
+side = 'client'
 
 [download]
-hash = '2b86b92f9c3ad773f5c7d751cee0512ebaccaf60'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = '642eea5dac162c7273f2426cbe3c38d7239a4630924ce05e91ea43bb1e8bca4d780594c4bd8728bd9239eda6859c167b79e6dee3cdb4ed3f0b118186c4e311a9'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZP7xHXtw/versions/CAVJGGfj/rrls-5.2.8%2Bmc.26.3.jar'
 
-[update.curseforge]
-file-id = 8903738
-project-id = 833233
-
-[[x-prismlauncher-dependencies]]
-addonId = '547434'
-type = 'OPTIONAL'
+[update.modrinth]
+mod-id = 'ZP7xHXtw'
+version = 'CAVJGGfj'

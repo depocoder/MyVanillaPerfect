@@ -34,6 +34,25 @@ $ErrorActionPreference = 'Continue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $ProgressPreference = 'SilentlyContinue'
 
+# Windows PowerShell на некоторых системах не загружает Microsoft.PowerShell.Utility,
+# поэтому даём совместимый Get-FileHash на .NET. Используется и для обычного publish, и для DryRun.
+if(-not (Get-Command Get-FileHash -ErrorAction SilentlyContinue)){
+  function Get-FileHash {
+    param([Parameter(Mandatory=$true,Position=0)]$Path, [string]$Algorithm = 'SHA256')
+    $filePath = if($Path -is [System.IO.FileInfo]){ $Path.FullName } else { [string]$Path }
+    switch($Algorithm.ToUpperInvariant()){
+      'SHA1'   { $hasher = [System.Security.Cryptography.SHA1]::Create() }
+      'SHA256' { $hasher = [System.Security.Cryptography.SHA256]::Create() }
+      'SHA512' { $hasher = [System.Security.Cryptography.SHA512]::Create() }
+      default  { throw "Неподдерживаемый алгоритм хеширования: $Algorithm" }
+    }
+    $stream = [System.IO.File]::OpenRead($filePath)
+    try { $hash = ([BitConverter]::ToString($hasher.ComputeHash($stream))).Replace('-','') }
+    finally { $stream.Dispose(); $hasher.Dispose() }
+    [pscustomobject]@{ Algorithm = $Algorithm.ToUpperInvariant(); Hash = $hash; Path = $filePath }
+  }
+}
+
 # ===== ПУТИ (поменяй, если перенесёшь инстанс/packwiz) =====
 $defaultInstance = "C:\Users\depo_pc\AppData\Roaming\PrismLauncher\instances\Fabulously Optimized(4)\minecraft"
 $branchInstances = @{
@@ -480,12 +499,17 @@ if((Test-Path $chg) -and (Test-Path $ptoml)){
 }
 
 Write-Host "== 4/7 packwiz refresh + preserve ==" -ForegroundColor Cyan
+$indexPath = Join-Path $pack 'index.toml'
+if(-not (Test-Path -LiteralPath $indexPath)){
+  [System.IO.File]::WriteAllText($indexPath, "hash-format = `"sha256`"`n", $utf8)
+  Write-Host "  создан новый index.toml для первой публикации ветки" -ForegroundColor DarkGray
+}
 Push-Location $pack; & $pw refresh; Pop-Location
+if($LASTEXITCODE -ne 0){ Write-Host "СТОП: packwiz refresh завершился с ошибкой" -ForegroundColor Red; exit 1 }
 
 # preserve = true для файлов класса B. packwiz refresh сохраняет флаг у существующих записей
 # (core/indexfiles.go updateFileEntry меняет только hash/metafile), но новые записи появляются без него,
 # а у файлов, выпавших из $preserveConfig, флаг надо снять — поэтому: refresh -> синхронизировать флаг -> refresh ещё раз.
-$indexPath = Join-Path $pack 'index.toml'
 if(Test-Path $indexPath){
   $lines = [System.IO.File]::ReadAllLines($indexPath)
   $out = New-Object System.Collections.Generic.List[string]
@@ -515,6 +539,7 @@ if(Test-Path $indexPath){
 
 # ===== 5/7 контроль: что именно раздаём =====
 Write-Host "== 5/7 Контроль индекса ==" -ForegroundColor Cyan
+if(-not (Test-Path -LiteralPath $indexPath)){ Write-Host "СТОП: packwiz не создал index.toml" -ForegroundColor Red; exit 1 }
 $idxText = [System.IO.File]::ReadAllText($indexPath)
 $bad = @()
 foreach($p in @('config/controlify','config/voicechat/','config/packed_packs/preferences','config/packed_packs/__version','shaderpacks/.*\.disabled','config/sodium-options','resourcepacks/VanillaTweaks','resourcepacks/Patrix','resourcepacks/FreshAnimations','resourcepacks/FA+','mods/voicechat','mods/simple-voice-chat','mods/do-a-barrel-roll','mods/speed-happy-ghast')){

@@ -1,18 +1,13 @@
 filename = 'Ixeris-4.6.8+26.3-fabric.jar'
 name = 'Ixeris'
-side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Ixeris 4.6.8+26.3-fabric'
+side = 'client'
 
 [download]
-hash = 'c38a65adc0f1cb4a7e4f493ab32f908f5ee4742e'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = '5bc37bc60b3fa5c48ae097166363f02e5e3dafaa17afa2521c85251747ed2f8f30affad912d1db2816301dc6ae32fe7858a74c2cd0674fe44332150a2ccb6e69'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/p8RJPJIC/versions/QocCYDs0/Ixeris-4.6.8%2B26.3-fabric.jar'
 
-[update.curseforge]
-file-id = 8939552
-project-id = 1285307
+[update.modrinth]
+mod-id = 'p8RJPJIC'
+version = 'QocCYDs0'

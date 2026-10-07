@@ -1,21 +1,13 @@
 filename = 'moreculling-fabric-26.3-1.9.0-beta.1.jar'
 name = 'MoreCulling'
-side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'v1.9.0-beta.1'
+side = 'client'
 
 [download]
-hash = 'ddcab185e1672267258ad42694531544832dac12'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = '9a2e90e65a4ed7d0e332f5c951d603be1d4d60c92b1cd1886483892fcea1330c8c656c29181e6367bd32101b7492d732d93634377bc1bfc04276bdf90664d6c8'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/51shyZVL/versions/zL2UEFXS/moreculling-fabric-26.3-1.9.0-beta.1.jar'
 
-[update.curseforge]
-file-id = 8890105
-project-id = 630104
-
-[[x-prismlauncher-dependencies]]
-addonId = '348521'
-type = 'REQUIRED'
+[update.modrinth]
+mod-id = '51shyZVL'
+version = 'zL2UEFXS'

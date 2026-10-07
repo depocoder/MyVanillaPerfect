@@ -1,18 +1,13 @@
 filename = 'CrashAssistant-fabric-26.2-26.3-1.11.14.jar'
 name = 'Crash Assistant'
-side = 'both'
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.2', '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'CrashAssistant-fabric-26.2-26.3-1.11.14.jar'
+side = 'client'
 
 [download]
-hash = 'dea53a10e5fbfaacd18e212a0eb0fe328b3e9467'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = 'eab56ff4773821ea74c16987a986032e0d41119078efed17f66e4d6f1e19ab43e1e465463b09386644c4ae73942909f29ff725736e2ea1ad6de9b8313080de31'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ix1qq8Ux/versions/alR3tamq/CrashAssistant-fabric-26.2-26.3-1.11.14.jar'
 
-[update.curseforge]
-file-id = 8934748
-project-id = 1154099
+[update.modrinth]
+mod-id = 'ix1qq8Ux'
+version = 'alR3tamq'

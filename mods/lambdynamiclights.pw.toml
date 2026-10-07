@@ -1,25 +1,13 @@
 filename = 'lambdynamiclights-4.13.0+26.3.jar'
 name = 'LambDynamicLights'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'LambDynamicLights 4.13.0 (26.3)'
+side = 'client'
 
 [download]
-hash = '18c8ab40f03219bfcf809a83db6e3958ed8bb866'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = '67c37ca7d619bd7f2b0dc02217070c20e34fb3bb3363d4e23f5ef9ca90b1b58adb223fab73639a3499d366497316f1eb297d2759f3ffb976467b4759f784619d'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yBW8D80W/versions/rylKnJ4M/lambdynamiclights-4.13.0%2B26.3.jar'
 
-[update.curseforge]
-file-id = 8890400
-project-id = 393442
-
-[[x-prismlauncher-dependencies]]
-addonId = '308702'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '306612'
-type = 'REQUIRED'
+[update.modrinth]
+mod-id = 'yBW8D80W'
+version = 'rylKnJ4M'

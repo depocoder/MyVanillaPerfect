@@ -1,21 +1,13 @@
 filename = 'yet_another_config_lib_v3-3.9.7+26.3-fabric.jar'
 name = 'YetAnotherConfigLib'
 side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '3.9.7 for fabric 26.3'
 
 [download]
-hash = 'e54d86dd4a78f95cd6ec0309d96fae01e661c00d'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = 'f3957028dd31cae78f08aee3e768f61bd12c4c8423257d357bc3c1a2172047c769d37901f99775c7ffff1e5ee794025dc72738b2869cab06f1c2811841d68b24'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1eAoo2KR/versions/s9SjoFu1/yet_another_config_lib_v3-3.9.7%2B26.3-fabric.jar'
 
-[update.curseforge]
-file-id = 8935498
-project-id = 667299
-
-[[x-prismlauncher-dependencies]]
-addonId = '306612'
-type = 'REQUIRED'
+[update.modrinth]
+mod-id = '1eAoo2KR'
+version = 's9SjoFu1'

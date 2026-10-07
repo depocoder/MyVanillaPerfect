@@ -1,33 +1,13 @@
 filename = 'sodium-extra-fabric-0.9.4+mc26.3.jar'
 name = 'Sodium Extra'
-side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '[Fabric] Sodium Extra 0.9.4 - Minecraft 26.3'
+side = 'client'
 
 [download]
-hash = 'ff2056f222b751fe161123e71e55afd5b2f41da4'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = 'a2e8d8416a556b7a351460a06407119eaba62f06636377001720bbda9b797dc881b2bb4528fb75a0459fee34475db529858633b6b86b545a72d0f13cf3c2b7bb'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PtjYWJkn/versions/te2y9qZn/sodium-extra-fabric-0.9.4%2Bmc26.3.jar'
 
-[update.curseforge]
-file-id = 8892474
-project-id = 447673
-
-[[x-prismlauncher-dependencies]]
-addonId = '394468'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '455508'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '511319'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1597214'
-type = 'OPTIONAL'
+[update.modrinth]
+mod-id = 'PtjYWJkn'
+version = 'te2y9qZn'

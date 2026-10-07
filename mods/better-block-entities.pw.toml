@@ -1,21 +1,13 @@
 filename = 'bbe-fabric-1.3.9+mc26.3-mod.jar'
 name = 'Better Block Entities'
-side = 'both'
-x-prismlauncher-loaders = [ 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'bbe-fabric-1.3.9+mc26.3-mod.jar'
+side = 'client'
 
 [download]
-hash = '151330c3ea5a1c93e841ea4cda0788c93b5b986d'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = 'dbad4387672fea686a6610ac238d0243fdbce718bed3aafc6006068bf769df2eea8f2c7189f5cb3835008f11eb9c767f1e2eaf436c67bddc17fb8607af26dd88'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ONZm0H7Y/versions/9VvhfLcA/bbe-fabric-1.3.9%2Bmc26.3-mod.jar'
 
-[update.curseforge]
-file-id = 8888869
-project-id = 1434533
-
-[[x-prismlauncher-dependencies]]
-addonId = '394468'
-type = 'REQUIRED'
+[update.modrinth]
+mod-id = 'ONZm0H7Y'
+version = '9VvhfLcA'

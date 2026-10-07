@@ -1,25 +1,13 @@
 filename = 'modmenu-21.0.0.jar'
 name = 'Mod Menu'
-side = 'both'
-x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
-x-prismlauncher-mc-versions = [ '26.3' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'v21.0.0 for 26.3'
+side = 'client'
 
 [download]
-hash = '66ec40f1cd0c037ddca2b5fc6b4b976d479c18e8'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = 'sha512'
+hash = '588c0c557963f4778572ee81bfafc190b332c26d5926c5fe7e3e1614dcf8e14f58e3bc80a97694521dd05907e9753a7c8575048ea769e4dbf40a3db74a4e2606'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar'
 
-[update.curseforge]
-file-id = 8958984
-project-id = 308702
-
-[[x-prismlauncher-dependencies]]
-addonId = '306612'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1037459'
-type = 'REQUIRED'
+[update.modrinth]
+mod-id = 'mOgUt4GM'
+version = 'kyy7dbrZ'
