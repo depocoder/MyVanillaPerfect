@@ -1,4 +1,4 @@
-﻿# publish.ps1 v1.2.0 (2026-10-07: выбор инстанса по ветке + проверка версии Minecraft) — обновить пак из инстанса и залить друзьям одной командой.
+﻿# publish.ps1 v1.2.1 (2026-10-07: первый push создаёт upstream, ошибки push останавливают скрипт) — обновить пак из инстанса и залить друзьям одной командой.
 # Запуск: ПКМ по файлу -> "Run with PowerShell"
 #   или в терминале:  powershell -ExecutionPolicy Bypass -File publish.ps1 [-DryRun] [-NoPush] [-AllowSameVersion]
 #
@@ -591,7 +591,12 @@ $branch = (& git rev-parse --abbrev-ref HEAD).Trim()
 Write-Host "  ветка: $branch  ->  https://raw.githubusercontent.com/depocoder/MyVanillaPerfect/$branch/pack.toml" -ForegroundColor $(if($branch -eq 'main'){'Yellow'}else{'DarkGray'})
 if($branch -eq 'main'){ Write-Host "  (main = все друзья при следующем запуске; для теста на одном друге публикуй с ветки staging)" -ForegroundColor Yellow }
 if($NoPush){ Write-Host "  -NoPush: коммит есть, push не делаем. Когда проверишь: git push" -ForegroundColor Yellow }
-else { & git push }
+else {
+  $upstream = (& git rev-parse --abbrev-ref --symbolic-full-name '@{u}' 2>$null).Trim()
+  if($upstream){ & git push }
+  else { & git push --set-upstream origin $branch }
+  if($LASTEXITCODE -ne 0){ Write-Host "СТОП: git push завершился с ошибкой; локальный коммит сохранён" -ForegroundColor Red; Pop-Location; exit 1 }
+}
 Pop-Location
 # «Что нового» в чат сервера: датапак mvp-changes из верхней записи CHANGELOG (каждый игрок увидит один раз при заходе).
 # Только для main (то, что получают все друзья); сервер подхватит при следующем старте.
