@@ -1,0 +1,25 @@
+filename = 'modmenu-21.0.0.jar'
+name = 'Mod Menu'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v21.0.0 for 26.3'
+
+[download]
+hash = '66ec40f1cd0c037ddca2b5fc6b4b976d479c18e8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8958984
+project-id = 308702
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1037459'
+type = 'REQUIRED'

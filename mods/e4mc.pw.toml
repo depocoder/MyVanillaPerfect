@@ -1,0 +1,25 @@
+filename = 'e4mc-fabric-6.2.1-modern.jar'
+name = 'e4mc'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric Modern] 6.2.1'
+
+[download]
+hash = '18b44097b20896e665f239d6df27842df8e16894'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8526343
+project-id = 849519
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1402884'
+type = 'OPTIONAL'

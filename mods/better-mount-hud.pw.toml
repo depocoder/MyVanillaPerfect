@@ -1,0 +1,18 @@
+filename = 'bettermounthud-1.3.1.jar'
+name = 'Better Mount HUD'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'bettermounthud-1.3.1.jar'
+
+[download]
+hash = 'f86040d5010c7aad1c677c7a7fefe52d3b386abd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8280974
+project-id = 475358

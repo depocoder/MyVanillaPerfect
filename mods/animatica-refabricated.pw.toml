@@ -1,0 +1,21 @@
+filename = 'animatica-0.6.2+26.3.jar'
+name = 'Animatica Refabricated'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'animatica-0.6.2+26.3'
+
+[download]
+hash = '65fbee1197fcd342d88b34c33856da5c04fa7fed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8898137
+project-id = 1512894
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'

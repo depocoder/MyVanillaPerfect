@@ -1,0 +1,18 @@
+filename = 'placeholder-api-3.1.0-beta.1+26.2.jar'
+name = 'Text Placeholder API'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'placeholder-api-3.1.0-beta.1+26.2.jar'
+
+[download]
+hash = '99b57ccc1d4323c4ef71887828dac25ce4ce2103'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8271471
+project-id = 1037459

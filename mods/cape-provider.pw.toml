@@ -1,0 +1,25 @@
+filename = 'cape-provider-5.6.1.jar'
+name = 'Cape Provider'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.6.1'
+
+[download]
+hash = 'd8cac4f307fb41a2b8c66d5f4ba17d49ac08bc99'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8889268
+project-id = 1291862
+
+[[x-prismlauncher-dependencies]]
+addonId = '308702'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'OPTIONAL'

@@ -1,0 +1,33 @@
+filename = 'sodium-extra-fabric-0.9.4+mc26.3.jar'
+name = 'Sodium Extra'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric] Sodium Extra 0.9.4 - Minecraft 26.3'
+
+[download]
+hash = 'ff2056f222b751fe161123e71e55afd5b2f41da4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8892474
+project-id = 447673
+
+[[x-prismlauncher-dependencies]]
+addonId = '394468'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '455508'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '511319'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1597214'
+type = 'OPTIONAL'

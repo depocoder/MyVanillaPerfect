@@ -1,0 +1,18 @@
+filename = 'mixintrace-1.0-26.1-universal.jar'
+name = 'MixinTrace Reborn'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2', '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MixinTrace Reborn 1.0 for 26.1 Universal'
+
+[download]
+hash = '3b270bf23ffec81086c23a78dd473608640b0a96'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7959398
+project-id = 1520456

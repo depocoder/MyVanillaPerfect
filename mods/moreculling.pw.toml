@@ -1,0 +1,21 @@
+filename = 'moreculling-fabric-26.3-1.9.0-beta.1.jar'
+name = 'MoreCulling'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'v1.9.0-beta.1'
+
+[download]
+hash = 'ddcab185e1672267258ad42694531544832dac12'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8890105
+project-id = 630104
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'REQUIRED'

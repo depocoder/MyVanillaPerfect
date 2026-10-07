@@ -1,0 +1,29 @@
+filename = 'reeses-sodium-options-fabric-2.2.5+mc26.3.jar'
+name = "Reese's Sodium Options"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "[Fabric] Reese's Sodium Options 2.2.5 - Minecraft 26.3"
+
+[download]
+hash = '305aa813172358eb5e95d0a7af02a44326261226'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8966771
+project-id = 511319
+
+[[x-prismlauncher-dependencies]]
+addonId = '455508'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '447673'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '394468'
+type = 'REQUIRED'

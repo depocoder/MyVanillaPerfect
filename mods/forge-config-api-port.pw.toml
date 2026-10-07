@@ -1,0 +1,25 @@
+filename = 'ForgeConfigAPIPort-v26.3.1-mc26.3.x-Fabric.jar'
+name = 'Forge Config API Port'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[FABRIC] [26.3.x] v26.3.1'
+
+[download]
+hash = 'a0d802d2cb010a5054c72f1ccf248433b6e0bafb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8938808
+project-id = 547434
+
+[[x-prismlauncher-dependencies]]
+addonId = '308702'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'

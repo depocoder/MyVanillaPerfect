@@ -1,0 +1,18 @@
+filename = 'CrashAssistant-fabric-26.2-26.3-1.11.14.jar'
+name = 'Crash Assistant'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2', '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CrashAssistant-fabric-26.2-26.3-1.11.14.jar'
+
+[download]
+hash = 'dea53a10e5fbfaacd18e212a0eb0fe328b3e9467'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8934748
+project-id = 1154099

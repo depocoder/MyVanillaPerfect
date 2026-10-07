@@ -1,0 +1,18 @@
+filename = 'main-menu-credits-1.4.0+26.2-universal.jar'
+name = 'Main Menu Credits'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Main Menu Credits 1.4.0+26.2'
+
+[download]
+hash = 'd73b75eefb787769a965166793e0c9ed58e6de85'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8268180
+project-id = 618812

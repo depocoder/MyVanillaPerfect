@@ -1,0 +1,25 @@
+filename = 'horseman-fabric-26.3-1.7.5.jar'
+name = 'Horseman'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.7.5'
+
+[download]
+hash = '21d9b74dd7e133c5a8b77ee48de56c18cd8de07848bcaa8895135010fb8d967ef1400d4875c817ecc160e18e2ca369cc96ff707031ee9d2171389846ace4098e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qIv5FhAA/versions/SkbN0JlH/horseman-fabric-26.3-1.7.5.jar'
+
+[update.modrinth]
+mod-id = 'qIv5FhAA'
+version = 'SkbN0JlH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ohNO6lps'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
