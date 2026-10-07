@@ -1,0 +1,17 @@
+{
+  "locked": false,
+  "name": "MyVanillaPerfect",
+  "overrides": {},
+  "packIds": [
+    "file/FA+Objects-v2.1.2.zip",
+    "file/FA+Creepers-v2.1.zip",
+    "file/FA+Details-v2.3.zip",
+    "file/FA+Player-v1.1.zip",
+    "file/FA+Spiders-v2.2.zip",
+    "file/FreshAnimations_v1.10.5.zip",
+    "file/Mod Menu Helper.zip",
+    "file/Chat Reporting Helper.zip",
+    "file/SodiumTranslations.zip",
+    "vanilla"
+  ]
+}

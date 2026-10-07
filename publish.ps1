@@ -187,7 +187,7 @@ $shipDisabledShaderMeta = $true
 # ===== Ресурспаки: только по списку =====
 $rpList = Join-Path $realPack 'resourcepacks.list'
 # стоп-лист: такие файлы не раздаются НИКОГДА, даже если попали в список или в resourcepacks/ пака
-$rpNever = @('VanillaTweaks*','FreshAnimations*','FA+*','Patrix*','Dramatic*','Redstone*','Mandala*','EvenBetterEnchants*','Theone*')
+$rpNever = @('VanillaTweaks*','Patrix*','Dramatic*','Redstone*','Mandala*','EvenBetterEnchants*','Theone*')
 $rpProfileName = 'MyVanillaPerfect'   # default-профиль Packed Packs (config/packed_packs/profiles/resourcepacks/<name>.profile.json)
 $rpAliases = [ordered]@{ 'regex:file\/VanillaTweaks.*' = 'regex:file\/VanillaTweaks.*' }   # личный VT друга подхватится под любым именем
 

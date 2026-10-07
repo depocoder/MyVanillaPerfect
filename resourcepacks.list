@@ -1,2 +1,10 @@
-# Пусто намеренно: новая сборка fo-26.3 не наследует ресурспаки других веток.
-# Добавляй сюда только ресурспаки, которые должны распространяться именно в этой сборке.
+# Порядок сверху вниз: первая строка получает наивысший приоритет в профиле Packed Packs.
+raw:FA+Objects-v2.1.2.zip
+raw:FA+Creepers-v2.1.zip
+raw:FA+Details-v2.3.zip
+raw:FA+Player-v1.1.zip
+raw:FA+Spiders-v2.2.zip
+raw:FreshAnimations_v1.10.5.zip
+raw:Mod Menu Helper.zip
+raw:Chat Reporting Helper.zip
+raw:SodiumTranslations.zip
