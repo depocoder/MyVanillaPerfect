@@ -542,7 +542,7 @@ Write-Host "== 5/7 Контроль индекса ==" -ForegroundColor Cyan
 if(-not (Test-Path -LiteralPath $indexPath)){ Write-Host "СТОП: packwiz не создал index.toml" -ForegroundColor Red; exit 1 }
 $idxText = [System.IO.File]::ReadAllText($indexPath)
 $bad = @()
-foreach($p in @('config/controlify','config/voicechat/','config/packed_packs/preferences','config/packed_packs/__version','shaderpacks/.*\.disabled','config/sodium-options','resourcepacks/VanillaTweaks','resourcepacks/Patrix','resourcepacks/FreshAnimations','resourcepacks/FA+','mods/voicechat','mods/simple-voice-chat','mods/do-a-barrel-roll','mods/speed-happy-ghast')){
+foreach($p in @('config/controlify','config/voicechat/','config/packed_packs/preferences','config/packed_packs/__version','shaderpacks/.*\.disabled','config/sodium-options','resourcepacks/VanillaTweaks','resourcepacks/Patrix','mods/voicechat','mods/simple-voice-chat','mods/do-a-barrel-roll','mods/speed-happy-ghast')){
   if([regex]::IsMatch($idxText, '(?m)^file = "' + $p)){ $bad += $p }
 }
 if($bad.Count){ Write-Host "  ! В индексе есть то, чего быть не должно: $($bad -join ', ')" -ForegroundColor Red; if(-not $DryRun){ exit 1 } }

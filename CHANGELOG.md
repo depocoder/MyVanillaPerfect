@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.3.3 — 2026-10-07
+
+- Исправлена публикация ресурспаков: Fresh Animations, FA+ Player и FA+ All Extensions теперь входят в индекс packwiz и автоматически скачиваются друзьям.
+- Ранее ZIP-файлы присутствовали в Git, но ошибочно исключались из `index.toml` правилами `.packwizignore`.
+
 ## 26.3.2 — 2026-10-07
 
 - Заменены дублирующие отдельные FA+ Objects, Creepers, Details и Spiders на единый FA+ All Extensions 1.9.2.
