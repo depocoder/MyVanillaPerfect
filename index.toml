@@ -10,6 +10,74 @@ file = "config/DistantHorizons.toml"
 hash = "7b6a364efc7c7381f1e3ca351a412bf9414e69bec38311b735b67ae9448b00e9"
 
 [[files]]
+file = "config/EndRemastered-Fabric/Eyes/black_eye.json"
+hash = "0ce694b7842011f30705cbadc1140a105e15eabe5983dd62605d82e57fefd201"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/cold_eye.json"
+hash = "c4c4ab0d7606039bd261d43dd2f1800ba846e61dc8e9961b8ac4358cfabea768"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/corrupted_eye.json"
+hash = "121aeee0689da901f5f79589ef7382b94c04bdefc0a87ea0ffebeac467dfbdf2"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/cryptic_eye.json"
+hash = "ef23863e4d876d0aa07af8d57f5d561b90ca72ef47441321fee2afdcf6202624"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/cursed_eye.json"
+hash = "25b39227a4ef5f485544a0824baa72a8f676bd7ded445769bb538c6adc901ebd"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/evil_eye.json"
+hash = "f5c592ff7652da20f93acc2137675a1cee29b4ecb905f56e9b35dadebd396e65"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/exotic_eye.json"
+hash = "b2bc84a480810af68e8c555b366fff36ecb67e6eeda2782210eb38d15c957353"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/guardian_eye.json"
+hash = "a1c9380a91f328df917aad9bb1e4e605f2ca5695be7b8207cf581b8e03d63a63"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/lost_eye.json"
+hash = "791e725cce8319f03a71d7f6e534145dd698c4c0faea56a80d6be8090b1c7d76"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/magical_eye.json"
+hash = "60ebbdf89f2ab0fb8cd97a56f7f1aeb3eb52423cef73717ed3e24d6a0cba3556"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/nether_eye.json"
+hash = "87e971a20021e5d64bc210f452979d6a0b61475b3304d327a2a6f1410d3d8aaf"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/old_eye.json"
+hash = "9a8869b45d8c8ad5bd39de49351dee6b035670e3bf09ddf2573d6960d449b05e"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/rogue_eye.json"
+hash = "9bee3caeca1603cf33a8e1cbaee2ea9f0b422e1ce7ac0a3126c8647b2a8e24e8"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/undead_eye.json"
+hash = "a9a571a279c7c20672d48aa7fb2546c461868cf1b80962e1367409f104c63ee8"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/witch_eye.json"
+hash = "41de53ad16ce01009a92b3d9f96e35aeac8a68a3de588d8fd9374b33f343a088"
+
+[[files]]
+file = "config/EndRemastered-Fabric/Eyes/wither_eye.json"
+hash = "86499d5affe90f36aac3df626303ac797e44fd1f08719d3041f5be4174e458c7"
+
+[[files]]
+file = "config/EndRemastered-Fabric/endrem.json"
+hash = "a234207642fb6286bc4ff985dd9ecf7180dcbea89e70c20e1e408815b3f7f30a"
+
+[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "616e09c8ff849f4a9a07165a0a3513f468469237377546b64135591fca8a0592"
 
@@ -31,6 +99,18 @@ preserve = true
 file = "config/bettergrass.json"
 hash = "d31f4687470a8f72af9c519a3f168e29f38e5b5450808ba2bb7f344dd53fede5"
 preserve = true
+
+[[files]]
+file = "config/biomesoplenty/biome_toggles.json"
+hash = "4aac664fd2075e0f7915fcf2f7ee7cc61b79e81e2a03049e8d11cba8e706b677"
+
+[[files]]
+file = "config/biomesoplenty/gameplay.toml"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/biomesoplenty/generation.toml"
+hash = "428c8be557854161e82b21b5654d2865b9b0c53bba969f20398568f94d4ae030"
 
 [[files]]
 file = "config/continuity.json"
@@ -112,6 +192,114 @@ hash = "3a4522c5494577ffd3fd9b6839cc89b98fef3f50c5897e1bf690aace9150fc16"
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/blame-mods.jexl"
 hash = "e8e9aac924b0633326184cf20cfdcc44fa749f7ba410c816fae6893f4bcd5ace"
+
+[[files]]
+file = "config/cristellib/auto_config_settings.json5"
+hash = "de7b2c20171712fb50a7cce9481430d68a847bf669566ac8ac8957d32010e003"
+
+[[files]]
+file = "config/cristellib/built_in_packs.json5"
+hash = "76120cb769b1303ffdbd30a197e01e69692a9c111eb818a3b5a5272925343364"
+
+[[files]]
+file = "config/cristellib/mes/structure_placement_config.json5"
+hash = "05194c7ffd5d35dcafcb7b78e036e109a29092437fd12731ce3e89b65a58c305"
+
+[[files]]
+file = "config/cristellib/mes/structure_toggle_config.json5"
+hash = "d2de2cac11de45bbb2772178fc60ce8a80b0ad2f292faf7b47692d0222aabc19"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtaverns/structure_placement_config.json5"
+hash = "f5360d64086a361fd10e036091c57a55521616a4f0581dc51870d2633c78d36a"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtaverns/structure_toggle_config.json5"
+hash = "0e2012f8cadbed37b5638fb682ceab8603235e6e110161ab8fdccff8b2058885"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsancientcityoverhaul/structure_placement_config.json5"
+hash = "a0a682af9e98e3a5970cde35ad64254b66344eede3705e513269fa1c0ac1c340"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsancientcityoverhaul/structure_toggle_config.json5"
+hash = "dcaa27cc96647bbe386210bb6c513ec669c1ab5efc7791dfb26b5cb077168aa6"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsmineshaftoverhaul/structure_placement_config.json5"
+hash = "ec0c2d90f757bcb27177b7008d4ba4a9013e02905913d124140fd60eee486dd8"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsmineshaftoverhaul/structure_toggle_config.json5"
+hash = "f216d393160b46ba3b4941ff8abc79a9d12cabe06999a75e412a8b26480b5ddf"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsoceanmonumentoverhaul/structure_placement_config.json5"
+hash = "8870b488db93b5614f82d124a28219ef9fa0629b867fe030253f092e133466d7"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsoceanmonumentoverhaul/structure_toggle_config.json5"
+hash = "5f20cb258abf04c396e980242495511267469ffcd24144c6ada37ed0ad1a5632"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernspillageroutpostoverhaul/structure_placement_config.json5"
+hash = "df331a10eff51208814b84c7c118886577bc0435cf53f44b0ef7a69410cc8a3e"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernspillageroutpostoverhaul/structure_toggle_config.json5"
+hash = "d39ff20882f22f25a8ed45b3dff8d960aca1a3b8c65e98563ffc5f599bd7f850"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsstrongholdoverhaul/structure_toggle_config.json5"
+hash = "96939569fa5c4f868d16601afa3d63e8f8c69004e217c9a0c3be1b3c789f8fbf"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsswamphutoverhaul/structure_placement_config.json5"
+hash = "4268c12b3c9038f460b1ac80073f0cd13a597277efc077ede08734ae4dfd4e4c"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernsswamphutoverhaul/structure_toggle_config.json5"
+hash = "9db3d9cb460d71acdc66228a4412594a0d190dd56a129bda3ff296c411ce4f96"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernswoodlandmansionoverhaul/structure_placement_config.json5"
+hash = "dd373f3e7ecd3e939bb00ba7fe31babcf7dbb085955fa56165c12b80380327f0"
+
+[[files]]
+file = "config/cristellib/mr_dungeons_andtavernswoodlandmansionoverhaul/structure_toggle_config.json5"
+hash = "a957f77a7a70a01317aa0b2081c904aef424c2d9b42a717ee071de94fbbcddf8"
+
+[[files]]
+file = "config/cristellib/mvs/structure_placement_config.json5"
+hash = "a75fb34d14d4b0e8f7c085605fb34b6fc1405a596057eb2c730d36a3b29ca24f"
+
+[[files]]
+file = "config/cristellib/mvs/structure_toggle_config.json5"
+hash = "9cdabb1c20da2f6c441f481d781d0b8535a25f877942f452685178d5a593a68c"
+
+[[files]]
+file = "config/cristellib/structory_towers/structure_placement_config.json5"
+hash = "03c52b79b764e43b2c44bf5fad73246b16525f0c145bffebcd2af722cab9a6d8"
+
+[[files]]
+file = "config/cristellib/structory_towers/structure_toggle_config.json5"
+hash = "d7420be061ede7a888a6797abf9511a409c1bff69794f0a34f4d084c15e1fe50"
+
+[[files]]
+file = "config/cristellib/takesapillage/structure_placement_config.json5"
+hash = "2779110ca39619c5cf5dbde694159c554e0c881fafc4829dc71f67f32eebf25d"
+
+[[files]]
+file = "config/cristellib/takesapillage/structure_toggle_config.json5"
+hash = "e671cbe64a006043ae08ed28aeeb470faeb817d2d50b6afb48a26e08a4fae96b"
+
+[[files]]
+file = "config/cristellib/terralith/structure_placement_config.json5"
+hash = "d708a8fccff7d350222eb66ff8986faa18675aa1711cd0b0b3b9cda423b01e53"
+
+[[files]]
+file = "config/cristellib/terralith/structure_toggle_config.json5"
+hash = "9b7f2e53ad64ba44e85fa193e0cc1cb33451fa9bcbc7a86aec76719dbd250a3a"
 
 [[files]]
 file = "config/cwb.json"
@@ -215,6 +403,10 @@ file = "config/lithium.properties"
 hash = "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
 
 [[files]]
+file = "config/lithostitched.json"
+hash = "ce8ab190281862b0554c92043c2bf8af106fbe4116bcd6dab433f6506781dbc0"
+
+[[files]]
 file = "config/midnightlib.json"
 hash = "57b848fb6d7c03b6124297de49b1e4cb169e74db042c74aecf79f035ae2f3980"
 
@@ -228,9 +420,21 @@ hash = "3f49d42a9970f250951d5610c6fcb860a181a426bd6cb4548bb75fe71de935ad"
 preserve = true
 
 [[files]]
+file = "config/moogs_structures.json"
+hash = "c3516a4b53c902c0533869f7e0a83401a5273d75d4c92eab77a24ddb8f3374b8"
+
+[[files]]
 file = "config/moreculling.toml"
 hash = "a0b2444db1aa65997fd715d0c2a7753f5be302d1304364993260fb7489c1eddb"
 preserve = true
+
+[[files]]
+file = "config/naturalist-client.properties"
+hash = "490e80bd89e5b504c49130e2a7697728aa0d13101dd7b0a0041fa11a51610667"
+
+[[files]]
+file = "config/naturalist-server.properties"
+hash = "375244c618ad6dbf9a39f253d743e48e5353357f346021aacfd37f658ab3c62b"
 
 [[files]]
 file = "config/reeses_sodium_options.json"
@@ -274,12 +478,40 @@ hash = "71c8d050837ca80f08b33231ffaf25907fe88536015fddcfac4099a0467fff63"
 preserve = true
 
 [[files]]
+file = "config/takesapillage.json"
+hash = "7db0f52b6068154e92b7685dd1b3ec2a754bfeb2a523af3eccbc9840dbfe9d6e"
+
+[[files]]
+file = "config/terrablender.toml"
+hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
+
+[[files]]
+file = "config/terralith.json"
+hash = "af469436b99b83c0698e2263320bcc5395cc06c8e0fa3f0d0e2e6216d7e08b6d"
+
+[[files]]
+file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
+hash = "7c70e7df82d014a87dcb2defcf45d9654a22362283c7efe1f81f3b3c04290709"
+
+[[files]]
+file = "config/towns_and_towers/structure_rarity_new.json5"
+hash = "fe4ca0974aca38b27c94e3f1dc092f1688b54f27d9eaa728d61c6ccae4ca1313"
+
+[[files]]
 file = "config/transition.json"
 hash = "60420a41571a4658b91babfa2b47d6fefb7c1766eeea969f51ff98ab34c2431c"
 
 [[files]]
 file = "config/trender.json"
 hash = "0a282f3623f7f9443a1d10b5768865f69e58b74e000dcfb4f40399626b7a6124"
+
+[[files]]
+file = "config/vanilla_structures/placement_structure_config.json5"
+hash = "10fad560389f96ec7cb04966a0948b7fe5ba126559194fc81d7e53b8fd73c7ad"
+
+[[files]]
+file = "config/vanilla_structures/toggle_structure_config.json5"
+hash = "a50b4ca77d21ae105e68560c1af694125ea06360374c82e87f4da54b7ecfa51d"
 
 [[files]]
 file = "config/yacl.json5"
@@ -311,6 +543,11 @@ hash = "f7903295c6bf3895086766f6996957b4c4aa322c5f8366eb9c9015265d9ab819"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "5fccd66ca5c941cb46c2cd6f46b437f39d9b6277ea1ac47442de9b51ae624127"
+metafile = true
+
+[[files]]
 file = "mods/cape-provider.pw.toml"
 hash = "2fbc3fbb0070cc4afd8b852b55938d70dda4226ac89f1d9b279d7e7584ecefe0"
 metafile = true
@@ -338,6 +575,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "15d67304f2b55293c3c210acdd5413fb0aa208f860680b55c6af42fd2b2ab10b"
+metafile = true
+
+[[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "34d4af1fa568d42af0d941f1491b92dfde1995da1495f01262e5432d65880196"
 metafile = true
 
 [[files]]
@@ -416,6 +658,11 @@ hash = "a49dd5199c11ebb96339fad58f13a6c269e1e2554f25207883ff7ccb7359394c"
 metafile = true
 
 [[files]]
+file = "mods/endrem.pw.toml"
+hash = "edff3ce495e47c4b6887daf3910c7852dd105beaa6ca5a6243ac424a50c140a8"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "ffd6b23d04c0aeacf5a854c7c2e6548747cf5af7f04561e486d122fdd664b5ce"
 metafile = true
@@ -456,6 +703,11 @@ hash = "d9cea61d8219d12f45de067f00d1607ce95cabf50dd3c03c1e502285e03485e4"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "e06db3a6196f6e286248c3b3e164946a46d1b016a07e9991dfc6e4c3b4492ebe"
+metafile = true
+
+[[files]]
 file = "mods/horse-expert.pw.toml"
 hash = "3fd23c997d64532c2d61d663ef92ae277d89d548fbf35b11c5c4066fc7acb272"
 metafile = true
@@ -473,6 +725,11 @@ metafile = true
 [[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "2ae6d1476efa3653f508b7c748f63ba4a05fe22c16b2549abdf91197aa0d1909"
+metafile = true
+
+[[files]]
+file = "mods/it-takes-a-pillage-continuation.pw.toml"
+hash = "0f38538d240e61083f859d5df0528e8294068f2d2f947c8d865932e90c29bc4e"
 metafile = true
 
 [[files]]
@@ -496,8 +753,18 @@ hash = "8fc3461a735e4a474f5fe8bbcadcb07ccec59601914060bf569ca01b23280bd7"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "39d5ed3997b8ecd1a3a399a0d229b2ac7fc091498a22c6fe7d4c5b186999c0f3"
+metafile = true
+
+[[files]]
 file = "mods/main-menu-credits.pw.toml"
 hash = "a5a77a7a126b1f2ba06ab6937fbd2248d2adbe46eb843ed91382373bf920511f"
+metafile = true
+
+[[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "c47482be78868e730cf4919d45b365f6f6e89783f06279d010fe8e8281c26a82"
 metafile = true
 
 [[files]]
@@ -516,6 +783,16 @@ hash = "ffc348d837c75df8e16fd9e5984179b33e278e80d34b1ead0b9d7bc2ee1f5fe0"
 metafile = true
 
 [[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "e153176bbd7cc00277cf1c4ce11870192a0b5dbb1ad08d5ec4ea9f710a7f60bf"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "b01d8e1a4c1593189865397b4ed2a27d84d7668c3db8593d8978d310785bf92e"
+metafile = true
+
+[[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "ff97b6a8c5b5345ffc5807114514a47e6fc65d7d2adcc557e435edc5df1d3605"
 metafile = true
@@ -523,6 +800,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "f0b13ca29873d895acfdf8075eac27777aa7abcaadd6e6da319b320a927af4c2"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+hash = "5aafa830aafcbea1bec93fc89d19866bc7562bbdeed7b946cc83d069851b219f"
 metafile = true
 
 [[files]]
@@ -543,6 +825,11 @@ metafile = true
 [[files]]
 file = "mods/renice-shot.pw.toml"
 hash = "560e1386b338568a95e7cc540d30d8195b78eda4299d6a0361946b6d3c1e287a"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "2c597553a91f930cbf89d05f47cd4121f7c5357680a1a6fb53c20df9c4c5ef77"
 metafile = true
 
 [[files]]
@@ -581,8 +868,28 @@ hash = "89391665990824847db1115f0750669f114f2e9f1de03e7a2d465da42637c627"
 metafile = true
 
 [[files]]
+file = "mods/structory-towers.pw.toml"
+hash = "eb6b2821c1bc9fe32673f91abb94d5135a91e0ce67b05ea0ff294736a8ec6e45"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "9fff4e5570a196660abe0485efd9fd0f24c952bbfca8e228cda0de5bafe36622"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "429e8fe1955c99c9670c9f6394debab65ce912f6d30b4538da90691ceef9a020"
+metafile = true
+
+[[files]]
 file = "mods/text-placeholder-api.pw.toml"
 hash = "1aee4c0465a576a45e5520e3c122b0d3a6d0c0432e8254cea58a2fc41d3baa7b"
+metafile = true
+
+[[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "8f636d34f6c3894141d66838122f7d9835961f665414a8d840819ca3fe81ef82"
 metafile = true
 
 [[files]]

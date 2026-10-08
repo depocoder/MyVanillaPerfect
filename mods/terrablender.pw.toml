@@ -1,0 +1,13 @@
+filename = 'TerraBlender-fabric-26.3-26.3.0.0.9.jar'
+name = 'TerraBlender'
+side = 'both'
+
+[download]
+hash-format = 'sha512'
+hash = '183f809fe992aaaaf4d84c594730b95b392338caf17b690debbb14434b23b46f5923cfcc5aecb81368ea06a299503a3738dcf942b7f179abd000f1312cf2cbdb'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kkmrDlKT/versions/xirJYe1V/TerraBlender-fabric-26.3-26.3.0.0.9.jar'
+
+[update.modrinth]
+mod-id = 'kkmrDlKT'
+version = 'xirJYe1V'

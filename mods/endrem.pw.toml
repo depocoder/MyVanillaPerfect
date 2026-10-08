@@ -1,0 +1,21 @@
+filename = 'endrem-fabric-26.3-6.2.2.jar'
+name = 'End Remastered'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '6.2.2'
+
+[download]
+hash = 'a6f8f57a27f345419cb90b819b77c84f3b37c44507f4adcfaad45509c6b5a7c71cfa864a1fabc706acd96ab462ca1f3aefa3c53019c6040f3bfa147c06b59446'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZJTGwAND/versions/lw9DN2jy/endrem-fabric-26.3-6.2.2.jar'
+
+[update.modrinth]
+mod-id = 'ZJTGwAND'
+version = 'lw9DN2jy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

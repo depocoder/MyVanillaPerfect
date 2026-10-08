@@ -1,0 +1,33 @@
+filename = 'takesapillage-fabric-1.0.13+mc26.3.jar'
+name = 'It Takes a Pillage Continuation'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.0.13+mc26.3'
+
+[download]
+hash = '856f2c693f45966a1235e0faa0359483b10e527295c275166a595f5514ad564ff97cbcf330ca1eda33489059b1635ef0e68e6e2a00e73b9f0c9e3f75055c22c4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QOJOg1gE/versions/ea1YvgAO/takesapillage-fabric-1.0.13%2Bmc26.3.jar'
+
+[update.modrinth]
+mod-id = 'QOJOg1gE'
+version = 'ea1YvgAO'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'G1hIVOrD'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mOgUt4GM'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'

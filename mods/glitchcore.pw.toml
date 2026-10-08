@@ -1,0 +1,21 @@
+filename = 'GlitchCore-fabric-26.3-26.3.0.0.3.jar'
+name = 'GlitchCore'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '26.3.0.0.3'
+
+[download]
+hash = '7fb606cf3de1463f6e3fc9a041a07e120ec652bc91d96edbdf55e13b626411840770468f3eb0f65a69eb10494b1ef2599627297cbbdf1ba863b92ec3f3945b39'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s3dmwKy5/versions/aaUghyGp/GlitchCore-fabric-26.3-26.3.0.0.3.jar'
+
+[update.modrinth]
+mod-id = 's3dmwKy5'
+version = 'aaUghyGp'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

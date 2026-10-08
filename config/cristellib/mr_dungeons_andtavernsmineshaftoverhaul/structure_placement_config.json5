@@ -1,0 +1,17 @@
+{
+	"minecraft:mineshafts": {
+		"salt": 594839393,
+		"separation": 5,
+		"spacing": 15
+	},
+	"special_mineshafts": {
+		"salt": 594839393,
+		"separation": 10,
+		"spacing": 25
+	},
+	"surface_mineshaft": {
+		"salt": 89594003,
+		"separation": 30,
+		"spacing": 70
+	}
+}

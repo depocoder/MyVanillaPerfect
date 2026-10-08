@@ -1,5 +1,13 @@
 # Changelog
 
+## 26.3.6 — 2026-10-08
+
+- Добавлены Terralith и Biomes O' Plenty для новой генерации мира; добавлена обязательная библиотека TerraBlender.
+- Добавлены Dungeons and Taverns с отдельными улучшениями структур, Towns and Towers, Structory: Towers, Moog's Voyager Structures и Moog's End Structures.
+- Добавлены End Remastered, Naturalist и Takes a Pillage вместе с необходимыми библиотеками.
+- Совместимость проверена запуском и созданием нового мира: реестры, биомы и структуры загружаются без фатальных ошибок.
+- Для этой версии рекомендуется новый мир; изменения генерации появляются только в новых чанках, а удалять Terralith или Biomes O' Plenty из уже созданного мира небезопасно.
+
 ## 26.3.5 — 2026-10-08
 
 - `publish.ps1` теперь включает `-XX:+UseZGC` в выбранном Prism-инстансе при наличии Distant Horizons и Java 21+.
