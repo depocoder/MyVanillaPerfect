@@ -1,4 +1,4 @@
-﻿# publish.ps1 v1.2.1 (2026-10-07: первый push создаёт upstream, ошибки push останавливают скрипт) — обновить пак из инстанса и залить друзьям одной командой.
+﻿# publish.ps1 v1.2.2 (2026-10-08: ZGC для Distant Horizons в выбранном Prism-инстансе) — обновить пак из инстанса и залить друзьям одной командой.
 # Запуск: ПКМ по файлу -> "Run with PowerShell"
 #   или в терминале:  powershell -ExecutionPolicy Bypass -File publish.ps1 [-DryRun] [-NoPush] [-AllowSameVersion]
 #
@@ -93,6 +93,36 @@ if($instanceMcVersion -ne $packMcVersion){
   exit 1
 }
 Write-Host "Инстанс: $inst (ветка $curBranch, Minecraft $instanceMcVersion)" -ForegroundColor Yellow
+
+# Distant Horizons предупреждает о G1GC и рекомендует ZGC на Java 21+.
+# JVM-аргументы Prism хранятся рядом с minecraft в instance.cfg и не могут распространяться через packwiz,
+# поэтому publish настраивает только выбранный локальный инстанс; друзья повторяют настройку по README.
+$instanceCfgPath = Join-Path (Split-Path $inst -Parent) 'instance.cfg'
+$dhInstalled = @(Get-ChildItem (Join-Path $inst 'mods') -File -ErrorAction SilentlyContinue | Where-Object { $_.Name -match '(?i)distant.?horizons' }).Count -gt 0
+if($dhInstalled -and (Test-Path -LiteralPath $instanceCfgPath)){
+  $instanceCfgText = [System.IO.File]::ReadAllText($instanceCfgPath)
+  $javaVersionMatch = [regex]::Match($instanceCfgText, '(?m)^JavaVersion=(\d+)')
+  $javaMajor = if($javaVersionMatch.Success){ [int]$javaVersionMatch.Groups[1].Value } else { 0 }
+  if($javaMajor -ge 21){
+    $argsMatch = [regex]::Match($instanceCfgText, '(?m)^JvmArgs=(.*)$')
+    $jvmArgs = if($argsMatch.Success){ $argsMatch.Groups[1].Value.Trim() } else { '' }
+    $conflictingCollectors = @('-XX:+UseG1GC','-XX:+UseParallelGC','-XX:+UseSerialGC','-XX:+UseShenandoahGC','-XX:+UseEpsilonGC')
+    foreach($collector in $conflictingCollectors){ $jvmArgs = ($jvmArgs -replace [regex]::Escape($collector), '').Trim() }
+    $jvmArgs = ([regex]::Replace($jvmArgs, '\s+', ' ')).Trim()
+    if($jvmArgs -notmatch '(?:^|\s)-XX:\+UseZGC(?:\s|$)'){ $jvmArgs = ($jvmArgs + ' -XX:+UseZGC').Trim() }
+    $newInstanceCfgText = [regex]::Replace($instanceCfgText, '(?m)^OverrideJavaArgs=.*$', 'OverrideJavaArgs=true')
+    if($argsMatch.Success){ $newInstanceCfgText = [regex]::Replace($newInstanceCfgText, '(?m)^JvmArgs=.*$', "JvmArgs=$jvmArgs") }
+    else { $newInstanceCfgText = $newInstanceCfgText.TrimEnd("`r","`n") + "`r`nJvmArgs=$jvmArgs`r`n" }
+    if($newInstanceCfgText -ne $instanceCfgText){
+      if($DryRun){ Write-Host "  DRY-RUN: для Distant Horizons в instance.cfg будет добавлен -XX:+UseZGC" -ForegroundColor Magenta }
+      else {
+        [System.IO.File]::WriteAllText($instanceCfgPath, $newInstanceCfgText, (New-Object System.Text.UTF8Encoding($false)))
+        Write-Host "  Distant Horizons: в instance.cfg включён ZGC (Java $javaMajor)" -ForegroundColor Green
+      }
+    } else { Write-Host "  Distant Horizons: ZGC уже включён (Java $javaMajor)" -ForegroundColor DarkGray }
+  } else { Write-Host "  ! Distant Horizons: для ZGC нужна Java 21+, обнаружена Java $javaMajor" -ForegroundColor Yellow }
+}
+
 $pack = $realPack
 $pw   = "C:\Users\depo_pc\go\bin\packwiz.exe"
 $ua   = @{ 'User-Agent' = 'MyVanillaPerfect/publish.ps1 (github.com/depocoder/MyVanillaPerfect)' }

@@ -24,11 +24,13 @@ rtk git push -u origin fo-26.3
    ```
 
    Использовать именно `-s client`, чтобы установщик не загружал серверные файлы.
-5. В **Edit → Settings → Java** установить максимальную память 6–8 ГБ. Для Java 25 добавить в **Java arguments**:
+5. В **Edit → Settings → Java** установить максимальную память 6–8 ГБ, включить отдельные **Java arguments** и для Java 25 добавить:
 
    ```text
-   -XX:CompileCommand=exclude,io/netty/util/internal/ReferenceCountUpdater.retryRelease0
+   -XX:+UseZGC -XX:CompileCommand=exclude,io/netty/util/internal/ReferenceCountUpdater.retryRelease0
    ```
+
+   `-XX:+UseZGC` выполняет рекомендацию Distant Horizons и устраняет предупреждение о G1GC. Если в поле уже есть `-XX:+UseG1GC`, его нужно удалить: одновременно выбирать два сборщика мусора нельзя. Packwiz не может изменить настройки Java в Prism Launcher, поэтому этот шаг выполняется на каждом компьютере вручную.
 
 6. Нажать **Play**. При первом запуске packwiz скачает моды и конфиги; при следующих запусках будет автоматически проверять обновления ветки `fo-26.3`.
 Если GitHub временно недоступен, Prism остановит запуск на pre-launch-команде. Для временного запуска уже установленной версии можно выключить **Custom commands**, а после восстановления сети включить обратно.

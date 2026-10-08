@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.3.5 — 2026-10-08
+
+- `publish.ps1` теперь включает `-XX:+UseZGC` в выбранном Prism-инстансе при наличии Distant Horizons и Java 21+.
+- В инструкцию для друзей добавлен обязательный JVM-аргумент ZGC; packwiz не может менять настройки Java в Prism Launcher автоматически.
+
 ## 26.3.4 — 2026-10-07
 
 - Удалены все опубликованные ZIP-ресурспаки и профиль Packed Packs `MyVanillaPerfect`.

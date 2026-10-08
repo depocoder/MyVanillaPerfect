@@ -6,6 +6,10 @@ hash = "e5f2ee57e9f9c0bd81af26c1918ceee988b3d726014c411f439406dc0fe60ef1"
 preserve = true
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "7b6a364efc7c7381f1e3ca351a412bf9414e69bec38311b735b67ae9448b00e9"
+
+[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "616e09c8ff849f4a9a07165a0a3513f468469237377546b64135591fca8a0592"
 
@@ -242,13 +246,18 @@ hash = "3630be880dc7f037238b7e6347201d4f716ffc7e16db0a1498ef2f775cf8f5be"
 preserve = true
 
 [[files]]
+file = "config/shouldersurfing-client.toml"
+hash = "79b54ef8a37d3987642b77747c913c32ad8afd1a3876ed1ce236b91b66d2e3c6"
+preserve = true
+
+[[files]]
 file = "config/skyboxify.json"
 hash = "c032efa00c2fdfd23000881733881e19e7c40374bd86c7ebdb1b1d0d4edd7c41"
 preserve = true
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "38f8aa9a8edda4e828ac05f10f70bf827849b4e45b9e371cfe5415e3a5439e6d"
+hash = "799116e9a343cde7d76f85b8f7d265738c6d10c7fa570abdfa9e4d521459a63e"
 preserve = true
 
 [[files]]
@@ -334,6 +343,66 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "b662c74d608c8c792534abfc4ac5f5b0a9555e69ee305c4c90891a0ab473ac64"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "b2ae309046c54ea8dafdfaa4cf2519692efbdcceaae168bfedea7482fcdc53aa"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-ancient-city-overhaul.pw.toml"
+hash = "3ac8b259708607781c60d149a73b08e08fb3531937b3c03a75ed02a5d711fc4f"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-desert-temple-overhaul.pw.toml"
+hash = "ba9307f1ca0270653d52e3194fda367ee12108fdc26c682e754b3676a6456f93"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-jungle-temple-overhaul.pw.toml"
+hash = "d44c79c02be25d4e5c25cf37fdfb86e906f18d57e057bafeed7409eb1eae82a3"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-mineshaft-overhaul.pw.toml"
+hash = "01ccdadf458bfe91266e89858e7ef785a06b4a7e34f44d326ec8f83cf05c1512"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-nether-fortress-overhaul.pw.toml"
+hash = "fb7c9c53a15e99931c3e8f93febf4e6ee821adbe1e91e24cb9770954092e1999"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-ocean-monument-overhaul.pw.toml"
+hash = "7c790a14191d799b5ba9dca3057d2dcfee78ebf9097486204c4491f757562321"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-pillager-outpost-overhaul.pw.toml"
+hash = "d958ad800eeb965fa45e222d402303ac35a86054e4a9f66a62dfddf4cb549914"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-stronghold-overhaul.pw.toml"
+hash = "007c53eabf1127334e43d623fb9a1c9d0da3449f24e321c42991e938231aea5d"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-swamp-hut-overhaul.pw.toml"
+hash = "83e97793ef41de4f27262ad74b3e70b29a9e3e0339d584c4ed4a08426c37b654"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns-woodland-mansion-overhaul.pw.toml"
+hash = "16b683095324e259c22710ac16298a0b1f181f68137bcad59a39475637d694d6"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "444b84cde4594eb68b4af6e4d08c08693d9c16124e334f3ba02e3c3d77c870d9"
 metafile = true
 
 [[files]]
@@ -484,6 +553,11 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "c161087dace1e0b52e81723b92320a696014c66e6ae24d37e11f0b7579921dfd"
+metafile = true
+
+[[files]]
+file = "mods/shoulder-surfing-reloaded.pw.toml"
+hash = "1fde91df9c29863237d7f58ab580ca717c917576672490982c0110709f599567"
 metafile = true
 
 [[files]]
