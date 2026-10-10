@@ -1,0 +1,21 @@
+filename = 'justcoordinates-0.10.0+26.3-fabric.jar'
+name = 'Just Coordinates'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '26.3' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.10.0'
+
+[download]
+hash = '72b775f3b37c33878d97472b6824291ab8c1c9455913a55686adffd85f5a88a6cf86e3a9203c537895ca9ab356b7412cea389d03fe15c22c4501bc661455e889'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/khlL1CoQ/versions/NmAWZXrF/justcoordinates-0.10.0%2B26.3-fabric.jar'
+
+[update.modrinth]
+mod-id = 'khlL1CoQ'
+version = 'NmAWZXrF'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

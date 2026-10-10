@@ -1,0 +1,10 @@
+{
+  "checkIntervalMs": 5000,
+  "showNthDiscoverer": true,
+  "useMonthDayYear": false,
+  "trackInstances": true,
+  "sounds": {
+    "newDiscoverySound": true,
+    "newInstanceSound": true
+  }
+}

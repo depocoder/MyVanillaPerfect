@@ -7,7 +7,7 @@ preserve = true
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "7b6a364efc7c7381f1e3ca351a412bf9414e69bec38311b735b67ae9448b00e9"
+hash = "c26631c11d40e9a1e2769158636af029dd58be130acc0edd6ed5edff8c288a70"
 
 [[files]]
 file = "config/EndRemastered-Fabric/Eyes/black_eye.json"
@@ -430,11 +430,11 @@ preserve = true
 
 [[files]]
 file = "config/naturalist-client.properties"
-hash = "490e80bd89e5b504c49130e2a7697728aa0d13101dd7b0a0041fa11a51610667"
+hash = "92de23fddd767f030562f0b7b1f091c6f68ab2dad9842f5cc4803214045bd685"
 
 [[files]]
 file = "config/naturalist-server.properties"
-hash = "375244c618ad6dbf9a39f253d743e48e5353357f346021aacfd37f658ab3c62b"
+hash = "ed410d67c46ec534cd27cf5aa4027c5f550ba2b8ee6f2c24bc1d038372c3d757"
 
 [[files]]
 file = "config/reeses_sodium_options.json"
@@ -476,6 +476,10 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 file = "config/sodium-shadowy-path-blocks-options.json"
 hash = "71c8d050837ca80f08b33231ffaf25907fe88536015fddcfac4099a0467fff63"
 preserve = true
+
+[[files]]
+file = "config/structure_explorer/structure_explorer.json"
+hash = "b7ded62d7f18445baecfdc9c7344054faab877f182866e24b985b9b4a2bc3f39"
 
 [[files]]
 file = "config/takesapillage.json"
@@ -738,6 +742,11 @@ hash = "3881401d6f141f9583e83857dcc9ffaf4dcdefd958a9885ffd7415a4c229dfd3"
 metafile = true
 
 [[files]]
+file = "mods/just-coordinates.pw.toml"
+hash = "6ddef951c49bbf73118f68fcab014f720e9ec4129eef40fffe3f0a15f48c14a0"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "e219800c5be7bc5055c36329b4506fb0144a3cfd5e14b4ce392ad9ac2530e130"
 metafile = true
@@ -870,6 +879,11 @@ metafile = true
 [[files]]
 file = "mods/structory-towers.pw.toml"
 hash = "eb6b2821c1bc9fe32673f91abb94d5135a91e0ce67b05ea0ff294736a8ec6e45"
+metafile = true
+
+[[files]]
+file = "mods/structure-explorer.pw.toml"
+hash = "86873df13bdd5a34cb5436d51edeebcda3bb8dd5930babd85fbbfa842396ddf1"
 metafile = true
 
 [[files]]
