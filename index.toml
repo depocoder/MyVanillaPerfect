@@ -430,11 +430,11 @@ preserve = true
 
 [[files]]
 file = "config/naturalist-client.properties"
-hash = "92de23fddd767f030562f0b7b1f091c6f68ab2dad9842f5cc4803214045bd685"
+hash = "98dbce107317fbb04090d0e64d7d2f2cdf3f9cae674c949af302861b8b50261c"
 
 [[files]]
 file = "config/naturalist-server.properties"
-hash = "ed410d67c46ec534cd27cf5aa4027c5f550ba2b8ee6f2c24bc1d038372c3d757"
+hash = "a1e54dce2688922e5112e9fe589e6242e90605e1bc77b1211459178b1f8b77f7"
 
 [[files]]
 file = "config/reeses_sodium_options.json"
@@ -451,7 +451,7 @@ preserve = true
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
-hash = "79b54ef8a37d3987642b77747c913c32ad8afd1a3876ed1ce236b91b66d2e3c6"
+hash = "214f17b8e9845a7cd1f8b90a386e6968fc6fa409af821d51c59237ce6361262a"
 preserve = true
 
 [[files]]
@@ -544,11 +544,6 @@ metafile = true
 [[files]]
 file = "mods/bettergrassify.pw.toml"
 hash = "f7903295c6bf3895086766f6996957b4c4aa322c5f8366eb9c9015265d9ab819"
-metafile = true
-
-[[files]]
-file = "mods/biomes-o-plenty.pw.toml"
-hash = "5fccd66ca5c941cb46c2cd6f46b437f39d9b6277ea1ac47442de9b51ae624127"
 metafile = true
 
 [[files]]
@@ -657,11 +652,6 @@ hash = "c393b80fa128c4bfc84d21023c4ccb3c97828f1e3bd5e97039daceb31b542ac9"
 metafile = true
 
 [[files]]
-file = "mods/e4mc.pw.toml"
-hash = "a49dd5199c11ebb96339fad58f13a6c269e1e2554f25207883ff7ccb7359394c"
-metafile = true
-
-[[files]]
 file = "mods/endrem.pw.toml"
 hash = "edff3ce495e47c4b6887daf3910c7852dd105beaa6ca5a6243ac424a50c140a8"
 metafile = true
@@ -704,11 +694,6 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "d9cea61d8219d12f45de067f00d1607ce95cabf50dd3c03c1e502285e03485e4"
-metafile = true
-
-[[files]]
-file = "mods/glitchcore.pw.toml"
-hash = "e06db3a6196f6e286248c3b3e164946a46d1b016a07e9991dfc6e4c3b4492ebe"
 metafile = true
 
 [[files]]
@@ -762,11 +747,6 @@ hash = "8fc3461a735e4a474f5fe8bbcadcb07ccec59601914060bf569ca01b23280bd7"
 metafile = true
 
 [[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "39d5ed3997b8ecd1a3a399a0d229b2ac7fc091498a22c6fe7d4c5b186999c0f3"
-metafile = true
-
-[[files]]
 file = "mods/main-menu-credits.pw.toml"
 hash = "a5a77a7a126b1f2ba06ab6937fbd2248d2adbe46eb843ed91382373bf920511f"
 metafile = true
@@ -809,11 +789,6 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "f0b13ca29873d895acfdf8075eac27777aa7abcaadd6e6da319b320a927af4c2"
-metafile = true
-
-[[files]]
-file = "mods/naturalist.pw.toml"
-hash = "5aafa830aafcbea1bec93fc89d19866bc7562bbdeed7b946cc83d069851b219f"
 metafile = true
 
 [[files]]
@@ -884,16 +859,6 @@ metafile = true
 [[files]]
 file = "mods/structure-explorer.pw.toml"
 hash = "86873df13bdd5a34cb5436d51edeebcda3bb8dd5930babd85fbbfa842396ddf1"
-metafile = true
-
-[[files]]
-file = "mods/terrablender.pw.toml"
-hash = "9fff4e5570a196660abe0485efd9fd0f24c952bbfca8e228cda0de5bafe36622"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
-hash = "429e8fe1955c99c9670c9f6394debab65ce912f6d30b4538da90691ceef9a020"
 metafile = true
 
 [[files]]

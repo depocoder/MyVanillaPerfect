@@ -51,9 +51,9 @@ rtk git push -u origin fo-26.3
 
 ## Генерация мира
 
-В сборку входят Terralith, Biomes O' Plenty с TerraBlender, Dungeons and Taverns и его отдельные улучшения структур, Towns and Towers, Structory: Towers, Moog's Voyager Structures, Moog's End Structures, End Remastered, Naturalist и Takes a Pillage.
+В сборку входят Dungeons and Taverns и его отдельные улучшения структур, Towns and Towers, Structory: Towers, Moog's Voyager Structures, Moog's End Structures, End Remastered и Takes a Pillage.
 
-Для версии 26.3.6 лучше создать **новый мир**. Terralith и Biomes O' Plenty меняют генерацию ландшафта и биомов; структуры из остальных модов появляются только в новых чанках. Старый мир перед экспериментами нужно сохранить отдельно, а удалять Terralith или Biomes O' Plenty из уже созданного с ними мира нельзя считать безопасным.
+Для версии 26.3.8 лучше создать **новый мир**: структуры появляются только в новых чанках, а удалённые Biomes O' Plenty, Terralith и Naturalist могли оставить данные в уже созданных мирах.
 
 Состав проверен реальным запуском: новый мир создаётся, игрок входит в него, а Fabric не сообщает о конфликте реестров или датапаков. Структуры нескольких модов могут находиться рядом или иногда пересекаться — это обычный результат одновременного использования нескольких генераторов структур, а не ошибка загрузки.
 

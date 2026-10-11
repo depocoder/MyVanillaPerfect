@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.3.8 — 2026-10-11
+
+- Удалены Biomes O' Plenty, Terralith и Naturalist: сборка больше не добавляет новые биомы и животных.
+- Вместе с ними удалены ставшие ненужными библиотеки GlitchCore, TerraBlender и Lithostitched.
+- Takes a Pillage, приключенческие структуры и End Remastered оставлены без изменений.
+
 ## 26.3.7 — 2026-10-10
 
 - Добавлен Just Coordinates для компактного отображения текущих координат игрока.
