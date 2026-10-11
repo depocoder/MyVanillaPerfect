@@ -1,0 +1,13 @@
+filename = 'indypets-1.5.6-26.3.jar'
+name = 'IndyPets - Independent Pets (Fabric)'
+side = 'both'
+
+[download]
+hash-format = 'sha512'
+hash = '576ecb7e374a0208a089750b51a40b622b1b4c5ffbafa3d9d3f9dd0331ca5b3d16d33c53cc16d440b0ab8edd8f4b70fcc27f451192f938bde99ba7c52c4e40ba'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SVJhmJvx/versions/FCrpV1uD/indypets-1.5.6-26.3.jar'
+
+[update.modrinth]
+mod-id = 'SVJhmJvx'
+version = 'FCrpV1uD'

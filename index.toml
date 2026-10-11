@@ -478,6 +478,10 @@ hash = "71c8d050837ca80f08b33231ffaf25907fe88536015fddcfac4099a0467fff63"
 preserve = true
 
 [[files]]
+file = "config/sparsestructures.json5"
+hash = "ee0a9e91c0cbfef99ea2c2df781d5cf36979339e75164a8dd8cef8a37520fca4"
+
+[[files]]
 file = "config/structure_explorer/structure_explorer.json"
 hash = "b7ded62d7f18445baecfdc9c7344054faab877f182866e24b985b9b4a2bc3f39"
 
@@ -712,6 +716,11 @@ hash = "a850080cf21c0d2b45dad19b0a3aa348485ea657f018947d0877308eee805081"
 metafile = true
 
 [[files]]
+file = "mods/indypets.pw.toml"
+hash = "ad08dd82964171ecab18af0dbce6a7b73cf6017da50a65ad5d0e8564ea168480"
+metafile = true
+
+[[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "2ae6d1476efa3653f508b7c748f63ba4a05fe22c16b2549abdf91197aa0d1909"
 metafile = true
@@ -792,6 +801,11 @@ hash = "f0b13ca29873d895acfdf8075eac27777aa7abcaadd6e6da319b320a927af4c2"
 metafile = true
 
 [[files]]
+file = "mods/no-lost-pets.pw.toml"
+hash = "8d7f6809d33fdd6a387a781a2c81f60356715ba9caebe8ab96103445646c6e40"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "bb24d40931a8a2f619c0f62767fa77db010df326ccb73486c671bd91a2e0e5f0"
 metafile = true
@@ -827,6 +841,11 @@ hash = "2bb4ece9998f519e04227561764237ccd057b64dd3676d6d85f29584720a08e9"
 metafile = true
 
 [[files]]
+file = "mods/ride-together.pw.toml"
+hash = "b8fbc7c7212a667ca9760b281e538d624c4f6ba4f57fd4391ff5cf75524d0e49"
+metafile = true
+
+[[files]]
 file = "mods/rrls.pw.toml"
 hash = "c161087dace1e0b52e81723b92320a696014c66e6ae24d37e11f0b7579921dfd"
 metafile = true
@@ -854,6 +873,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "89391665990824847db1115f0750669f114f2e9f1de03e7a2d465da42637c627"
+metafile = true
+
+[[files]]
+file = "mods/sparsestructures.pw.toml"
+hash = "ec27cf096c8bacb8ca0689872f483bb8f544d3533758757763f89189cd1fff73"
 metafile = true
 
 [[files]]
