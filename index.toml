@@ -652,11 +652,6 @@ hash = "c393b80fa128c4bfc84d21023c4ccb3c97828f1e3bd5e97039daceb31b542ac9"
 metafile = true
 
 [[files]]
-file = "mods/e4mc.pw.toml"
-hash = "a49dd5199c11ebb96339fad58f13a6c269e1e2554f25207883ff7ccb7359394c"
-metafile = true
-
-[[files]]
 file = "mods/endrem.pw.toml"
 hash = "edff3ce495e47c4b6887daf3910c7852dd105beaa6ca5a6243ac424a50c140a8"
 metafile = true
