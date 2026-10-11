@@ -376,6 +376,10 @@ hash = "351554b5d847acfb0dcdd05a93b5b93f27035178bcbde4d5193b4dc5a5a2f11b"
 preserve = true
 
 [[files]]
+file = "config/indypets.json"
+hash = "936a18f9e3a4e3cc05f3c20018468116a96cbe671a49b6f0b07028e0c9ec8a21"
+
+[[files]]
 file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 preserve = true

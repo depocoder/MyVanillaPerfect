@@ -1,0 +1,21 @@
+{
+  "regularInteract": true,
+  "sneakInteract": true,
+  "silentMode": false,
+  "homeRadius": 80,
+  "innerHomePercentage": 0.66,
+  "whistleRadius": 96,
+  "blocklist": [
+    "mythicmounts:*",
+    "minecraft:nautilus",
+    "minecraft:zombie_nautilus",
+    "lovely_snails:snail"
+  ],
+  "interactBlocklist": [
+    "cobblemon:*",
+    "minecraft:fox"
+  ],
+  "hornConfig": {},
+  "positionedWhistleSound": false,
+  "vanillaPlayerConfigs": {}
+}
