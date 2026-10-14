@@ -536,6 +536,11 @@ hash = "40ddccfdd74fa69e96abd867627683e40f6a6f40fbd7987062ccf195a5d6fae4"
 metafile = true
 
 [[files]]
+file = "mods/audaki-cart-engine.pw.toml"
+hash = "4f784bc7aa22ceaa0e8ffc23fc0e0f9bc574aa26415208884ce79d082ecf4792"
+metafile = true
+
+[[files]]
 file = "mods/better-block-entities.pw.toml"
 hash = "63d58bad0f847cc791fb34bc60aa1a0568f00393c6cf422f5e13291f3543b440"
 metafile = true
