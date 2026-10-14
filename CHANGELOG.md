@@ -1,5 +1,13 @@
 # Changelog
 
+## 26.3.13 — 2026-10-14
+
+- No Lost Pets заменён на Pet Teleport 2.0.0: возврат питомцев командой /pet.
+- Добавлен Inventory Sorting 3.0.1 с настройками из Fabulously Optimized(4): сортировка по ID, двойной щелчок отключён.
+- Добавлен Nekoma's Fixed 0.5.4 для Minecraft 26.3.
+- Удалён IndyPets (Independent Pets).
+- Личные настройки Iris, шейдеров и Euphoria Patcher исключены из публикации.
+
 ## 26.3.12 — 2026-10-11
 
 - Отключён Punchy! 2.8e: при активных Iris и Complementary произошёл сбой загрузки текстуры внутри render pass после перезагрузки шейдеров.

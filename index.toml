@@ -376,12 +376,8 @@ hash = "351554b5d847acfb0dcdd05a93b5b93f27035178bcbde4d5193b4dc5a5a2f11b"
 preserve = true
 
 [[files]]
-file = "config/indypets.json"
-hash = "936a18f9e3a4e3cc05f3c20018468116a96cbe671a49b6f0b07028e0c9ec8a21"
-
-[[files]]
-file = "config/iris-excluded.json"
-hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
+file = "config/inventorysorter.json"
+hash = "2e652f6a41a92e35dbaa593d09a84c66a53532835673f2576ba87022381c3689"
 preserve = true
 
 [[files]]
@@ -720,8 +716,8 @@ hash = "a850080cf21c0d2b45dad19b0a3aa348485ea657f018947d0877308eee805081"
 metafile = true
 
 [[files]]
-file = "mods/indypets.pw.toml"
-hash = "ad08dd82964171ecab18af0dbce6a7b73cf6017da50a65ad5d0e8564ea168480"
+file = "mods/inventory-sorting.pw.toml"
+hash = "74a04445ebf7f9f16411389067ba2a69de32854e99b5d8b57759248ecda55010"
 metafile = true
 
 [[files]]
@@ -805,13 +801,18 @@ hash = "f0b13ca29873d895acfdf8075eac27777aa7abcaadd6e6da319b320a927af4c2"
 metafile = true
 
 [[files]]
-file = "mods/no-lost-pets.pw.toml"
-hash = "8d7f6809d33fdd6a387a781a2c81f60356715ba9caebe8ab96103445646c6e40"
+file = "mods/nekomas-fixed.pw.toml"
+hash = "1f060e8f09cab7063bc7e2aa5e9cbcac59e33226ed29369245e8ab55624d072e"
 metafile = true
 
 [[files]]
 file = "mods/optigui.pw.toml"
 hash = "bb24d40931a8a2f619c0f62767fa77db010df326ccb73486c671bd91a2e0e5f0"
+metafile = true
+
+[[files]]
+file = "mods/pet-teleport.pw.toml"
+hash = "fa405ec808d045508924dac6eb443a5bd07c53c644469b3dbd6eb35a6c3651cd"
 metafile = true
 
 [[files]]

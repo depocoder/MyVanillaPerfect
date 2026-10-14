@@ -1,0 +1,9 @@
+filename = 'pet-teleport-fabric-2.0.0+mc26.3.jar'
+name = 'Pet Teleport'
+side = 'both'
+
+[download]
+hash-format = 'sha512'
+hash = '7b73865fb196fb36eeced6ace6871ed80c386331236938b1f2c73ed01a3ddca1c72894137097a6b6f52ce0c9289e8f3d9b4a1f2db380e0182ac9361dd1246853'
+mode = 'url'
+url = 'https://www.curseforge.com/api/v1/mods/1733667/files/9099853/download'

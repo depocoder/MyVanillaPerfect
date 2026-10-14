@@ -132,7 +132,7 @@ $sideCache = Join-Path $env:LOCALAPPDATA 'MyVanillaPerfect\side-cache.json'   # 
 # ===== A) НЕ РАЗДАЁМ (имена файлов, wildcard robocopy; матчится на любом уровне config/) =====
 $excludeConfig = @(
   # личная графика/шейдеры/мир — было и раньше
-  'sodium-options.json','iris.properties','emotecraft.json','shulkerboxtooltip_mp_ender_chest_cache.dat','litematica.json*',
+  'sodium-options.json','iris.properties','iris-excluded.json','emotecraft.json','shulkerboxtooltip_mp_ender_chest_cache.dat','litematica.json*',
   # Voxy World Gen: мод только у владельца (тест-миры), в пак не идёт -> и конфиг тоже
   'voxyworldgenv2.json',
   # удалённые решением 17.09 моды: если файлы ещё лежат — не раздавать (Do a Barrel Roll, Simple Voice Chat)
@@ -147,7 +147,7 @@ $excludeConfig = @(
 )
 # Папки: голое имя = папка с таким именем на любом уровне; путь с '\' = только этот путь относительно config\
 $excludeConfigDirs = @(
-  'litematica','punchy',                                  # было и раньше
+  'litematica','punchy','euphoria_patcher',                                  # было и раньше
   'controlify','cape-provider','flashback',               # профили геймпада, провайдер плащей, реплеи/окна Flashback
   'packed_packs',                                         # личные профили/настройки Packed Packs владельца; default-профиль пака пишется отдельно (шаг 2b)
   'voicechat',                                            # Simple Voice Chat удалён из пака (решение 17.09)
@@ -169,9 +169,9 @@ $preserveConfig = @(
   'config/fabric/indigo-renderer.properties',   # только timestamp-комментарий меняется при каждом publish — не перетирать у друзей
   'config/dynamic_fps.json','config/lambdynlights.toml','config/moreculling.toml','config/entityculling.json',
   'config/immediatelyfast.json','config/skyboxify.json','config/bettergrass.json','config/continuity.json',
-  'config/sodium-shadowy-path-blocks-options.json','config/blur.json','config/BBEConfig.json','config/iris-excluded.json',
+  'config/sodium-shadowy-path-blocks-options.json','config/blur.json','config/BBEConfig.json',
   'config/entity_model_features.json','config/entity_texture_features.json','config/skinlayers.json','config/animatica.properties',
-  'config/euphoria_patcher/settings.toml','config/fullscreenfix.properties','config/ixeris.toml','config/explosiveenhancement.json',
+  'config/fullscreenfix.properties','config/ixeris.toml','config/explosiveenhancement.json',
   # звук
   'config/sounds/*','config/extremesoundmuffler.json5',
   # HUD / интерфейс / камера
@@ -392,7 +392,7 @@ $xd = @(); foreach($d in $excludeConfigDirs){ if($d -match '[\\/]'){ $xd += (Joi
 foreach($d in @('config','shaderpacks','emotes')){
   $src=Join-Path $inst $d; $dst=Join-Path $pack $d
   if($d -eq 'config'){ robocopy $src $dst /MIR /XF $excludeConfig /XD $xd /NFL /NDL /NJH /NJS /NP | Out-Null }
-  elseif($d -eq 'shaderpacks'){ robocopy $src $dst /MIR /XF *.txt *.disabled /XD "*EuphoriaPatches*" /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки, выключенные .zip.disabled и распакованные папки Euphoria Patcher (мод создаёт их сам) — нет
+  elseif($d -eq 'shaderpacks'){ robocopy $src $dst /MIR /XF *.txt *.properties *.disabled /XD "*EuphoriaPatches*" /NFL /NDL /NJH /NJS /NP | Out-Null }   # шейдеры раздаём, а .txt-настройки, выключенные .zip.disabled и распакованные папки Euphoria Patcher (мод создаёт их сам) — нет
   else { robocopy $src $dst /MIR /NFL /NDL /NJH /NJS /NP | Out-Null }   # кастомные эмоции Emotecraft
 }
 $global:LASTEXITCODE=0
@@ -416,7 +416,7 @@ if($removed){ Write-Host "  config: убрано из пака $removed искл
 # Complementary r5.8.1 (raw, без .pw.toml) остаётся по решению владельца — раздаются обе версии.
 $psh = Join-Path $pack 'shaderpacks'
 if(Test-Path $psh){
-  Get-ChildItem $psh -File -Filter *.disabled | Remove-Item -Force
+  Get-ChildItem $psh -Recurse -File | Where-Object { $_.Extension -in @('.txt','.properties','.disabled') } | Remove-Item -Force
   $metaNames = @{}
   foreach($m in (Get-ChildItem $psh -File -Filter *.pw.toml)){
     $t = [System.IO.File]::ReadAllText($m.FullName)
@@ -572,7 +572,7 @@ Write-Host "== 5/7 Контроль индекса ==" -ForegroundColor Cyan
 if(-not (Test-Path -LiteralPath $indexPath)){ Write-Host "СТОП: packwiz не создал index.toml" -ForegroundColor Red; exit 1 }
 $idxText = [System.IO.File]::ReadAllText($indexPath)
 $bad = @()
-foreach($p in @('config/controlify','config/voicechat/','config/packed_packs/preferences','config/packed_packs/__version','shaderpacks/.*\.disabled','config/sodium-options','resourcepacks/VanillaTweaks','resourcepacks/Patrix','resourcepacks/FreshAnimations','resourcepacks/FA+','mods/voicechat','mods/simple-voice-chat','mods/do-a-barrel-roll','mods/speed-happy-ghast')){
+foreach($p in @('config/controlify','config/voicechat/','config/packed_packs/preferences','config/packed_packs/__version','shaderpacks/.*\.(?:txt|properties|disabled)','config/iris(?:\.properties|-excluded\.json)','config/euphoria_patcher/','config/sodium-options','resourcepacks/VanillaTweaks','resourcepacks/Patrix','resourcepacks/FreshAnimations','resourcepacks/FA+','mods/voicechat','mods/simple-voice-chat','mods/do-a-barrel-roll','mods/speed-happy-ghast')){
   if([regex]::IsMatch($idxText, '(?m)^file = "' + $p)){ $bad += $p }
 }
 if($bad.Count){ Write-Host "  ! В индексе есть то, чего быть не должно: $($bad -join ', ')" -ForegroundColor Red; if(-not $DryRun){ exit 1 } }

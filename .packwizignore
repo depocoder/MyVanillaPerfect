@@ -92,3 +92,8 @@ config/**/*.backup
 config/*.tmp
 config/*.bak
 config/*.backup
+config/iris-excluded.json
+config/euphoria_patcher/
+shaderpacks/**/*.txt
+shaderpacks/*.properties
+shaderpacks/**/*.properties
